@@ -1,17 +1,53 @@
-# ROS 2 Nav2 Fault-Injection Dissertation Archive
+# ROS 2 Nav2 Fault-Injection Dissertation Project
 
-This repository archives a dissertation project built on The BARN Challenge ROS 2 benchmark. The project extends the original Nav2/Gazebo simulation setup with controlled LiDAR fault injection, paired fault campaigns, cross-layer analysis scripts, Bayesian analysis outputs, conditional fault identification, and exploratory recovery prototypes.
+This repository contains my MSc dissertation engineering project on **fault impact analysis and lightweight fault-aware recovery for ROS 2 Nav2 mobile robot navigation**. It is built on The BARN Challenge ROS 2 benchmark and extends the original simulation stack with controlled LiDAR fault injection, repeatable experiment orchestration, statistical analysis, cross-layer tracing, conditional fault identification, and exploratory recovery prototypes.
 
-Key project additions:
+The project was designed around a practical robotics reliability question:
 
-- Controlled frontal LiDAR masking and intermittent sector-level LiDAR dropout injection.
-- Paired campaign runner for baseline-vs-fault comparisons across selected BARN worlds.
-- Analysis scripts for task outcomes, process metrics, world heterogeneity, bootstrap intervals, and PyMC hierarchical Bayesian modelling.
-- Curated dissertation evidence in `dissertation_evidence_index/`.
-- Experimental configurations in `experiment_setups/original_clean/` and `experiment_setups/tuned_clean/`.
-- Classifier and recovery prototype nodes in `jackal_helper/scripts/`.
+> When a navigation fault begins in sensing, how does its effect propagate through perception, planning, control, robot motion, and final task outcome?
 
-For repository packaging and raw-data archive guidance, see `GITHUB_ARCHIVE_GUIDE.md`.
+## What I Built
+
+- A ROS 2/Gazebo/Nav2 experiment pipeline for injecting controlled LiDAR degradation into the navigation-consumed scan stream.
+- Two formal fault models: frontal LiDAR sector masking and structured intermittent sector-level LiDAR dropout.
+- A paired experiment runner that compares nominal and fault-injected navigation under matched world/pair conditions.
+- A curated 216-run formal campaign dataset covering 9 selected BARN worlds, 2 LiDAR faults, 6 paired repetitions, and baseline/fault conditions.
+- Analysis tools for mission outcome, completion-time slowdown, process-level navigation metrics, world heterogeneity, cluster bootstrap confidence intervals, and PyMC hierarchical Bayesian modelling.
+- Direct propagation tracing tools that align fault activation, scan degradation, costmap activity, controller commands, odometry-derived motion, and planner updates in representative runs.
+- A lightweight conditional fault-type classifier and selector for routing masking/dropout episodes to fault-specific recovery policies.
+- Exploratory recovery prototypes, including scan-level dropout filtering and behaviour-level masking reorientation experiments.
+
+## Key Results
+
+- Both formal LiDAR faults produced measurable matched-success completion-time slowdown across the selected BARN environments.
+- Frontal masking showed stronger and more consistent slowdown evidence than intermittent dropout.
+- World-level effects were heterogeneous, showing that fault impact depends strongly on environment geometry and navigation context.
+- Aggregate navigation-process metrics and targeted time-aligned traces supported the mechanism chain from LiDAR degradation to downstream planning/control and motion behaviour.
+- The final conditional episode-level classifier correctly identified masking/dropout in development and held-out validation episodes with a 2 s observation window.
+- Recovery work was intentionally reported as exploratory: interventions produced observable layer-specific effects, but did not demonstrate reliable mission-level improvement.
+
+## Skills Demonstrated
+
+- ROS 2 system integration with launch files, topics, QoS-aware sensor processing, and Nav2/Gazebo simulation.
+- Fault-injection design with clear separation between controlled experimental severity and real-world fault interpretation.
+- Experiment automation, resumable campaign execution, cleanup handling, logging, and reproducibility practices.
+- Data analysis using paired experimental design, bootstrap uncertainty, Bayesian hierarchical modelling, posterior diagnostics, and sensitivity analysis.
+- Engineering judgement under uncertainty: failed or weak recovery results were retained as evidence and used to refine the research claims rather than hidden.
+- Research communication: the repository includes curated dissertation evidence, figure assets, methodology notes, and traceable experiment records.
+
+## Repository Map
+
+- `jackal_helper/`: modified ROS 2 launch files, Nav2 integration, fault injectors, classifier nodes, and recovery prototype nodes.
+- `tools/`: experiment runners, campaign summarizers, analysis scripts, Bayesian scripts, classifier builders, and figure-generation scripts.
+- `experiment_setups/`: original and tuned navigation configurations used as controlled experimental conditions.
+- `fault_campaigns/`: formal campaign logs, per-world summaries, parsed CSV outputs, and thesis analysis tables.
+- `dissertation_evidence_index/`: curated dissertation evidence, including final figures, Bayesian diagnostics, classifier validation, direct propagation traces, recovery audits, and a manifest.
+- `docs/`: methodology and design notes.
+- `GITHUB_ARCHIVE_GUIDE.md`: packaging guidance and raw-data archive notes.
+
+## Reproducibility Note
+
+The Git repository is kept lightweight and focused on source code, configuration, analysis scripts, and curated evidence. Large raw transfer bundles such as rosbag archives and zip/tar files are intentionally excluded from Git history and should be stored as release assets or external archival files. See `GITHUB_ARCHIVE_GUIDE.md` for details.
 
 ---
 
