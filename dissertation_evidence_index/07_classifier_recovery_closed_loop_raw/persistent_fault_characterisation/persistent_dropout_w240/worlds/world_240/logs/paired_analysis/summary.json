@@ -1,0 +1,37 @@
+{
+  "log_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/persistent_fault_characterisation/persistent_dropout_w240/worlds/world_240/logs",
+  "metric": "completion_time_s",
+  "run_count": 12,
+  "pair_summary": {
+    "pair_count": 6,
+    "mean_difference": 3.982133333333337,
+    "sd_difference": 2.389915454292614,
+    "t_statistic": 4.081397413818607,
+    "ci95_halfwidth": 2.508470448218653,
+    "ci95_lower": 1.4736628851146842,
+    "ci95_upper": 6.4906037815519895,
+    "relative_ci95_halfwidth": 0.6299313052179696,
+    "passes_abs_rule": true,
+    "passes_rel_rule": false,
+    "recommended_stop": true,
+    "abs_threshold_s": 5.0,
+    "rel_threshold_fraction": 0.25
+  },
+  "condition_drift": [
+    {
+      "condition": "baseline",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": 0.27659999999999896,
+      "whole_mean_speed_slope_mps_per_run": -0.0003737953930598808,
+      "whole_stop_ratio_slope_per_run": 0.0
+    },
+    {
+      "condition": "fault",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": -0.3910400000000017,
+      "whole_mean_speed_slope_mps_per_run": 0.0006638928361059104,
+      "whole_stop_ratio_slope_per_run": 0.0
+    }
+  ],
+  "resource_summary_available": true
+}

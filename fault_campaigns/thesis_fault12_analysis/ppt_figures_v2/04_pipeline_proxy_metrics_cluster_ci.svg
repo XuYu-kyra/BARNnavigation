@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Pipeline-Level Proxy Metrics</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Aggregated metrics are consistent with the proposed propagation mechanism; they are not direct layer-by-layer proof yet.</text>
+<rect x="80" y="145" width="510" height="170" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="102" y="180" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Stop ratio increase</text>
+<text x="105" y="224" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<line x1="125" y1="217" x2="525" y2="217" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="325" y1="200" x2="325" y2="234" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="327.81019633141386" y1="217" x2="482.23751825485124" y2="217" stroke="#1f6f8b" stroke-width="6"/>
+<circle cx="401.12453633679803" cy="217" r="9" fill="#1f6f8b"/>
+<text x="525" y="223" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">+0.05</text>
+<text x="105" y="269" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<line x1="125" y1="262" x2="525" y2="262" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="325" y1="245" x2="325" y2="279" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="267.1001934306385" y1="262" x2="515.0" y2="262" stroke="#d9822b" stroke-width="6"/>
+<circle cx="364.88350175277185" cy="262" r="9" fill="#d9822b"/>
+<text x="525" y="268" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">+0.03</text>
+<rect x="670" y="145" width="510" height="170" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="692" y="180" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Mean speed decrease</text>
+<text x="695" y="224" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<line x1="715" y1="217" x2="1115" y2="217" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="915" y1="200" x2="915" y2="234" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="822.1461214651979" y1="217" x2="1105.0" y2="217" stroke="#1f6f8b" stroke-width="6"/>
+<circle cx="980.9981405549031" cy="217" r="9" fill="#1f6f8b"/>
+<text x="1115" y="223" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">+0.0010</text>
+<text x="695" y="269" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<line x1="715" y1="262" x2="1115" y2="262" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="915" y1="245" x2="915" y2="279" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="831.7840786946241" y1="262" x2="1086.7737632032413" y2="262" stroke="#d9822b" stroke-width="6"/>
+<circle cx="975.9124833623504" cy="262" r="9" fill="#d9822b"/>
+<text x="1115" y="268" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">+0.0010</text>
+<rect x="80" y="385" width="510" height="170" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="102" y="420" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Controller updates increase</text>
+<text x="105" y="464" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<line x1="125" y1="457" x2="525" y2="457" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="325" y1="440" x2="325" y2="474" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="323.7375415282392" y1="457" x2="515.0" y2="457" stroke="#1f6f8b" stroke-width="6"/>
+<circle cx="377.9180509413068" cy="457" r="9" fill="#1f6f8b"/>
+<text x="525" y="463" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">+9.31</text>
+<text x="105" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<line x1="125" y1="502" x2="525" y2="502" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="325" y1="485" x2="325" y2="519" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="275.7641196013289" y1="502" x2="480.2823920265781" y2="502" stroke="#d9822b" stroke-width="6"/>
+<circle cx="357.29789590254705" cy="502" r="9" fill="#d9822b"/>
+<text x="525" y="508" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">+5.69</text>
+<rect x="670" y="385" width="510" height="170" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="692" y="420" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Max stop streak increase</text>
+<text x="695" y="464" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<line x1="715" y1="457" x2="1115" y2="457" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="915" y1="440" x2="915" y2="474" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="910.2315359023588" y1="457" x2="1102.5209867984308" y2="457" stroke="#1f6f8b" stroke-width="6"/>
+<circle cx="976.3217856376921" cy="457" r="9" fill="#1f6f8b"/>
+<text x="1115" y="463" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">+14.02</text>
+<text x="695" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<line x1="715" y1="502" x2="1115" y2="502" stroke="#d8d2c8" stroke-width="1"/>
+<line x1="915" y1="485" x2="915" y2="519" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<line x1="827.2762761879302" y1="502" x2="1105.0" y2="502" stroke="#d9822b" stroke-width="6"/>
+<circle cx="965.0071842664139" cy="502" r="9" fill="#d9822b"/>
+<text x="1115" y="508" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">+11.43</text>
+<text x="80" y="665" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="start">Next step: align these aggregate proxies with scan/costmap/controller/cmd_vel timelines for selected cases.</text>
+</svg>

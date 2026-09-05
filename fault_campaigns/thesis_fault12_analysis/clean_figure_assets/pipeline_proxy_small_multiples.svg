@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<line x1="65" y1="355" x2="215" y2="355" stroke="#d1d5db" stroke-width="1.5"/>
+<rect x="90" y="171.66666666666666" width="42" height="183.33333333333334" rx="4" fill="#0f766e" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="111" y="162.66666666666666" text-anchor="middle" style="font-size:12px;font-weight:700">0.053</text>
+<rect x="160" y="256.2777009727454" width="42" height="98.7222990272546" rx="4" fill="#f97316" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="181" y="247.27770097274538" text-anchor="middle" style="font-size:12px;font-weight:700">0.028</text>
+<text x="140" y="20" text-anchor="middle" style="font-size:13px;font-weight:700">stop ratio</text>
+<text x="140" y="36" text-anchor="middle" style="font-size:13px;font-weight:700">increase</text>
+<line x1="295" y1="355" x2="445" y2="355" stroke="#d1d5db" stroke-width="1.5"/>
+<rect x="320" y="171.66666666666666" width="42" height="183.33333333333334" rx="4" fill="#0f766e" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="341" y="162.66666666666666" text-anchor="middle" style="font-size:12px;font-weight:700">0.0013</text>
+<rect x="390" y="212.63101318832486" width="42" height="142.36898681167514" rx="4" fill="#f97316" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="411" y="203.63101318832486" text-anchor="middle" style="font-size:12px;font-weight:700">0.0010</text>
+<text x="370" y="20" text-anchor="middle" style="font-size:13px;font-weight:700">speed</text>
+<text x="370" y="36" text-anchor="middle" style="font-size:13px;font-weight:700">decrease</text>
+<line x1="525" y1="355" x2="675" y2="355" stroke="#d1d5db" stroke-width="1.5"/>
+<rect x="550" y="171.66666666666666" width="42" height="183.33333333333334" rx="4" fill="#0f766e" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="571" y="162.66666666666666" text-anchor="middle" style="font-size:12px;font-weight:700">5.9</text>
+<rect x="620" y="205.44814148681056" width="42" height="149.55185851318944" rx="4" fill="#f97316" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="641" y="196.44814148681056" text-anchor="middle" style="font-size:12px;font-weight:700">4.8</text>
+<text x="600" y="20" text-anchor="middle" style="font-size:13px;font-weight:700">controller update</text>
+<text x="600" y="36" text-anchor="middle" style="font-size:13px;font-weight:700">increase</text>
+<line x1="755" y1="355" x2="905" y2="355" stroke="#d1d5db" stroke-width="1.5"/>
+<rect x="780" y="216.78847264650364" width="42" height="138.21152735349636" rx="4" fill="#0f766e" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="801" y="207.78847264650364" text-anchor="middle" style="font-size:12px;font-weight:700">10.8</text>
+<rect x="850" y="171.66666666666666" width="42" height="183.33333333333334" rx="4" fill="#f97316" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="871" y="162.66666666666666" text-anchor="middle" style="font-size:12px;font-weight:700">14.3</text>
+<text x="830" y="20" text-anchor="middle" style="font-size:13px;font-weight:700">max stop streak</text>
+<text x="830" y="36" text-anchor="middle" style="font-size:13px;font-weight:700">increase</text>
+<circle cx="385" cy="405" r="6" fill="#0f766e" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="400" y="410" text-anchor="start" style="font-size:12px">Masking</text>
+<circle cx="485" cy="405" r="6" fill="#f97316" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="500" y="410" text-anchor="start" style="font-size:12px">Dropout</text>
+</svg>

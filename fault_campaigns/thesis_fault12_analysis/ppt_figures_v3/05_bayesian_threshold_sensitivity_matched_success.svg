@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Bayesian Threshold Sensitivity: Matched Successful Runs</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">5s is treated as an exploratory practical threshold, not as the repeat-count precision target.</text>
+<rect x="95" y="155" width="510" height="385" rx="20" fill="#fffaf2" stroke="#1f6f8b" stroke-width="3"/>
+<text x="120" y="197" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<text x="120" y="230" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="start">Median 6.25s, 95% CrI [3.73, 8.83]</text>
+<text x="120" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 0)</text>
+<rect x="305" y="280" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="305" y="280" width="230.0" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="550" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f6f8b" text-anchor="end">&gt;0.999</text>
+<text x="120" y="346" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 3s)</text>
+<rect x="305" y="328" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="305" y="328" width="228.62" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="550" y="346" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f6f8b" text-anchor="end">0.994</text>
+<text x="120" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 5s)</text>
+<rect x="305" y="376" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="305" y="376" width="193.775" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="550" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f6f8b" text-anchor="end">0.843</text>
+<text x="120" y="442" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 7s)</text>
+<rect x="305" y="424" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="305" y="424" width="59.397499999999994" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="550" y="442" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f6f8b" text-anchor="end">0.258</text>
+<rect x="690" y="155" width="510" height="385" rx="20" fill="#fffaf2" stroke="#d9822b" stroke-width="3"/>
+<text x="715" y="197" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<text x="715" y="230" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="start">Median 4.54s, 95% CrI [1.63, 7.27]</text>
+<text x="715" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 0)</text>
+<rect x="900" y="280" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="900" y="280" width="229.54" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1145" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d9822b" text-anchor="end">0.998</text>
+<text x="715" y="346" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 3s)</text>
+<rect x="900" y="328" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="900" y="328" width="203.09" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1145" y="346" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d9822b" text-anchor="end">0.883</text>
+<text x="715" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 5s)</text>
+<rect x="900" y="376" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="900" y="376" width="78.66000000000001" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1145" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d9822b" text-anchor="end">0.342</text>
+<text x="715" y="442" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">P(slowdown &gt; 7s)</text>
+<rect x="900" y="424" width="230" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="900" y="424" width="7.4750000000000005" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1145" y="442" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d9822b" text-anchor="end">0.033</text>
+<text x="95" y="635" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="start">Interpretation: both faults likely slow successful missions; masking has much stronger probability of exceeding practical thresholds.</text>
+</svg>

@@ -1,0 +1,11 @@
+{
+  "diagnostic_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/stage1_scan_signature_diagnostics_start5",
+  "output_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/stage1_scan_signature_diagnostics_start5/analysis",
+  "run_count": 9,
+  "degraded_ratio_threshold": 0.55,
+  "plots": [
+    "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/stage1_scan_signature_diagnostics_start5/analysis/world_008_scan_signature_timeseries.png",
+    "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/stage1_scan_signature_diagnostics_start5/analysis/world_094_scan_signature_timeseries.png",
+    "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/stage1_scan_signature_diagnostics_start5/analysis/world_240_scan_signature_timeseries.png"
+  ]
+}

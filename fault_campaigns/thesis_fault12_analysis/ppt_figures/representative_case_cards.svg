@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Representative Cases for Propagation Discussion</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Use these as case-study slides after the statistics: they connect fault windows to run-level outcomes.</text>
+<rect x="80" y="160" width="520" height="390" rx="24" fill="#fffaf2" stroke="#1f6f8b" stroke-width="3"/>
+<text x="110" y="205" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking - World 173</text>
+<text x="110" y="238" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">class2_tune_dependent_recovered</text>
+<text x="115" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Run-level slowdown</text>
+<text x="565" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">44.95s</text>
+<text x="115" y="327" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Stop-ratio delta</text>
+<text x="565" y="327" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+0.000</text>
+<text x="115" y="369" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Controller path updates</text>
+<text x="565" y="369" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+43.8</text>
+<text x="115" y="411" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Path-length delta</text>
+<text x="565" y="411" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+1.26m</text>
+<text x="115" y="453" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Fault-window speed delta</text>
+<text x="565" y="453" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">-0.0016m/s</text>
+<line x1="125" y1="495" x2="555" y2="495" stroke="#d8d2c8" stroke-width="8" stroke-linecap="round"/>
+<rect x="185" y="481" width="120" height="28" rx="14" fill="#1f6f8b" opacity="0.85"/>
+<text x="245" y="501" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">fault window</text>
+<text x="125" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">start</text>
+<text x="245" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">15-35s</text>
+<text x="555" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">finish</text>
+<rect x="680" y="160" width="520" height="390" rx="24" fill="#fffaf2" stroke="#d9822b" stroke-width="3"/>
+<text x="710" y="205" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout - World 76</text>
+<text x="710" y="238" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">class2_tune_dependent_recovered</text>
+<text x="715" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Run-level slowdown</text>
+<text x="1165" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">35.60s</text>
+<text x="715" y="327" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Stop-ratio delta</text>
+<text x="1165" y="327" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+0.132</text>
+<text x="715" y="369" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Controller path updates</text>
+<text x="1165" y="369" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+34.8</text>
+<text x="715" y="411" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Path-length delta</text>
+<text x="1165" y="411" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">+1.24m</text>
+<text x="715" y="453" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Fault-window speed delta</text>
+<text x="1165" y="453" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="end">-0.0047m/s</text>
+<line x1="725" y1="495" x2="1155" y2="495" stroke="#d8d2c8" stroke-width="8" stroke-linecap="round"/>
+<rect x="785" y="481" width="120" height="28" rx="14" fill="#d9822b" opacity="0.85"/>
+<text x="845" y="501" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="white" text-anchor="middle">fault window</text>
+<text x="725" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">start</text>
+<text x="845" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">15-35s</text>
+<text x="1155" y="540" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">finish</text>
+<text x="80" y="640" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" fill="#1d252c" text-anchor="start">These are not final causal proof by themselves; they are visual anchors for a deeper propagation narrative.</text>
+</svg>

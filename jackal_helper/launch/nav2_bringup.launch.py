@@ -43,6 +43,12 @@ ARGUMENTS = [
     DeclareLaunchArgument('scan_topic',
                           default_value='',
                           description='Override the default 2D laserscan topic'),
+    DeclareLaunchArgument('odom_topic',
+                          default_value='',
+                          description='Override the default odometry topic'),
+    DeclareLaunchArgument('final_cmd_vel_topic',
+                          default_value='cmd_vel',
+                          description='Final topic receiving velocity_smoother output'),
     DeclareLaunchArgument('nav2_params_file',
                           default_value='nav2.yaml',
                           description='The nav2.yaml params file.'),
@@ -61,6 +67,8 @@ def jackal_nav2_setup(context, *args, **kwargs):
     use_sim_time = LaunchConfiguration('use_sim_time')
     setup_path = LaunchConfiguration('setup_path')
     scan_topic = LaunchConfiguration('scan_topic')
+    odom_topic = LaunchConfiguration('odom_topic')
+    final_cmd_vel_topic = LaunchConfiguration('final_cmd_vel_topic')
 
     # Read robot YAML
     config = read_yaml(os.path.join(setup_path.perform(context), 'robot.yaml'))
@@ -75,6 +83,10 @@ def jackal_nav2_setup(context, *args, **kwargs):
     if len(eval_scan_topic) == 0:
         eval_scan_topic = '/front/scan'
 
+    eval_odom_topic = odom_topic.perform(context)
+    if len(eval_odom_topic) == 0:
+        eval_odom_topic = 'platform/odom/filtered'
+
     file_parameters = PathJoinSubstitution([setup_path, LaunchConfiguration('nav2_params_file')])
 
     rewritten_parameters = RewrittenYaml(
@@ -83,11 +95,12 @@ def jackal_nav2_setup(context, *args, **kwargs):
             # the only *.topic parameters are scan.topic, so rewrite all of them to point to
             # our desired scan_topic
             'topic': eval_scan_topic,
+            'odom_topic': eval_odom_topic,
         },
         convert_types=True
     )
     
-    return rewritten_parameters
+    return rewritten_parameters, eval_odom_topic
 
     # launch_nav2 = PathJoinSubstitution(
     #   [pkg_jackal_helper, 'launch', 'nav2_bringup.launch.py'])
@@ -108,7 +121,7 @@ def jackal_nav2_setup(context, *args, **kwargs):
 
 def nav2_bringup_setup(context, *args, **kwargs):
     # get parameter file from jackal_setup
-    jackal_rewritten_parameters = jackal_nav2_setup(context)
+    jackal_rewritten_parameters, eval_odom_topic = jackal_nav2_setup(context)
 
     
     # Get the launch directory
@@ -125,6 +138,7 @@ def nav2_bringup_setup(context, *args, **kwargs):
     container_name_full = (namespace, '/', container_name)
     use_respawn = False #LaunchConfiguration('use_respawn')
     log_level = LaunchConfiguration('log_level')
+    final_cmd_vel_topic = LaunchConfiguration('final_cmd_vel_topic')
 
     lifecycle_nodes = [
         'controller_server',
@@ -145,7 +159,8 @@ def nav2_bringup_setup(context, *args, **kwargs):
     # https://github.com/ros/robot_state_publisher/pull/30
     # TODO(orduno) Substitute with `PushNodeRemapping`
     #              https://github.com/ros2/launch_ros/issues/56
-    remappings = [('/tf', 'tf'), ('/tf_static', 'tf_static'), ('/odom', '/platform/odom')]
+    odom_remap_topic = eval_odom_topic if eval_odom_topic.startswith('/') else f'/{eval_odom_topic}'
+    remappings = [('/tf', 'tf'), ('/tf_static', 'tf_static'), ('/odom', odom_remap_topic)]
 
     # Create our own temporary YAML files that include substitutions
     param_substitutions = {'autostart': autostart}
@@ -232,7 +247,7 @@ def nav2_bringup_setup(context, *args, **kwargs):
                 parameters=[configured_params],
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings
-                + [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', 'cmd_vel')],
+                + [('cmd_vel', 'cmd_vel_nav'), ('cmd_vel_smoothed', final_cmd_vel_topic)],
             ),
             Node(
                 package='nav2_lifecycle_manager',

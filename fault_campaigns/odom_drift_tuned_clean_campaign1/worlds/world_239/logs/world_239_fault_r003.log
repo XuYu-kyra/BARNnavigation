@@ -1,0 +1,1072 @@
+COMMAND: ros2 launch jackal_helper BARN_runner.launch.py world_idx:=239 gui:=false rviz:=false timeout:=300 throttle_duration:=5 out_file:=fault_campaign_world239_fault_r003.txt setup_path:=/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean nav2_log_level:=INFO odom_fault_enable:=true odom_fault_start:=20.0 odom_fault_duration:=20.0 odom_fault_linear_scale:=1.08 odom_fault_yaw_rate_bias_deg_s:=1.5
+STARTED_AT: 2026-08-02T14:02:38.319314
+
+[INFO] [launch]: All log files can be found below /home/student24/.ros/log/2026-08-02-14-02-38-645512-barn-vm-349070
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: >>>>>>>>> Odometry fault injector enabled: start=20.0s duration=20.0s linear_scale=1.08 yaw_rate_bias_deg_s=1.5
+[INFO] [odometry_fault_injector.py-4]: process started with pid [349079]
+[INFO] [gazebo-1]: process started with pid [349075]
+[INFO] [parameter_bridge-2]: process started with pid [349076]
+[INFO] [generate_description-3]: process started with pid [349077]
+[generate_description-3] Generated /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/robot.urdf.xacro
+[INFO] [generate_description-3]: process has finished cleanly [pid 349077]
+[INFO] [generate_semantic_description-5]: process started with pid [349100]
+[odometry_fault_injector.py-4] [0m[INFO] [odometry_fault_injector]: Odometry fault injector ready: /platform/odom/filtered -> /platform/odom/filtered_faulted, start=20.0s, duration=20.0s, linear_scale=1.080, yaw_rate_bias_deg_s=1.500[0m
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.urdf]: Loaded j100-0000 robot model.
+[generate_semantic_description-5] [INFO] [moveit_2328744050.moveit.core.robot_model]: Loading robot model 'j100-0000'...
+[generate_semantic_description-5] [INFO] [moveit_2328744050.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link lidar2d_0_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link lidar3d_0_laser has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link lidar2d_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link gps_0_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link front_fender_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_2328744050.moveit.core.robot_model]: Link rear_fender_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.srdf]: Robot semantic model successfully loaded.
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.Self-Collisions]: Thread complete 36
+[generate_semantic_description-5] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[generate_semantic_description-5]          at line 127 in ./src/class_loader.cpp
+[generate_semantic_description-5] Generated /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/robot.srdf.xacro
+[INFO] [generate_semantic_description-5]: process has finished cleanly [pid 349100]
+[INFO] [generate_launch-6]: process started with pid [349154]
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/manipulators/launch/manipulators-service.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar2d_0.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar2d_1.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar3d_0.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/sensors-service.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/launch/platform-service.launch.py
+[INFO] [generate_launch-6]: process has finished cleanly [pid 349154]
+[INFO] [generate_param-7]: process started with pid [349397]
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar2d_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar2d_1.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar3d_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/diagnostic_aggregator.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/diagnostic_updater.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/foxglove_bridge.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/imu_filter.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/localization.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/teleop_interactive_markers.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/teleop_joy.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/twist_mux.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/imu_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/gps_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/manipulators/config/moveit.yaml
+[INFO] [generate_param-7]: process has finished cleanly [pid 349397]
+[INFO] [robot_state_publisher-8]: process started with pid [349400]
+[INFO] [spawner-9]: process started with pid [349401]
+[INFO] [spawner-10]: process started with pid [349402]
+[INFO] [ekf_node-11]: process started with pid [349403]
+[INFO] [marker_server-12]: process started with pid [349404]
+[INFO] [twist_mux-13]: process started with pid [349405]
+[INFO] [joy_linux_node-14]: process started with pid [349406]
+[INFO] [teleop_node-15]: process started with pid [349407]
+[INFO] [parameter_bridge-16]: process started with pid [349408]
+[INFO] [parameter_bridge-17]: process started with pid [349409]
+[INFO] [parameter_bridge-18]: process started with pid [349410]
+[INFO] [imu_filter_madgwick_node-19]: process started with pid [349417]
+[INFO] [parameter_bridge-20]: process started with pid [349418]
+[INFO] [parameter_bridge-21]: process started with pid [349419]
+[INFO] [static_transform_publisher-22]: process started with pid [349420]
+[INFO] [parameter_bridge-23]: process started with pid [349423]
+[INFO] [static_transform_publisher-24]: process started with pid [349424]
+[INFO] [parameter_bridge-25]: process started with pid [349430]
+[INFO] [static_transform_publisher-26]: process started with pid [349434]
+[INFO] [create-27]: process started with pid [349438]
+[ekf_node-11] [INFO] [ekf_node]: Waiting for clock to start...
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Teleop enable button 4.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo on button 5.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.400000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for linear axis x is scale 2.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Linear axis y on 3 at scale 0.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for linear axis y is scale 0.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.600000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.400000.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.external' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 1.
+[static_transform_publisher-22] [INFO] [lidar2d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-22] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-22] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-22] from 'lidar2d_0_link' to 'robot/base_link/lidar2d_0'
+[create-27] [INFO] [ros_gz_sim]: Requesting list of world names.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s , priority = 8.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.rc' subscribed to topic 'rc_teleop/cmd_vel': timeout = 0.500000s , priority = 12.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'locks.e_stop' subscribed to topic 'platform/emergency_stop': timeout = None , priority = 255.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'locks.safety_stop' subscribed to topic 'platform/safety_stop': timeout = None , priority = 254.
+[create-27] [INFO] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[marker_server-12] [INFO] [twist_server_node]: [interactive_marker_twist_server] Initialized.
+[static_transform_publisher-24] [INFO] [lidar2d_1_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-24] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-24] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-24] from 'lidar2d_1_link' to 'robot/base_link/lidar2d_1'
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Starting ImuFilter
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Using dt computed from message headers
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: The gravity vector is kept in the IMU message.
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Imu filter gain set to 0.100000
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Gyro drift bias set to 0.000000
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Magnetometer bias values: 0.000000 0.000000 0.000000
+[static_transform_publisher-26] [INFO] [lidar3d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-26] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-26] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-26] from 'lidar3d_0_link' to 'robot/base_link/lidar3d_0'
+[robot_state_publisher-8] [INFO] [robot_state_publisher]: Robot initialized
+[joy_linux_node-14] [ERROR] [joy_node]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (gz.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/TwistStamped)] (Lazy 0)
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/robot/cmd_vel (geometry_msgs/msg/TwistStamped) -> /model/robot/cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[create-27] [INFO] [ros_gz_sim]: Entity creation successful.
+[parameter_bridge-23] [INFO] [sensors.lidar2d_1_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar2d_1/scan (gz.msgs.LaserScan) -> lidar2d_1/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[INFO] [create-27]: process has finished cleanly [pid 349438]
+[parameter_bridge-20] [INFO] [gps_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/gps_0/navsat (gz.msgs.NavSat) -> sensors/gps_0/fix (sensor_msgs/msg/NavSatFix)] (Lazy 0)
+[parameter_bridge-17] [INFO] [odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/robot/tf (gz.msgs.Pose_V) -> /model/robot/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[gazebo-1] [INFO] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [INFO] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[parameter_bridge-25] [INFO] [sensors.lidar3d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar3d_0/scan (gz.msgs.LaserScan) -> lidar3d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-25] [INFO] [sensors.lidar3d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar3d_0/scan/points (gz.msgs.PointCloudPacked) -> lidar3d_0/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-21] [INFO] [sensors.lidar2d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar2d_0/scan (gz.msgs.LaserScan) -> lidar2d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-18] [INFO] [imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/imu_0/data (gz.msgs.IMU) -> sensors/imu_0/data (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-18] [INFO] [imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/imu_0/data_raw (gz.msgs.IMU) -> sensors/imu_0/data_raw (sensor_msgs/msg/Imu)] (Lazy 0)
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-1] [WARN] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[gazebo-1] [WARN] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[gazebo-1] [WARN] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: front_left_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: front_right_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: rear_left_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: rear_right_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading sensor: imu_0
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [WARN] [gz_ros_control]: IMU sensor 'imu_0' not found in hardware_info, skipping.
+[gazebo-1] [INFO] [controller_manager]: Initialize hardware 'j100_hardware' 
+[gazebo-1] [WARN] [controller_manager.hardware_component.system.j100_hardware]: Executor is not available during hardware component initialization for 'j100_hardware'. Skipping node creation!
+[gazebo-1] [INFO] [controller_manager]: Successful initialization of hardware 'j100_hardware'
+[gazebo-1] [INFO] [controller_manager]: Activating component 'j100_hardware'.
+[gazebo-1] [INFO] [resource_manager]: 'configure' hardware 'j100_hardware' 
+[gazebo-1] [INFO] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [resource_manager]: Successful 'configure' of hardware 'j100_hardware'
+[gazebo-1] [INFO] [resource_manager]: 'activate' hardware 'j100_hardware' 
+[gazebo-1] [INFO] [resource_manager]: Successful 'activate' of hardware 'j100_hardware'
+[gazebo-1] [WARN] [controller_manager]: Component 'j100_hardware' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-1] [INFO] [controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[gazebo-1] [INFO] [controller_manager]: Loading controller 'platform_velocity_controller'
+[gazebo-1] [WARN] [controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-1] [INFO] [controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: Loaded platform_velocity_controller
+[gazebo-1] [INFO] [controller_manager]: Configuring controller: 'platform_velocity_controller'
+[gazebo-1] [INFO] [controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-1] [WARN] [gz_ros_control]:  Desired controller update period (0.02 s) is slower than the gazebo simulation period (0.001 s).
+[gazebo-1] [INFO] [controller_manager]: Successfully switched controllers!
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: NEEDS EXTENSION: falling back to kms_swrast
+[INFO] [launch.user]: >>>>>>>>> Starting BARN Runner node...
+[INFO] [barn_runner.py-28]: process started with pid [350061]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: Configured and activated platform_velocity_controller
+[INFO] [spawner-10]: process has finished cleanly [pid 349402]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> BARN Runner started.[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Resetting Jackal...[0m
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-1] [INFO] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-1] [WARN] [controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-1] [INFO] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-1] [INFO] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-1] [INFO] [controller_manager]: Successfully switched controllers!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[INFO] [spawner-9]: process has finished cleanly [pid 349401]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Initial position: (-2.25, 3.00).[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Goal position: (-2.25, 13.00).[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Waiting for robot to start moving...[0m
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: First IMU message received.
+[INFO] [launch.user]: >>>>>>>>> Launching Nav2...
+[INFO] [controller_server-29]: process started with pid [350094]
+[INFO] [smoother_server-30]: process started with pid [350095]
+[INFO] [planner_server-31]: process started with pid [350096]
+[INFO] [behavior_server-32]: process started with pid [350097]
+[INFO] [bt_navigator-33]: process started with pid [350098]
+[INFO] [velocity_smoother-34]: process started with pid [350099]
+[INFO] [lifecycle_manager-35]: process started with pid [350100]
+[behavior_server-32] [INFO] [behavior_server]: 
+[behavior_server-32] 	behavior_server lifecycle node launched. 
+[behavior_server-32] 	Waiting on external lifecycle transitions to activate
+[behavior_server-32] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-34] [INFO] [velocity_smoother]: 
+[velocity_smoother-34] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-34] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-34] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-31] [INFO] [planner_server]: 
+[planner_server-31] 	planner_server lifecycle node launched. 
+[planner_server-31] 	Waiting on external lifecycle transitions to activate
+[planner_server-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-31] [INFO] [planner_server]: Creating
+[controller_server-29] [INFO] [controller_server]: 
+[controller_server-29] 	controller_server lifecycle node launched. 
+[controller_server-29] 	Waiting on external lifecycle transitions to activate
+[controller_server-29] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-33] [INFO] [bt_navigator]: 
+[bt_navigator-33] 	bt_navigator lifecycle node launched. 
+[bt_navigator-33] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-33] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-33] [INFO] [bt_navigator]: Creating
+[controller_server-29] [INFO] [controller_server]: Creating controller server
+[smoother_server-30] [INFO] [smoother_server]: 
+[smoother_server-30] 	smoother_server lifecycle node launched. 
+[smoother_server-30] 	Waiting on external lifecycle transitions to activate
+[smoother_server-30] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-30] [INFO] [smoother_server]: Creating smoother server
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Creating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: 
+[planner_server-31] 	global_costmap lifecycle node launched. 
+[planner_server-31] 	Waiting on external lifecycle transitions to activate
+[planner_server-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[controller_server-29] [INFO] [local_costmap.local_costmap]: 
+[controller_server-29] 	local_costmap lifecycle node launched. 
+[controller_server-29] 	Waiting on external lifecycle transitions to activate
+[controller_server-29] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Creating Costmap
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-29] [INFO] [controller_server]: Configuring controller interface
+[controller_server-29] [INFO] [controller_server]: getting progress checker plugins..
+[controller_server-29] [INFO] [controller_server]: getting goal checker plugins..
+[controller_server-29] [INFO] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Configuring
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-29] [INFO] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-29] [INFO] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-29] [INFO] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-29] [INFO] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-29] [INFO] [controller_server]: Created controller : FollowPath of type nav2_mppi_controller::MPPIController
+[controller_server-29] [INFO] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[controller_server-29] [INFO] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[controller_server-29] [INFO] [controller_server]: InflationCostCritic instantiated with 1 power and 300.000000 / 0.015000 weights. Critic will collision check based on footprint cost.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::CostCritic
+[controller_server-29] [INFO] [controller_server]: GoalCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[controller_server-29] [INFO] [controller_server]: GoalAngleCritic instantiated with 1 power, 3.000000 weight, 0.500000 angular threshold and symmetric_yaw_tolerance disabled
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::GoalAngleCritic
+[controller_server-29] [INFO] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 8.000000 weight
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[controller_server-29] [INFO] [controller_server]: PathAngleCritic instantiated with 1 power and 2.000000 weight. Mode set to: Forward Preference
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathAngleCritic
+[controller_server-29] [INFO] [controller_server]: PreferForwardCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[controller_server-29] [INFO] [MPPIController]: Configured MPPI Controller: FollowPath
+[controller_server-29] [INFO] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-30] [INFO] [smoother_server]: Configuring smoother server
+[smoother_server-30] [INFO] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-30] [INFO] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-31] [INFO] [planner_server]: Configuring
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Configuring
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-31] [INFO] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-32] [INFO] [behavior_server]: Configuring
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-32] [INFO] [behavior_server]: Configuring spin
+[behavior_server-32] [INFO] [behavior_server]: Configuring backup
+[behavior_server-32] [INFO] [behavior_server]: Configuring drive_on_heading
+[behavior_server-32] [INFO] [behavior_server]: Configuring assisted_teleop
+[behavior_server-32] [INFO] [behavior_server]: Configuring wait
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-34] [INFO] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-33] [INFO] [bt_navigator]: Configuring
+[bt_navigator-33] [INFO] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[bt_navigator-33] [INFO] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-29] [INFO] [controller_server]: Activating
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Activating
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Checking transform
+[controller_server-29] [INFO] [local_costmap.local_costmap]: start
+[controller_server-29] [WARN] [controller_server]: Parameter controller_server.verbose not found
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[controller_server-29] [INFO] [MPPIController]: Activated MPPI Controller: FollowPath
+[controller_server-29] [INFO] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-30] [INFO] [smoother_server]: Activating
+[smoother_server-30] [INFO] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-31] [INFO] [planner_server]: Activating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Activating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Checking transform
+[planner_server-31] [INFO] [global_costmap.global_costmap]: start
+[planner_server-31] [INFO] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-32] [INFO] [behavior_server]: Activating
+[behavior_server-32] [INFO] [behavior_server]: Activating spin
+[behavior_server-32] [INFO] [behavior_server]: Activating backup
+[behavior_server-32] [INFO] [behavior_server]: Activating drive_on_heading
+[behavior_server-32] [INFO] [behavior_server]: Activating assisted_teleop
+[behavior_server-32] [INFO] [behavior_server]: Activating wait
+[behavior_server-32] [INFO] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-34] [INFO] [velocity_smoother]: Activating
+[velocity_smoother-34] [INFO] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-33] [INFO] [bt_navigator]: Activating
+[bt_navigator-33] [INFO] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[INFO] [launch.user]: >>>>>>>>> Publishing Nav2 goal... 
+[INFO] [ros2-36]: process started with pid [350239]
+[bt_navigator-33] [INFO] [bt_navigator]: Begin navigating from current location (-0.00, -0.00) to (10.00, 0.00)
+[controller_server-29] [INFO] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-29] [WARN] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-29] [WARN] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Passing message from ROS geometry_msgs/msg/TwistStamped to Gazebo gz.msgs.Twist (showing msg only once per type)
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[odometry_fault_injector.py-4] [33m[WARN] [odometry_fault_injector]: Fault active at t=20.10s: accumulating odometry scale and yaw bias.[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Trial running...[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 0.02 (s), x: -2.26 (m), y: 3.11 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 5.03 (s), x: -2.29 (m), y: 3.25 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 10.03 (s), x: -2.35 (m), y: 3.41 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 15.04 (s), x: -2.46 (m), y: 3.59 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[odometry_fault_injector.py-4] [0m[INFO] [odometry_fault_injector]: Fault window closed at t=40.17s.[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 20.06 (s), x: -2.57 (m), y: 3.76 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 25.07 (s), x: -2.70 (m), y: 3.93 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 30.09 (s), x: -2.81 (m), y: 4.08 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 35.10 (s), x: -2.92 (m), y: 4.23 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 40.12 (s), x: -3.04 (m), y: 4.41 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 45.14 (s), x: -3.13 (m), y: 4.58 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 50.16 (s), x: -3.21 (m), y: 4.76 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 55.17 (s), x: -3.27 (m), y: 4.94 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 60.18 (s), x: -3.32 (m), y: 5.14 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 65.21 (s), x: -3.35 (m), y: 5.34 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 70.23 (s), x: -3.34 (m), y: 5.54 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 75.24 (s), x: -3.32 (m), y: 5.73 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 80.25 (s), x: -3.28 (m), y: 5.94 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 85.27 (s), x: -3.22 (m), y: 6.15 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 90.27 (s), x: -3.15 (m), y: 6.33 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 95.27 (s), x: -3.08 (m), y: 6.51 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 100.29 (s), x: -2.99 (m), y: 6.68 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 105.29 (s), x: -2.87 (m), y: 6.85 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 110.31 (s), x: -2.74 (m), y: 7.01 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 115.33 (s), x: -2.59 (m), y: 7.18 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 120.34 (s), x: -2.45 (m), y: 7.32 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 125.36 (s), x: -2.28 (m), y: 7.47 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 130.37 (s), x: -2.15 (m), y: 7.60 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 200.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 135.39 (s), x: -1.98 (m), y: 7.74 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 140.40 (s), x: -1.85 (m), y: 7.86 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 145.42 (s), x: -1.71 (m), y: 7.98 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 150.44 (s), x: -1.60 (m), y: 8.08 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 155.46 (s), x: -1.48 (m), y: 8.21 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 160.46 (s), x: -1.38 (m), y: 8.33 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 165.47 (s), x: -1.29 (m), y: 8.48 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 170.49 (s), x: -1.23 (m), y: 8.65 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 175.52 (s), x: -1.19 (m), y: 8.86 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 180.53 (s), x: -1.18 (m), y: 9.06 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 185.53 (s), x: -1.18 (m), y: 9.24 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 190.55 (s), x: -1.19 (m), y: 9.35 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 195.56 (s), x: -1.19 (m), y: 9.54 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 200.56 (s), x: -1.19 (m), y: 9.73 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 205.58 (s), x: -1.20 (m), y: 9.92 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 210.60 (s), x: -1.20 (m), y: 10.11 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 215.60 (s), x: -1.20 (m), y: 10.33 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 220.60 (s), x: -1.20 (m), y: 10.53 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 225.61 (s), x: -1.20 (m), y: 10.72 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 230.62 (s), x: -1.21 (m), y: 10.88 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 235.62 (s), x: -1.21 (m), y: 11.02 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 240.64 (s), x: -1.22 (m), y: 11.23 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 245.67 (s), x: -1.23 (m), y: 11.44 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 250.67 (s), x: -1.24 (m), y: 11.62 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 255.69 (s), x: -1.25 (m), y: 11.76 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 260.71 (s), x: -1.25 (m), y: 11.89 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 265.71 (s), x: -1.25 (m), y: 12.03 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 270.71 (s), x: -1.26 (m), y: 12.16 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 275.74 (s), x: -1.27 (m), y: 12.28 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 280.74 (s), x: -1.28 (m), y: 12.40 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 285.76 (s), x: -1.29 (m), y: 12.50 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 290.76 (s), x: -1.31 (m), y: 12.58 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 295.77 (s), x: -1.31 (m), y: 12.65 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>>>>>>>>>>> Test finished! <<<<<<<<<<<<<<<<<<[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Navigation succeeded with time 295.9598 (s)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Navigation metric: 0.1250[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: ----------------------------------------------------[0m
+[INFO] [barn_runner.py-28]: process has finished cleanly [pid 350061]
+[INFO] [launch.user]: >>>>>>>>> Shutting down in 5 seconds...
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[INFO] [launch]: process[barn_runner.py-28] was required: shutting down launched system
+[INFO] [ros2-36]: sending signal 'SIGINT' to process[ros2-36]
+[ERROR] [gazebo-1]: process has died [pid 349075, exit code -9, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /home/student24/dissertation/barn_ros2/install/jackal_helper/share/jackal_helper/worlds/BARN/world_239.world -s -r -v 0 --gui-config /home/student24/dissertation/barn_ros2/install/jackal_helper/share/jackal_helper/config/gui.config --force-version 8'].
+[INFO] [lifecycle_manager-35]: sending signal 'SIGINT' to process[lifecycle_manager-35]
+[INFO] [pkill-37]: process started with pid [350859]
+[ERROR] [pkill-37]: process has died [pid 350859, exit code -9, cmd 'pkill -9 -f 'gz sim''].
+[INFO] [velocity_smoother-34]: sending signal 'SIGINT' to process[velocity_smoother-34]
+[INFO] [bt_navigator-33]: sending signal 'SIGINT' to process[bt_navigator-33]
+[INFO] [behavior_server-32]: sending signal 'SIGINT' to process[behavior_server-32]
+[INFO] [planner_server-31]: sending signal 'SIGINT' to process[planner_server-31]
+[INFO] [smoother_server-30]: sending signal 'SIGINT' to process[smoother_server-30]
+[INFO] [controller_server-29]: sending signal 'SIGINT' to process[controller_server-29]
+[INFO] [static_transform_publisher-26]: sending signal 'SIGINT' to process[static_transform_publisher-26]
+[INFO] [parameter_bridge-25]: sending signal 'SIGINT' to process[parameter_bridge-25]
+[INFO] [static_transform_publisher-24]: sending signal 'SIGINT' to process[static_transform_publisher-24]
+[INFO] [parameter_bridge-23]: sending signal 'SIGINT' to process[parameter_bridge-23]
+[INFO] [parameter_bridge-25]: process has finished cleanly [pid 349430]
+[INFO] [static_transform_publisher-22]: sending signal 'SIGINT' to process[static_transform_publisher-22]
+[INFO] [parameter_bridge-21]: sending signal 'SIGINT' to process[parameter_bridge-21]
+[INFO] [static_transform_publisher-26]: process has finished cleanly [pid 349434]
+[INFO] [static_transform_publisher-24]: process has finished cleanly [pid 349424]
+[INFO] [parameter_bridge-20]: sending signal 'SIGINT' to process[parameter_bridge-20]
+[INFO] [behavior_server-32]: process has finished cleanly [pid 350097]
+[INFO] [velocity_smoother-34]: process has finished cleanly [pid 350099]
+[INFO] [lifecycle_manager-35]: process has finished cleanly [pid 350100]
+[INFO] [imu_filter_madgwick_node-19]: sending signal 'SIGINT' to process[imu_filter_madgwick_node-19]
+[INFO] [smoother_server-30]: process has finished cleanly [pid 350095]
+[INFO] [parameter_bridge-23]: process has finished cleanly [pid 349423]
+[INFO] [parameter_bridge-18]: sending signal 'SIGINT' to process[parameter_bridge-18]
+[INFO] [static_transform_publisher-22]: process has finished cleanly [pid 349420]
+[INFO] [parameter_bridge-21]: process has finished cleanly [pid 349419]
+[INFO] [parameter_bridge-17]: sending signal 'SIGINT' to process[parameter_bridge-17]
+[INFO] [parameter_bridge-20]: process has finished cleanly [pid 349418]
+[INFO] [parameter_bridge-16]: sending signal 'SIGINT' to process[parameter_bridge-16]
+[INFO] [teleop_node-15]: sending signal 'SIGINT' to process[teleop_node-15]
+[INFO] [bt_navigator-33]: process has finished cleanly [pid 350098]
+[ERROR] [ros2-36]: process has died [pid 350239, exit code 1, cmd 'ros2 action send_goal /navigate_to_pose nav2_msgs/action/NavigateToPose {pose: {header: {frame_id: odom}, pose: {orientation: {w: 1.0}, position: {x: 10, y: 0.0, z: 0.0}}}}'].
+[INFO] [joy_linux_node-14]: sending signal 'SIGINT' to process[joy_linux_node-14]
+[INFO] [twist_mux-13]: sending signal 'SIGINT' to process[twist_mux-13]
+[INFO] [marker_server-12]: sending signal 'SIGINT' to process[marker_server-12]
+[INFO] [controller_server-29]: process has finished cleanly [pid 350094]
+[INFO] [imu_filter_madgwick_node-19]: process has finished cleanly [pid 349417]
+[INFO] [ekf_node-11]: sending signal 'SIGINT' to process[ekf_node-11]
+[INFO] [robot_state_publisher-8]: sending signal 'SIGINT' to process[robot_state_publisher-8]
+[INFO] [odometry_fault_injector.py-4]: sending signal 'SIGINT' to process[odometry_fault_injector.py-4]
+[INFO] [parameter_bridge-18]: process has finished cleanly [pid 349410]
+[INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+[lifecycle_manager-35] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[velocity_smoother-34] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[velocity_smoother-34] [INFO] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-34] [INFO] [velocity_smoother]: Deactivating
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[bt_navigator-33] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-33] [INFO] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-33] [INFO] [bt_navigator]: Deactivating
+[bt_navigator-33] [WARN] [bt_navigator]: [navigate_to_pose] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[bt_navigator-33] [ERROR] [bt_navigator_navigate_to_pose_rclcpp_node]: Failed to get result for follow_path in node halt!
+[velocity_smoother-34] [INFO] [velocity_smoother]: Cleaning up
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[bt_navigator-33] [INFO] [bt_navigator]: [navigate_to_pose] [ActionServer] Client requested to cancel the goal. Cancelling.
+[bt_navigator-33] [INFO] [bt_navigator]: Goal canceled
+[bt_navigator-33] [WARN] [bt_navigator]: [navigate_to_pose] [ActionServer] Stopping the thread per request.
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-33] [INFO] [bt_navigator]: Cleaning up
+[behavior_server-32] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-32] [INFO] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-32] [INFO] [behavior_server]: Deactivating
+[behavior_server-32] [INFO] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[controller_server-29] [INFO] [controller_server]: Cancellation was successful. Stopping the robot.
+[controller_server-29] [INFO] [controller_server]: [follow_path] [ActionServer] Client requested to cancel the goal. Cancelling.
+[behavior_server-32] [INFO] [behavior_server]: Cleaning up
+[planner_server-31] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-31] [INFO] [planner_server]: Deactivating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Deactivating
+[smoother_server-30] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[smoother_server-30] [INFO] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-30] [INFO] [smoother_server]: Deactivating
+[smoother_server-30] [INFO] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[controller_server-29] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-29] [INFO] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-29] [INFO] [controller_server]: Deactivating
+[controller_server-29] [WARN] [controller_server]: [follow_path] [ActionServer] Requested to deactivate server but goal is still executing. Should check if action server is running before deactivating.
+[smoother_server-30] [INFO] [smoother_server]: Cleaning up
+[behavior_server-32] [INFO] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[controller_server-29] [WARN] [controller_server]: [follow_path] [ActionServer] Stopping the thread per request.
+[controller_server-29] [INFO] [MPPIController]: Deactivated MPPI Controller: FollowPath
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Deactivating
+[static_transform_publisher-26] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-17]: process has finished cleanly [pid 349409]
+[parameter_bridge-25] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying
+[smoother_server-30] [INFO] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-30] [INFO] [smoother_server]: Destroying
+[controller_server-29] [INFO] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-29] [INFO] [controller_server]: Cleaning up
+[controller_server-29] [INFO] [MPPIController]: Cleaned up MPPI Controller: FollowPath
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Cleaning up
+[behavior_server-32] [INFO] [behavior_server]: Destroying
+[static_transform_publisher-24] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [parameter_bridge-16]: process has finished cleanly [pid 349408]
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[ros2-36] Executor is already spinning
+[planner_server-31] [INFO] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-31] [INFO] [planner_server]: Cleaning up
+[parameter_bridge-23] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-29] [INFO] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[static_transform_publisher-22] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Cleaning up
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Destroying
+[parameter_bridge-21] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[bt_navigator-33] [INFO] [bt_navigator]: Completed Cleaning up
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[parameter_bridge-20] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying
+[controller_server-29] [INFO] [controller_server]: Destroying
+[planner_server-31] [INFO] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[imu_filter_madgwick_node-19] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Destroying
+[parameter_bridge-18] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [planner_server]: Destroying
+[parameter_bridge-17] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-16] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[teleop_node-15] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joy_linux_node-14] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joy_linux_node-14] [INFO] [joy_node]: joy_node shut down.
+[twist_mux-13] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[marker_server-12] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-11] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[robot_state_publisher-8] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [planner_server-31]: process has finished cleanly [pid 350096]
+[INFO] [teleop_node-15]: process has finished cleanly [pid 349407]
+[INFO] [joy_linux_node-14]: process has finished cleanly [pid 349406]
+[INFO] [marker_server-12]: process has finished cleanly [pid 349404]
+[INFO] [twist_mux-13]: process has finished cleanly [pid 349405]
+[INFO] [ekf_node-11]: process has finished cleanly [pid 349403]
+[INFO] [robot_state_publisher-8]: process has finished cleanly [pid 349400]
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 349076]
+[INFO] [odometry_fault_injector.py-4]: process has finished cleanly [pid 349079]

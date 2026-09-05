@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="430" viewBox="0 0 780 430">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<line x1="90" y1="345" x2="700" y2="345" stroke="#111827" stroke-width="1.5"/>
+<line x1="90" y1="35" x2="90" y2="345" stroke="#111827" stroke-width="1.5"/>
+<line x1="90" y1="345" x2="700" y2="345" stroke="#d1d5db" stroke-width="1"/>
+<text x="78" y="350" text-anchor="end" class="tick">0.00</text>
+<line x1="90" y1="267.5" x2="700" y2="267.5" stroke="#d1d5db" stroke-width="1"/>
+<text x="78" y="272.5" text-anchor="end" class="tick">0.25</text>
+<line x1="90" y1="190.0" x2="700" y2="190.0" stroke="#d1d5db" stroke-width="1"/>
+<text x="78" y="195.0" text-anchor="end" class="tick">0.50</text>
+<line x1="90" y1="112.5" x2="700" y2="112.5" stroke="#d1d5db" stroke-width="1"/>
+<text x="78" y="117.5" text-anchor="end" class="tick">0.75</text>
+<line x1="90" y1="35.0" x2="700" y2="35.0" stroke="#d1d5db" stroke-width="1"/>
+<text x="78" y="40.0" text-anchor="end" class="tick">1.00</text>
+<line x1="90.0" y1="345" x2="90.0" y2="352" stroke="#111827" stroke-width="1.5"/>
+<text x="90.0" y="373" text-anchor="middle" class="tick">0</text>
+<line x1="351.4285714285714" y1="345" x2="351.4285714285714" y2="352" stroke="#111827" stroke-width="1.5"/>
+<text x="351.4285714285714" y="373" text-anchor="middle" class="tick">3</text>
+<line x1="525.7142857142858" y1="345" x2="525.7142857142858" y2="352" stroke="#111827" stroke-width="1.5"/>
+<text x="525.7142857142858" y="373" text-anchor="middle" class="tick">5</text>
+<line x1="700.0" y1="345" x2="700.0" y2="352" stroke="#111827" stroke-width="1.5"/>
+<text x="700.0" y="373" text-anchor="middle" class="tick">7</text>
+<polyline points="90.0,35.15499999999997 351.4285714285714,36.860000000000014 525.7142857142858,83.67000000000002 700.0,265.02" fill="none" stroke="#148A84" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90.0" cy="35.15499999999997" r="6.5" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="100.0" y="17.154999999999973" text-anchor="start" style="font-size:12px;fill:#148A84">&gt;0.999</text>
+<circle cx="351.4285714285714" cy="36.860000000000014" r="6.5" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="359.4285714285714" y="21.860000000000014" text-anchor="start" style="font-size:12px;fill:#148A84">0.994</text>
+<circle cx="525.7142857142858" cy="83.67000000000002" r="6.5" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="533.7142857142858" y="69.67000000000002" text-anchor="start" style="font-size:12px;fill:#148A84">0.843</text>
+<circle cx="700.0" cy="265.02" r="6.5" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="690.0" y="252.01999999999998" text-anchor="end" style="font-size:12px;fill:#148A84">0.258</text>
+<polyline points="90.0,35.620000000000005 351.4285714285714,71.26999999999998 525.7142857142858,238.98 700.0,334.77" fill="none" stroke="#F57C16" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="90.0" cy="35.620000000000005" r="6.5" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="100.0" y="57.620000000000005" text-anchor="start" style="font-size:12px;fill:#F57C16">0.998</text>
+<circle cx="351.4285714285714" cy="71.26999999999998" r="6.5" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="359.4285714285714" y="91.26999999999998" text-anchor="start" style="font-size:12px;fill:#F57C16">0.883</text>
+<circle cx="525.7142857142858" cy="238.98" r="6.5" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="533.7142857142858" y="257.98" text-anchor="start" style="font-size:12px;fill:#F57C16">0.342</text>
+<circle cx="700.0" cy="334.77" r="6.5" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="690.0" y="355.77" text-anchor="end" style="font-size:12px;fill:#F57C16">0.033</text>
+<text x="395.0" y="410" text-anchor="middle" class="axis">Slowdown threshold (s)</text>
+<text x="16" y="190.0" text-anchor="middle" class="axis" transform="rotate(-90 16 190.0)">Posterior probability</text>
+<circle cx="495" cy="35" r="6" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="510" y="40" text-anchor="start" style="font-size:13px">Frontal masking</text>
+<circle cx="625" cy="35" r="6" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="640" y="40" text-anchor="start" style="font-size:13px">LiDAR dropout</text>
+</svg>

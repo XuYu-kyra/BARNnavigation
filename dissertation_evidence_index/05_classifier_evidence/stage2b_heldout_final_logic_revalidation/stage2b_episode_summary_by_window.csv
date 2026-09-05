@@ -1,0 +1,2 @@
+evidence_mode,observation_window_s,episode_count,correct_count,wrong_type_count,unknown_count,known_decision_count,correct_identification_rate,wrong_type_rate,unknown_rate,accuracy_when_known,masking_episode_count,masking_correct_rate,masking_wrong_type_rate,masking_unknown_rate,dropout_episode_count,dropout_correct_rate,dropout_wrong_type_rate,dropout_unknown_rate,mean_identification_latency_s
+online,2.0,4,4,0,0,4,1.0,0.0,0.0,1.0,2,1.0,0.0,0.0,2,1.0,0.0,0.0,2.0

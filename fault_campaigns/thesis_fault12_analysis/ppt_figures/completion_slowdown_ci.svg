@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="70" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Completion Time Slowdown with Bootstrap CI</text>
+<text x="60" y="105" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Paired effect: fault completion time minus baseline completion time (n=54 pairs per fault)</text>
+<line x1="258.0" y1="165" x2="258.0" y2="525" stroke="#d8d2c8" stroke-width="1"/>
+<text x="258.0" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="middle">0s</text>
+<line x1="438.0" y1="165" x2="438.0" y2="525" stroke="#d8d2c8" stroke-width="1"/>
+<text x="438.0" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="middle">5s</text>
+<line x1="618.0" y1="165" x2="618.0" y2="525" stroke="#d8d2c8" stroke-width="1"/>
+<text x="618.0" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="middle">10s</text>
+<line x1="798.0" y1="165" x2="798.0" y2="525" stroke="#d8d2c8" stroke-width="1"/>
+<text x="798.0" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="middle">15s</text>
+<line x1="978.0" y1="165" x2="978.0" y2="525" stroke="#d8d2c8" stroke-width="1"/>
+<text x="978.0" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="middle">20s</text>
+<line x1="258.0" y1="145" x2="258.0" y2="525" stroke="#333" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="60" y="263" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<line x1="303.6066116666666" y1="255" x2="983.0767466666662" y2="255" stroke="#1f6f8b" stroke-width="8" stroke-linecap="round"/>
+<circle cx="589.5446666666666" cy="255" r="15" fill="#1f6f8b"/>
+<text x="1001.0767466666662" y="262" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#1f6f8b" text-anchor="start">+9.21s [1.27, 20.14]</text>
+<text x="60" y="290" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">Degradation pairs: 79.6%</text>
+<text x="60" y="398" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<line x1="237.2477499999998" y1="390" x2="823.9843716666663" y2="390" stroke="#d9822b" stroke-width="8" stroke-linecap="round"/>
+<circle cx="489.5132" cy="390" r="15" fill="#d9822b"/>
+<text x="841.9843716666663" y="397" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#d9822b" text-anchor="start">+6.43s [-0.58, 15.72]</text>
+<text x="60" y="425" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">Degradation pairs: 77.8%</text>
+<text x="150" y="610" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" fill="#1d252c" text-anchor="start">Interpretation: masking has clearer campaign-level slowdown; dropout is directional but less certain in bootstrap CI.</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="210" viewBox="0 0 780 210">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<line x1="180" y1="155" x2="740" y2="155" stroke="#d1d5db" stroke-width="1.5"/>
+<line x1="180" y1="30" x2="180" y2="170" stroke="#1f2937" stroke-width="1.6" stroke-dasharray="5 5"/>
+<line x1="180" y1="148" x2="180" y2="162" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="180" y="185" text-anchor="middle" class="tick">0</text>
+<line x1="315" y1="148" x2="315" y2="162" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="315" y="185" text-anchor="middle" class="tick">3</text>
+<line x1="405" y1="148" x2="405" y2="162" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="405" y="185" text-anchor="middle" class="tick">5</text>
+<line x1="495" y1="148" x2="495" y2="162" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="495" y="185" text-anchor="middle" class="tick">7</text>
+<line x1="630" y1="148" x2="630" y2="162" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="630" y="185" text-anchor="middle" class="tick">10</text>
+<text x="115" y="65" text-anchor="end" style="font-size:15px;font-weight:700;fill:#0f766e">Masking</text>
+<line x1="347.85" y1="60" x2="577.35" y2="60" stroke="#111827" stroke-width="2.5"/>
+<circle cx="461.25" cy="60" r="7" fill="#0f766e" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="570" y="65" text-anchor="start" style="font-size:14px">6.25 [3.73, 8.83]</text>
+<text x="115" y="120" text-anchor="end" style="font-size:15px;font-weight:700;fill:#f97316">Dropout</text>
+<line x1="253.35" y1="115" x2="507.15" y2="115" stroke="#111827" stroke-width="2.5"/>
+<circle cx="384.3" cy="115" r="7" fill="#f97316" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="570" y="120" text-anchor="start" style="font-size:14px">4.54 [1.63, 7.27]</text>
+<text x="430" y="205" text-anchor="middle" class="axis">posterior completion-time slowdown (s)</text>
+</svg>

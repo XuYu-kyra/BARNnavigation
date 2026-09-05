@@ -1,0 +1,999 @@
+% Appendix insert generated from appendix_restructured_2026-08-23_v3.md
+% Add these packages to the main preamble if they are not already present:
+% \usepackage{longtable}
+% \usepackage{calc}
+% Existing main.tex already appears to include graphicx, booktabs and array.
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\hypertarget{appendix-a-project-outline}{%
+\section{Appendix A --- Project Outline}\label{appendix-a-project-outline}}
+
+This appendix should contain the submitted project outline as an unaltered administrative document.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Item
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Source file
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Project outline & \texttt{/home/student24/Downloads/project\ outline3.0.docx} \\
+\end{longtable}
+
+Final-dissertation assembly note: insert the submitted project-outline document here in its original form. It should not be rewritten as part of the experimental evidence appendix, because it is a school-required administrative record rather than a generated research result.
+
+\hypertarget{appendix-b-risk-assessment}{%
+\section{Appendix B --- Risk Assessment}\label{appendix-b-risk-assessment}}
+
+This appendix should contain the submitted risk assessment as an unaltered administrative document.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Item & Source file \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Risk assessment & \texttt{/home/student24/Downloads/YuXu\_RA\ 1.pdf} \\
+\end{longtable}
+
+Final-dissertation assembly note: insert the submitted risk assessment here in its original form. The project was simulation-only and did not involve physical robot testing, hazardous materials, electrical modification or workshop activity.
+
+\hypertarget{appendix-c-experimental-configuration-and-environment-selection}{%
+\section{Appendix C --- Experimental Configuration and Environment Selection}\label{appendix-c-experimental-configuration-and-environment-selection}}
+
+\hypertarget{c.1-software-and-simulation-platform}{%
+\subsection{C.1 Software and Simulation Platform}\label{c.1-software-and-simulation-platform}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Item & Configuration used \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+ROS version & ROS 2 Jazzy \\
+Navigation stack & Nav2 \\
+Robot platform & Simulated Clearpath Jackal \\
+Simulator & Gazebo \\
+Benchmark environments & BARN ROS 2 navigation benchmark \\
+Total available BARN worlds & 300 \\
+Original comparison setup & \texttt{original\_clean} \\
+Formal experiment setup & \texttt{tuned\_clean} \\
+Global planner & \texttt{nav2\_navfn\_planner::NavfnPlanner} \\
+Local controller & \texttt{nav2\_mppi\_controller::MPPIController} \\
+Global frame & \texttt{odom} \\
+Robot base frame & \texttt{base\_link} \\
+Odometry topic & \texttt{/platform/odom/filtered} \\
+Formal run timeout & 300 s \\
+\end{longtable}
+
+The formal campaigns used the same \texttt{tuned\_clean} navigation configuration for both baseline and fault-injected runs. This kept the navigation stack fixed while only the injected fault condition changed.
+
+\hypertarget{c.2-purpose-of-tuned_clean}{%
+\subsection{\texorpdfstring{C.2 Purpose of \texttt{tuned\_clean}}{C.2 Purpose of tuned\_clean}}\label{c.2-purpose-of-tuned_clean}}
+
+The \texttt{tuned\_clean} configuration was used as an experimental control condition, not as a claimed contribution in navigation tuning. The original BARN ROS 2 setup produced a large number of nominal failures. If those nominal failures were left unresolved, later fault effects would be confounded with baseline instability.
+
+The role of \texttt{tuned\_clean} was therefore to make nominal navigation sufficiently stable before fault injection. This allowed the fault campaigns to compare paired baseline and fault runs under a cleaner baseline condition.
+
+\hypertarget{c.3-original-to-tuned_clean-changes}{%
+\subsection{\texorpdfstring{C.3 Original to \texttt{tuned\_clean} Changes}{C.3 Original to tuned\_clean Changes}}\label{c.3-original-to-tuned_clean-changes}}
+
+Only \texttt{nav2.yaml} differed between \texttt{original\_clean} and \texttt{tuned\_clean} in the local configuration diff.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Nav2 component
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Parameter
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Original value
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Tuned value
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Intended role
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+MPPI controller & \texttt{FollowPath.vx\_max} & 0.5 & 1.0 & Increased allowed forward speed to reduce overly slow nominal navigation. \\
+MPPI \texttt{PathAlignCritic} & \texttt{cost\_weight} & 14.0 & 10.0 & Reduced strict path-alignment pressure. \\
+MPPI \texttt{PathFollowCritic} & \texttt{cost\_weight} & 5.0 & 7.0 & Increased incentive to follow the reference path. \\
+Local costmap inflation layer & \texttt{inflation\_radius} & 0.8 & 0.65 & Reduced local obstacle-inflation conservatism. \\
+Global costmap inflation layer & \texttt{inflation\_radius} & 0.8 & 0.65 & Reduced global obstacle-inflation conservatism. \\
+\end{longtable}
+
+\hypertarget{c.4-key-fixed-nav2-parameters}{%
+\subsection{C.4 Key Fixed Nav2 Parameters}\label{c.4-key-fixed-nav2-parameters}}
+
+This table records the main fixed parameters needed to understand and reproduce the experiments. It intentionally lists the parameters that define the planner/controller and sensing-costmap interface, rather than every default parameter in the Nav2 configuration file.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Component
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Parameter
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Controller server & \texttt{controller\_frequency} & 20.0 Hz \\
+Controller plugin & \texttt{FollowPath} & \texttt{nav2\_mppi\_controller::MPPIController} \\
+MPPI & \texttt{time\_steps} & 56 \\
+MPPI & \texttt{model\_dt} & 0.05 \\
+MPPI & \texttt{batch\_size} & 2000 \\
+MPPI & \texttt{vx\_max} & 1.0 \\
+MPPI & \texttt{vx\_min} & -0.35 \\
+MPPI & \texttt{vy\_max} & 0.5 \\
+MPPI & \texttt{wz\_max} & 1.9 \\
+MPPI & \texttt{iteration\_count} & 1 \\
+MPPI & \texttt{motion\_model} & \texttt{DiffDrive} \\
+Progress checker & \texttt{required\_movement\_radius} & 0.5 m \\
+Progress checker & \texttt{movement\_time\_allowance} & 10.0 s \\
+Goal checker & \texttt{xy\_goal\_tolerance} & 0.25 m \\
+Goal checker & \texttt{yaw\_goal\_tolerance} & 0.25 rad \\
+Planner plugin & \texttt{GridBased} & \texttt{nav2\_navfn\_planner::NavfnPlanner} \\
+Planner tolerance & \texttt{tolerance} & 0.5 m \\
+Planner & \texttt{use\_astar} & false \\
+Planner & \texttt{allow\_unknown} & true \\
+\end{longtable}
+
+\hypertarget{c.5-key-costmap-and-scan-parameters}{%
+\subsection{C.5 Key Costmap and Scan Parameters}\label{c.5-key-costmap-and-scan-parameters}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2727}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3636}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Component
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Parameter
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Value
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Local costmap & \texttt{update\_frequency} & 5.0 Hz \\
+Local costmap & \texttt{publish\_frequency} & 2.0 Hz \\
+Local costmap & \texttt{width}, \texttt{height} & 5 m, 5 m \\
+Local costmap & \texttt{resolution} & 0.06 m \\
+Local costmap & \texttt{rolling\_window} & true \\
+Local costmap plugins & plugins & \texttt{voxel\_layer}, \texttt{inflation\_layer} \\
+Local inflation layer & \texttt{cost\_scaling\_factor} & 4.0 \\
+Local inflation layer & \texttt{inflation\_radius} & 0.65 m \\
+Global costmap & \texttt{update\_frequency} & 1.0 Hz \\
+Global costmap & \texttt{publish\_frequency} & 1.0 Hz \\
+Global costmap & \texttt{width}, \texttt{height} & 40 m, 40 m \\
+Global costmap & \texttt{resolution} & 0.06 m \\
+Global costmap & \texttt{rolling\_window} & false \\
+Global costmap plugins & plugins & \texttt{obstacle\_layer}, \texttt{inflation\_layer} \\
+Global inflation layer & \texttt{cost\_scaling\_factor} & 4.0 \\
+Global inflation layer & \texttt{inflation\_radius} & 0.65 m \\
+LaserScan obstacle max range & \texttt{obstacle\_max\_range} & 2.5 m \\
+LaserScan raytrace max range & \texttt{raytrace\_max\_range} & 3.0 m \\
+\end{longtable}
+
+\hypertarget{c.6-baseline-characterisation-runs}{%
+\subsection{C.6 Baseline Characterisation Runs}\label{c.6-baseline-characterisation-runs}}
+
+Before formal fault injection, all 300 BARN worlds were evaluated under both the original and tuned configurations.
+
+\begin{longtable}[]{@{}lr@{}}
+\toprule\noalign{}
+Quantity & Value \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Total BARN worlds & 300 \\
+Configurations tested & \texttt{original\_clean}, \texttt{tuned\_clean} \\
+Total baseline-characterisation runs & 600 \\
+Original configuration successes & 126 \\
+Tuned configuration successes & 210 \\
+Tune-dependent recovered worlds & 96 \\
+\end{longtable}
+
+\hypertarget{c.7-four-category-operational-definitions}{%
+\subsection{C.7 Four-Category Operational Definitions}\label{c.7-four-category-operational-definitions}}
+
+Worlds were classified using navigation outcome and a 60 s completion-time margin relative to the 300 s timeout.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Category
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Operational definition
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Count
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Stable success & Original and tuned configurations both succeeded, with sufficient tuned margin. & 102 \\
+Tune-dependent recovered & Original configuration failed, but tuned configuration succeeded. & 96 \\
+Marginal success & Tuned configuration succeeded but with less than 60 s margin to timeout. & 12 \\
+Persistent hard & Tuned configuration did not succeed. & 90 \\
+Total & All BARN worlds & 300 \\
+\end{longtable}
+
+\hypertarget{c.8-selected-formal-experiment-worlds}{%
+\subsection{C.8 Selected Formal Experiment Worlds}\label{c.8-selected-formal-experiment-worlds}}
+
+\begin{longtable}[]{@{}llr@{}}
+\toprule\noalign{}
+Category & Selected worlds & Count \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Stable success & 240, 274, 94, 8 & 4 \\
+Tune-dependent recovered & 86, 173, 76, 239 & 4 \\
+Marginal success & 250 & 1 \\
+Persistent hard & excluded & 0 \\
+\end{longtable}
+
+\hypertarget{c.9-441-allocation-calculation}{%
+\subsection{C.9 4:4:1 Allocation Calculation}\label{c.9-441-allocation-calculation}}
+
+Persistent-hard worlds were excluded from formal campaigns because the objective was to measure fault-induced degradation under navigable baseline conditions, not to evaluate worlds that already failed under the tuned nominal setup. This left 210 retained worlds.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2667}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Category
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Count
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Proportion among retained worlds
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Expected count in 9-world subset
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Stable success & 102 & 48.6\% & 4.37 \\
+Tune-dependent recovered & 96 & 45.7\% & 4.11 \\
+Marginal success & 12 & 5.7\% & 0.51 \\
+\end{longtable}
+
+The expected 9-world allocation was rounded into a practical 4:4:1 design: four stable worlds, four tune-dependent worlds and one marginal world. The marginal category was retained rather than rounded to zero so that near-timeout successful navigation remained represented.
+
+\hypertarget{appendix-d-fault-screening-and-fault-realism}{%
+\section{Appendix D --- Fault Screening and Fault Realism}\label{appendix-d-fault-screening-and-fault-realism}}
+
+\hypertarget{d.1-scoring-rubric}{%
+\subsection{D.1 Scoring Rubric}\label{d.1-scoring-rubric}}
+
+Candidate faults were screened using two first-level criteria. The scores were qualitative engineering judgements used for selection, not estimates of real-world occurrence probability.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Criterion
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Meaning
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Practical plausibility & Whether the fault has a defensible real-world manifestation in mobile robot operation. \\
+Experimental suitability & Whether the fault can be implemented, repeated, observed and compared in the simulation campaign. \\
+\end{longtable}
+
+Experimental suitability included the following practical considerations:
+
+\begin{itemize}
+\tightlist
+\item
+  Repeatability: the same fault can be applied consistently across worlds and repetitions.
+\item
+  Controllability: fault start, duration, spatial extent or intensity can be set explicitly.
+\item
+  Observability: effects can be measured through logged Nav2 and robot signals.
+\item
+  Comparability: baseline and fault runs can be paired under the same world and navigation setup.
+\item
+  Automation: the fault can be run repeatedly without manual intervention.
+\item
+  Avoiding trivial catastrophic failure: the fault should not simply crash the system or make all runs fail immediately.
+\end{itemize}
+
+\hypertarget{d.2-full-candidate-fault-ranking}{%
+\subsection{D.2 Full Candidate Fault Ranking}\label{d.2-full-candidate-fault-ranking}}
+
+This table records the complete candidate set considered during fault selection, not only the faults that were eventually used in formal campaigns.
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+Priority
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fault candidate
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Practical plausibility
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Experimental suitability
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Decision
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Frontal LiDAR sector masking & 5 & 5 & Formal campaign \\
+2 & Intermittent LiDAR dropout & 4 & 5 & Formal campaign \\
+3 & Odometry drift / encoder bias & 5 & 4 & Exploratory branch only \\
+4 & LiDAR range bias / inflation & 4 & 4 & Not implemented \\
+5 & Localisation jump / pose offset & 3 & 4 & Not implemented \\
+6 & Actuation degradation & 3 & 4 & Moved to recovery/reconfiguration discussion \\
+7 & TF interruption & 2 & 3 & Not implemented \\
+8 & Planner server stall / action timeout & 2 & 2 & Not implemented \\
+9 & Random Nav2 node crash & 1 & 2 & Stress case only \\
+\end{longtable}
+
+\hypertarget{d.3-selected-fault-physical-interpretation}{%
+\subsection{D.3 Selected-Fault Physical Interpretation}\label{d.3-selected-fault-physical-interpretation}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Formal fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Real-world manifestation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Experimental abstraction
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Literature support
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal LiDAR sector masking & Dirt, water droplets, mud, tape, or other foreign material obscuring part of the sensor cover. & Continuous frontal 90 degree sector replacement with maximum-range returns during the active fault window. & Sensor-cover contamination has been experimentally shown to affect LiDAR outputs \cite{schlager2022contaminations}; occlusion masking and field-of-view reduction are recognised structured LiDAR degradation modes \cite{felix2026lidardegradation}; LiDAR fault handling fits the broader FDIIR context \cite{goelles2020fdiir}. \\
+Structured intermittent sector-level LiDAR information loss & Intermittent loss of usable LiDAR information due to unstable connection, communication interruption, sensor-driver instability or packet loss affecting part of the scan stream. & Frontal 90 degree sector periodically replaced by \texttt{range\_max} with a 1.0 s period and 50\% duty cycle. This is not whole-topic packet loss; the rest of the scan remains available. & Structured dropout is a recognised LiDAR degradation mode \cite{felix2026lidardegradation}; LiDAR fault detection and recovery are discussed in FDIIR and mobile-robot fault-tolerance contexts \cite{goelles2020fdiir,elsayed2024lidarfaults}. \\
+\end{longtable}
+
+The 90 degree sector width, 20 s duration and 50\% duty cycle are controlled experimental severity settings. They are not claimed to estimate real-world fault distributions. The purpose of these settings was to create repeatable and observable spatial and temporal LiDAR degradations for controlled Nav2 fault-propagation experiments.
+
+\hypertarget{appendix-e-fault-injection-and-replication-details}{%
+\section{Appendix E --- Fault Injection and Replication Details}\label{appendix-e-fault-injection-and-replication-details}}
+
+\hypertarget{e.1-topic-wiring}{%
+\subsection{E.1 Topic Wiring}\label{e.1-topic-wiring}}
+
+The formal scan fault injector operated at the LiDAR scan interface.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Element
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Topic / setting
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Input scan & \texttt{/front/scan} \\
+Faulted scan output & \texttt{/front/scan\_faulted} \\
+Fault-active signal & \texttt{/fault/scan\_active} \\
+Fault injector script & \texttt{jackal\_helper/scripts/laser\_scan\_fault\_injector.py} \\
+Launch integration & \texttt{jackal\_helper/launch/BARN\_runner.launch.py} \\
+\end{longtable}
+
+In fault-injected runs, the injector received \texttt{/front/scan}, modified the affected sector according to the configured fault model, and published \texttt{/front/scan\_faulted} for downstream Nav2 consumption.
+
+\hypertarget{e.2-exact-fault-injector-parameters}{%
+\subsection{E.2 Exact Fault Injector Parameters}\label{e.2-exact-fault-injector-parameters}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Parameter
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Frontal masking
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Intermittent dropout
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\texttt{fault\_mode} & \texttt{mask} & \texttt{dropout} \\
+\texttt{fault\_start\_s} & 15.0 & 15.0 \\
+\texttt{fault\_duration\_s} & 20.0 & 20.0 \\
+\texttt{fault\_center\_deg} & 0.0 & 0.0 \\
+\texttt{fault\_width\_deg} & 90.0 & 90.0 \\
+\texttt{replacement\_value} & \texttt{range\_max} & \texttt{range\_max} during degraded burst \\
+\texttt{dropout\_period\_s} & not applicable & 1.0 \\
+\texttt{dropout\_duty\_cycle} & not applicable & 0.5 \\
+\texttt{fault\_active\_topic} & \texttt{/fault/scan\_active} & \texttt{/fault/scan\_active} \\
+\end{longtable}
+
+Implementation detail: the injector sets affected beam ranges to \texttt{msg.range\_max} when \texttt{replacement\_value=\textquotesingle{}range\_max\textquotesingle{}}. During dropout, this replacement is applied only during the active part of each dropout cycle; outside that part of the cycle, scans pass through.
+
+\hypertarget{e.3-formal-campaign-replication}{%
+\subsection{E.3 Formal Campaign Replication}\label{e.3-formal-campaign-replication}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1579}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2105}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault campaign
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Worlds
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Pairs per world
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Conditions per pair
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Runs per fault
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal LiDAR masking & 9 & 6 & baseline + fault & 108 \\
+Intermittent LiDAR dropout & 9 & 6 & baseline + fault & 108 \\
+Total formal fault campaigns & 9 & 6 & 2 faults x 2 conditions & 216 \\
+\end{longtable}
+
+Each pair consisted of one nominal run and one fault-injected run in the same world. Condition order within a pair was randomised by the campaign script to reduce ordering effects.
+
+\hypertarget{e.4-sequential-pilot-stopping-criterion}{%
+\subsection{E.4 Sequential Pilot Stopping Criterion}\label{e.4-sequential-pilot-stopping-criterion}}
+
+The number of repetitions was selected using a pilot sequential paired design. For each pair, the completion-time difference was calculated as:
+
+\texttt{d\_i\ =\ T\_fault,i\ -\ T\_baseline,i}
+
+After each replication stage, the 95\% confidence interval half-width \texttt{h} for the paired differences was evaluated. The stopping rule was:
+
+\begin{itemize}
+\tightlist
+\item
+  stop if \texttt{h\ \textless{}\ 5\ s}, or
+\item
+  stop if \texttt{h\ \textless{}\ 0.25\ x\ \textbar{}mean(d)\textbar{}}.
+\end{itemize}
+
+The 5 s threshold was treated as a practical precision target: it is 1.67\% of the 300 s timeout and small relative to typical successful run times of approximately 150-250 s. The relative 25\% rule prevented excessive repetition when the observed effect was larger.
+
+Pilot repeat studies showed that six pairs provided an acceptable balance between paired-effect stability and computational cost. For example, the W8 frontal masking pilot reached \texttt{mean\_d\ =\ 4.827\ s} with \texttt{ci95\_halfwidth\ =\ 2.391\ s} after six pairs, satisfying the absolute precision rule. Six pairs per world were therefore fixed for both formal campaigns to keep the design consistent across faults and environments.
+
+\hypertarget{appendix-f-statistical-diagnostics}{%
+\section{Appendix F --- Statistical Diagnostics}\label{appendix-f-statistical-diagnostics}}
+
+\hypertarget{f.1-primary-and-sensitivity-analysis}{%
+\subsection{F.1 Primary and Sensitivity Analysis}\label{f.1-primary-and-sensitivity-analysis}}
+
+Primary completion-time analysis used matched-success pairs. All-pair/capped analysis used the 300 s campaign cap for non-successful runs and was treated as sensitivity analysis.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1500}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1500}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Analysis
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n pairs
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Mean paired difference
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+95\% interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Interpretation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal masking & matched-success primary & 47 & +5.97 s & {[}3.36, 8.46{]} s & Positive slowdown. \\
+LiDAR dropout & matched-success primary & 40 & +4.77 s & {[}2.11, 7.03{]} s & Positive slowdown. \\
+Frontal masking & all-pair capped sensitivity & 54 & +9.21 s & {[}1.27, 20.14{]} s & Positive direction with wider uncertainty. \\
+LiDAR dropout & all-pair capped sensitivity & 54 & +6.43 s & {[}-0.58, 15.72{]} s & Positive direction but interval includes zero. \\
+\end{longtable}
+
+The matched-success analysis is the primary analysis because it estimates degradation among runs where both baseline and fault conditions completed the task. The all-pair/capped analysis is retained to show sensitivity to unsuccessful or timeout-adjacent behaviour.
+
+\hypertarget{f.2-bootstrap-implementation}{%
+\subsection{F.2 Bootstrap Implementation}\label{f.2-bootstrap-implementation}}
+
+Uncertainty for descriptive paired effects was estimated using cluster bootstrap resampling. Resampling respected world-level grouping so that repeated pairs from the same world were not treated as fully independent observations from unrelated environments.
+
+\hypertarget{f.3-bayesian-model-specification}{%
+\subsection{F.3 Bayesian Model Specification}\label{f.3-bayesian-model-specification}}
+
+A robust hierarchical Student-t model was fitted to matched-success paired completion-time differences. Effects were oriented so that positive values mean fault-induced degradation.
+
+\begin{verbatim}
+y_ij ~ StudentT(nu, theta_j, sigma)
+theta_j = mu + tau * theta_offset_j
+theta_offset_j ~ Normal(0, 1)
+mu ~ Normal(0, 10 * prior_scale)
+tau ~ HalfNormal(5 * prior_scale)
+sigma ~ HalfNormal(5 * prior_scale)
+nu_minus_two ~ Exponential(1 / 30)
+nu = nu_minus_two + 2
+\end{verbatim}
+
+\texttt{prior\_scale} was computed separately for each fault and metric in the PyMC script as:
+
+\begin{verbatim}
+prior_scale = max(sample_sd(y), abs(mean(y)), meaningful_threshold, 1e-3)
+\end{verbatim}
+
+For the primary completion-time models, the meaningful threshold was 5 s. This gave \texttt{prior\_scale\ =\ 6.981\ s} for frontal masking and \texttt{prior\_scale\ =\ 5.698\ s} for structured intermittent sector-level dropout. Therefore, the corresponding prior standard deviations were 69.81 s and 56.98 s for \texttt{mu}, and 34.91 s and 28.49 s for \texttt{tau} and \texttt{sigma}. These priors are deliberately weakly regularising relative to the observed paired differences.
+
+\texttt{mu} is the global slowdown effect. \texttt{theta\_j} is the world-specific slowdown effect. \texttt{tau} is the between-world heterogeneity scale. \texttt{sigma} is within-world residual variation. The Student-t likelihood was used because Gazebo/Nav2 experiments can produce occasional long-tail timing outliers; this reduces sensitivity compared with a Normal likelihood.
+
+The practical threshold for meaningful degradation was 5 s, matching the replication stopping criterion and the smallest slowdown treated as operationally meaningful in the analysis.
+
+\hypertarget{f.4-sampling-diagnostics}{%
+\subsection{F.4 Sampling Diagnostics}\label{f.4-sampling-diagnostics}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0882}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.1176}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 16\tabcolsep) * \real{0.0882}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Chains
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Draws per chain
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Posterior draws
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Divergences
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Max treedepth hits
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Mean acceptance rate
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Min BFMI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Sampling OK
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal masking & 4 & 1000 & 4000 & 0 & 0 & 0.950 & 0.728 & True \\
+LiDAR dropout & 4 & 1000 & 4000 & 0 & 0 & 0.947 & 0.584 & True \\
+\end{longtable}
+
+R-hat and effective sample size diagnostics for key parameters met the reporting thresholds of R-hat \textless= 1.01 and ESS \textgreater= 400.
+
+\hypertarget{f.5-global-bayesian-effects}{%
+\subsection{F.5 Global Bayesian Effects}\label{f.5-global-bayesian-effects}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0714}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0714}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 20\tabcolsep) * \real{0.0952}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n worlds
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n pairs
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Posterior median
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+95\% CrI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+P(effect \textgreater{} 0)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+P(effect \textgreater{} 5 s)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+tau median
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+sigma median
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+R-hat(mu)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+ESS(mu)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal masking & 9 & 47 & 6.25 s & {[}3.73, 8.83{]} s & 1.000 & 0.843 & 1.30 & 6.58 & 1.000 & 2601 \\
+LiDAR dropout & 9 & 40 & 4.54 s & {[}1.63, 7.27{]} s & 0.998 & 0.342 & 2.10 & 5.17 & 1.002 & 1498 \\
+\end{longtable}
+
+The posterior probability that slowdown is greater than zero was high for both faults. The probability of exceeding the 5 s practical threshold was higher for masking than dropout, indicating stronger practical evidence for masking under the selected fault settings.
+
+\hypertarget{f.6-posterior-predictive-checks}{%
+\subsection{F.6 Posterior Predictive Checks}\label{f.6-posterior-predictive-checks}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1667}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Observed mean
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+PPC mean median
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+PPC mean 95\% interval
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Pointwise 95\% PPC coverage
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Frontal masking & 5.97 s & 6.21 s & {[}3.26, 9.05{]} s & 0.957 \\
+LiDAR dropout & 4.77 s & 4.69 s & {[}2.25, 7.16{]} s & 0.975 \\
+\end{longtable}
+
+Posterior predictive checks compared observed paired slowdowns with simulated replicated datasets from the fitted model. The checks indicated that the model reproduced the observed mean slowdown adequately for both faults.
+
+\hypertarget{f.7-world-level-bayesian-numerical-table}{%
+\subsection{F.7 World-Level Bayesian Numerical Table}\label{f.7-world-level-bayesian-numerical-table}}
+
+Use landscape layout in the final dissertation document if this table is retained in full.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+World
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+n pairs
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Observed world mean degradation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Posterior median
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+95\% CrI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+P(effect \textgreater{} 0)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+P(effect \textgreater{} 5 s)
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Masking & 8 & 6 & 6.81 & 6.28 & {[}3.16, 9.65{]} & 1.000 & 0.810 \\
+Masking & 76 & 6 & 5.16 & 6.15 & {[}2.59, 9.27{]} & 0.999 & 0.772 \\
+Masking & 86 & 6 & 8.15 & 6.66 & {[}3.53, 10.75{]} & 1.000 & 0.858 \\
+Masking & 94 & 6 & 1.01 & 5.35 & {[}0.23, 8.38{]} & 0.978 & 0.577 \\
+Masking & 173 & 5 & 6.80 & 6.49 & {[}3.15, 10.85{]} & 0.999 & 0.834 \\
+Masking & 239 & 1 & 11.54 & 6.48 & {[}2.51, 11.78{]} & 0.996 & 0.808 \\
+Masking & 240 & 6 & 3.94 & 5.82 & {[}1.94, 8.79{]} & 0.997 & 0.693 \\
+Masking & 250 & 5 & 7.84 & 6.48 & {[}3.26, 10.27{]} & 1.000 & 0.848 \\
+Masking & 274 & 6 & 7.57 & 6.48 & {[}3.33, 10.05{]} & 0.999 & 0.833 \\
+Dropout & 8 & 5 & 5.31 & 4.91 & {[}1.59, 8.52{]} & 0.996 & 0.476 \\
+Dropout & 76 & 5 & 3.66 & 4.32 & {[}0.59, 7.46{]} & 0.986 & 0.308 \\
+Dropout & 86 & 6 & 3.72 & 4.27 & {[}0.76, 7.36{]} & 0.991 & 0.319 \\
+Dropout & 94 & 6 & 8.19 & 5.69 & {[}2.65, 10.07{]} & 0.999 & 0.659 \\
+Dropout & 173 & 2 & 0.60 & 4.01 & {[}-2.14, 8.13{]} & 0.920 & 0.292 \\
+Dropout & 239 & 1 & 10.55 & 5.32 & {[}0.94, 12.26{]} & 0.988 & 0.566 \\
+Dropout & 240 & 6 & 6.47 & 5.29 & {[}2.31, 8.89{]} & 0.999 & 0.576 \\
+Dropout & 250 & 3 & -4.06 & 2.22 & {[}-5.04, 6.16{]} & 0.710 & 0.117 \\
+Dropout & 274 & 6 & 6.00 & 5.13 & {[}2.12, 8.75{]} & 0.998 & 0.542 \\
+\end{longtable}
+
+\hypertarget{appendix-g-propagation-and-recovery-supporting-evidence}{%
+\section{Appendix G --- Propagation and Recovery Supporting Evidence}\label{appendix-g-propagation-and-recovery-supporting-evidence}}
+
+This appendix summarises supporting evidence for propagation tracing, conditional classifier validation and exploratory recovery. Full raw logs, bags, CSVs and figures are retained in the evidence directory; only the highest-value evidence is summarised here.
+
+\hypertarget{g.1-typical-and-extreme-case-selection-summary}{%
+\subsection{G.1 Typical and Extreme Case Selection Summary}\label{g.1-typical-and-extreme-case-selection-summary}}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\linewidth]{/home/student24/dissertation/barn_ros2/dissertation_evidence_index/03_figures_for_dissertation/thesis_figures_v4/png/fig_06_case_selection.png}
+\caption{Typical and extreme case selection summary}
+\end{figure}
+
+The case-selection summary identifies representative cases used for targeted propagation tracing. W8 masking and W240 dropout were retained as characteristic cases for layer-by-layer interpretation, while more extreme cases were kept for sensitivity discussion rather than primary mechanism claims.
+
+\hypertarget{g.2-representative-direct-propagation-traces}{%
+\subsection{G.2 Representative Direct Propagation Traces}\label{g.2-representative-direct-propagation-traces}}
+
+The direct traces were targeted figure-evidence runs rather than additional campaign repetitions. They align the fault-active signal with scan degradation proxies, costmap occupancy, commanded velocity, odometry speed and planner-update count.
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\linewidth]{/home/student24/dissertation/barn_ros2/dissertation_evidence_index/06_direct_propagation_tracing/w8_masking_timeline.png}
+\caption{World 8 frontal masking direct propagation trace}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.95\linewidth]{/home/student24/dissertation/barn_ros2/dissertation_evidence_index/06_direct_propagation_tracing/w240_dropout_timeline.png}
+\caption{World 240 structured intermittent sector-level dropout direct propagation trace}
+\end{figure}
+
+\hypertarget{g.3-conditional-fault-type-identification-evidence}{%
+\subsection{G.3 Conditional Fault-Type Identification Evidence}\label{g.3-conditional-fault-type-identification-evidence}}
+
+The initial scan-only detector was not retained because normal environment geometry could produce false alarms in open or sparse scenes. The final classifier therefore used a controlled fault-presence signal and a 2 s scan-signature observation window to identify the fault type.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1000}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1333}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Validation stage
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Evidence mode
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Observation window
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Episodes
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Correct
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Wrong type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Unknown
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Mean latency
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Development & online & 2.0 s & 6 & 6 & 0 & 0 & 2.0 s \\
+Held-out final-logic revalidation & online & 2.0 s & 4 & 4 & 0 & 0 & 2.0 s \\
+\end{longtable}
+
+Claim boundary: this is a conditional episode-level fault-type classifier after controlled fault-presence indication, not a general autonomous detector of unknown real-world faults.
+
+\hypertarget{g.4-closed-loop-integration-evidence}{%
+\subsection{G.4 Closed-Loop Integration Evidence}\label{g.4-closed-loop-integration-evidence}}
+
+\hypertarget{g.4a-primary-w8-integration-smoke-test}{%
+\subsubsection{G.4a Primary W8 Integration Smoke Test}\label{g.4a-primary-w8-integration-smoke-test}}
+
+The W8 integration smoke test checked whether the implemented system could route both LiDAR fault types through the full software chain:
+
+\texttt{controlled\ fault-presence\ trigger\ -\textgreater{}\ 2\ s\ classifier\ -\textgreater{}\ policy\ selector\ -\textgreater{}\ fault-aware\ policy}
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1739}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1304}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1304}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1739}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+World
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Timing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predicted type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Selected policy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Outcome
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Completion time
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+8 & masking & start 5 s, duration 20 s & MASKING & masking Nav2 recovery & succeeded & 97.9390 s \\
+8 & structured intermittent sector-level dropout & start 5 s, duration 20 s & DROPOUT & dropout scan filter & succeeded & 101.9310 s \\
+\end{longtable}
+
+This supports the limited claim that both selector branches were exercised end-to-end. It does not establish cross-world recovery effectiveness.
+
+\hypertarget{g.4b-supporting-w240-sanity-and-stress-observations}{%
+\subsubsection{G.4b Supporting W240 Sanity and Stress Observations}\label{g.4b-supporting-w240-sanity-and-stress-observations}}
+
+\begin{longtable}[]{@{}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1538}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1538}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1154}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedleft
+World
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Timing
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Predicted type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Selected policy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Outcome
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Completion time
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Use in dissertation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+240 & structured intermittent sector-level dropout & start 5 s, duration 20 s & DROPOUT & dropout scan filter & succeeded & 283.7023 s & Stress observation: routing worked but mission was close to timeout. \\
+240 & masking & start 5 s, duration 20 s & MASKING & masking Nav2 recovery & collided & 45.6221 s & Stress observation: correct routing did not guarantee safe recovery. \\
+240 & structured intermittent sector-level dropout & start 15 s, duration 20 s & no final decision & no policy enabled & succeeded & 99.0186 s & Sanity check: formal timing remained navigable. \\
+240 & masking & start 15 s, duration 20 s & no final decision & no policy enabled & succeeded & 112.6154 s & Sanity check: formal timing remained navigable. \\
+\end{longtable}
+
+These W240 runs are supporting observations only. They should not be reported as part of the primary closed-loop validation claim.
+
+\hypertarget{g.5-recovery-layer-evidence-summary}{%
+\subsection{G.5 Recovery Layer Evidence Summary}\label{g.5-recovery-layer-evidence-summary}}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Intended recovery layer
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Main layer-level observation
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Mission-level result
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Claim boundary
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Masking & Behaviour/action layer & Scan degradation remained unchanged (\texttt{range\_max} ratio 1.000 -\textgreater{} 1.000), while command and odometry behaviour changed. & Completion time increased from 86.0834 s to 112.2875 s. & Behavioural intervention was visible, but mission-level improvement was not demonstrated. \\
+Structured intermittent sector-level dropout & Scan layer & Scan \texttt{range\_max} ratio decreased from 0.8320 to 0.4593 and scan-span ratio decreased from 0.8139 to 0.4302. & Completion time increased from 84.9901 s to 93.0634 s. & Scan-layer correction was visible, but mission-level improvement was not demonstrated. \\
+\end{longtable}
+
+The recovery results should therefore be interpreted as exploratory layer-level evidence. They show that the interventions affected the intended layer, but they do not support a claim of improved navigation performance.
+
+\hypertarget{g.6-persistent-fault-sensitivity-evidence}{%
+\subsection{G.6 Persistent-Fault Sensitivity Evidence}\label{g.6-persistent-fault-sensitivity-evidence}}
+
+Persistent-fault runs were treated as stress/sensitivity evidence rather than replacements for the formal 20 s transient campaign. They informed recovery design, but formal fault-effect conclusions remain based on the fixed 15-35 s transient fault window.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1579}}
+  >{\raggedleft\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2105}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1579}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1579}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Test
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Fault
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Recovery
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedleft
+Pairs / runs
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Outcome summary
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Interpretation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+W8 masking persistent no-recovery smoke & Masking & off & 1 run & succeeded, 79.2973 s & Persistent masking was not automatically catastrophic in W8. \\
+W240 structured intermittent sector-level dropout persistent no-recovery retry & Dropout & off & 1 run & succeeded, 85.2632 s & Persistent dropout remained navigable in this retry. \\
+W240 persistent dropout paired characterisation & Dropout & off & 6 pairs & all baseline and fault runs succeeded & Persistent dropout produced measurable but non-catastrophic behaviour in W240. \\
+\end{longtable}

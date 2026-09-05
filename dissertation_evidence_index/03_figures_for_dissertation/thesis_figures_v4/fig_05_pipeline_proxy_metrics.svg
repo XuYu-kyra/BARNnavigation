@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style><![CDATA[text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.title{font-size:34px;font-weight:700}.subtitle{font-size:19px;fill:#4b5563}.axis{font-size:16px;fill:#4b5563}.tick{font-size:14px;fill:#6b7280}.label{font-size:18px;font-weight:700}.note{font-size:16px;fill:#4b5563}]]></style>
+<text x="70" y="62" text-anchor="start" class="title">Pipeline-level proxy metrics</text>
+<text x="70" y="95" text-anchor="start" class="subtitle">Matched-success descriptive effects; all metrics are oriented so positive values indicate degradation.</text>
+<line x1="70" y1="120" x2="1430" y2="120" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="245" y="185" text-anchor="middle" style="font-size:17px;font-weight:700">Stop ratio</text>
+<line x1="170" y1="660" x2="350" y2="660" stroke="#9ca3af" stroke-width="2"/>
+<rect x="205" y="260.0" width="52" height="400.0" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="231" y="248.0" text-anchor="middle" style="font-size:14px">0.053</text>
+<rect x="283" y="444.60589303144445" width="52" height="215.39410696855552" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="309" y="432.60589303144445" text-anchor="middle" style="font-size:14px">0.028</text>
+<text x="555" y="185" text-anchor="middle" style="font-size:17px;font-weight:700">Mean speed decrease</text>
+<line x1="480" y1="660" x2="660" y2="660" stroke="#9ca3af" stroke-width="2"/>
+<rect x="515" y="260.00000000000006" width="52" height="399.99999999999994" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="541" y="248.00000000000006" text-anchor="middle" style="font-size:14px">0.0013</text>
+<rect x="593" y="349.3767560472543" width="52" height="310.6232439527457" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="619" y="337.3767560472543" text-anchor="middle" style="font-size:14px">0.0010</text>
+<text x="865" y="185" text-anchor="middle" style="font-size:17px;font-weight:700">Controller updates</text>
+<line x1="790" y1="660" x2="970" y2="660" stroke="#9ca3af" stroke-width="2"/>
+<rect x="825" y="260.0" width="52" height="400.0" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="851" y="248.0" text-anchor="middle" style="font-size:14px">5.9</text>
+<rect x="903" y="333.705035971223" width="52" height="326.294964028777" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="929" y="321.705035971223" text-anchor="middle" style="font-size:14px">4.8</text>
+<text x="1175" y="185" text-anchor="middle" style="font-size:17px;font-weight:700">Max stop streak (s)</text>
+<line x1="1100" y1="660" x2="1280" y2="660" stroke="#9ca3af" stroke-width="2"/>
+<rect x="1135" y="358.4475766832807" width="52" height="301.5524233167193" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="1161" y="346.4475766832807" text-anchor="middle" style="font-size:14px">10.8</text>
+<rect x="1213" y="259.99999999999994" width="52" height="400.00000000000006" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="1239" y="247.99999999999994" text-anchor="middle" style="font-size:14px">14.3</text>
+<circle cx="560" cy="745" r="8" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="580" y="751" text-anchor="start" style="font-size:15px">Frontal masking</text>
+<circle cx="760" cy="745" r="8" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="780" y="751" text-anchor="start" style="font-size:15px">LiDAR dropout</text>
+<text x="750" y="815" text-anchor="middle" class="note">These are mechanism-consistent proxy metrics, not formal causal mediation evidence.</text>
+</svg>

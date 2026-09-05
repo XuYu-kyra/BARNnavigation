@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Pipeline-Level Proxy Evidence</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">All metrics are oriented so positive values indicate degradation. These are aggregate proxies, not direct propagation proof.</text>
+<rect x="85" y="150" width="500" height="155" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="109" y="185" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Stop ratio</text>
+<text x="109" y="237" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="270" y="220" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="270" y="220" width="145.1089399046353" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="535" y="237" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">0.05</text>
+<text x="109" y="279" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="270" y="262" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="270" y="262" width="78.13902630978177" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="535" y="279" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">0.03</text>
+<rect x="670" y="150" width="500" height="155" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="694" y="185" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Speed decrease</text>
+<text x="694" y="237" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="855" y="220" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="855" y="220" width="175.1581050787488" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="1120" y="237" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">0.0013</text>
+<text x="694" y="279" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="855" y="262" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="855" y="262" width="136.02044701044218" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1120" y="279" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">0.0010</text>
+<rect x="85" y="380" width="500" height="155" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="109" y="415" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Controller updates</text>
+<text x="109" y="467" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="270" y="450" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="270" y="450" width="180.60523868882552" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="535" y="467" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">5.91</text>
+<text x="109" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="270" y="492" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="270" y="492" width="147.3264496534475" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="535" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">4.83</text>
+<rect x="670" y="380" width="500" height="155" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="694" y="415" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Max stop streak</text>
+<text x="694" y="467" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="855" y="450" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="855" y="450" width="115.25758381049371" height="23" rx="12" fill="#1f6f8b" stroke="none" stroke-width="1"/>
+<text x="1120" y="467" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="end">10.77</text>
+<text x="694" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="855" y="492" width="250" height="23" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="855" y="492" width="152.88563433554523" height="23" rx="12" fill="#d9822b" stroke="none" stroke-width="1"/>
+<text x="1120" y="509" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="end">14.29</text>
+<text x="85" y="650" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="start">Interpretation: successful fault runs show slower/more hesitant behaviour and more controller activity, consistent with the proposed mechanism.</text>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Completion-Time Effect: Matched Success vs All Pairs</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">This separates clean continuous completion-time inference from sensitivity including non-success/capped outcomes.</text>
+<line x1="401.85185185185185" y1="145" x2="401.85185185185185" y2="495" stroke="#d8d2c8" stroke-width="1"/>
+<text x="401.85185185185185" y="530" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="middle">0s</text>
+<line x1="553.7037037037037" y1="145" x2="553.7037037037037" y2="495" stroke="#d8d2c8" stroke-width="1"/>
+<text x="553.7037037037037" y="530" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="middle">5s</text>
+<line x1="705.5555555555557" y1="145" x2="705.5555555555557" y2="495" stroke="#d8d2c8" stroke-width="1"/>
+<text x="705.5555555555557" y="530" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="middle">10s</text>
+<line x1="857.4074074074074" y1="145" x2="857.4074074074074" y2="495" stroke="#d8d2c8" stroke-width="1"/>
+<text x="857.4074074074074" y="530" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="middle">15s</text>
+<line x1="1009.2592592592592" y1="145" x2="1009.2592592592592" y2="495" stroke="#d8d2c8" stroke-width="1"/>
+<text x="1009.2592592592592" y="530" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="400" fill="#64717a" text-anchor="middle">20s</text>
+<line x1="401.85185185185185" y1="140" x2="401.85185185185185" y2="495" stroke="#333" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="55" y="203" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<text x="55" y="238" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#64717a" text-anchor="start">Matched success pairs (n=47)</text>
+<line x1="455.67080555555555" y1="230" x2="727.3631096707818" y2="230" stroke="#1f6f8b" stroke-width="7"/>
+<circle cx="583.1342726556343" cy="230" r="11" fill="#1f6f8b"/>
+<text x="739.3631096707818" y="235" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#1f6f8b" text-anchor="start">+5.97s [+1.77, +10.72]</text>
+<text x="55" y="288" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#64717a" text-anchor="start">All pairs sensitivity (n=54)</text>
+<line x1="176.87815349794235" y1="280" x2="1527.3578767489707" y2="280" stroke="#6b7280" stroke-width="7"/>
+<circle cx="681.5500274348421" cy="280" r="11" fill="#6b7280"/>
+<text x="1539.3578767489707" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#6b7280" text-anchor="start">+9.21s [-7.41, +37.06]</text>
+<text x="55" y="353" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<text x="55" y="388" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#64717a" text-anchor="start">Matched success pairs (n=40)</text>
+<line x1="416.5824263374487" y1="380" x2="655.7101345679013" y2="380" stroke="#d9822b" stroke-width="7"/>
+<circle cx="546.670912962963" cy="380" r="11" fill="#d9822b"/>
+<text x="667.7101345679013" y="385" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#d9822b" text-anchor="start">+4.77s [+0.49, +8.36]</text>
+<text x="55" y="438" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="600" fill="#64717a" text-anchor="start">All pairs sensitivity (n=54)</text>
+<line x1="132.47298539094646" y1="430" x2="1336.0463172839502" y2="430" stroke="#6b7280" stroke-width="7"/>
+<circle cx="597.161341563786" cy="430" r="11" fill="#6b7280"/>
+<text x="1348.0463172839502" y="435" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#6b7280" text-anchor="start">+6.43s [-8.87, +30.76]</text>
+<text x="250" y="635" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="start">Reporting implication: use matched-success pairs as the clean continuous-time analysis; all-pair result is a sensitivity check.</text>
+</svg>

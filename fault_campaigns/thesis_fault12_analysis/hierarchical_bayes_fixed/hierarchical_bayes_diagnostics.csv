@@ -1,0 +1,13 @@
+fault_label,metric,chains,iterations,burn_in,thin,posterior_samples_per_chain,rhat_mu,note
+frontal_masking,actual_path_length_m,4,2000,500,2,750,0.9995843330916592,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,completion_time_s,4,2000,500,2,750,0.99948440311936,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,controller_new_path_count,4,2000,500,2,750,1.0006314977614594,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_max_stop_streak_s,4,2000,500,2,750,1.0004436118558548,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_mean_speed_mps,4,2000,500,2,750,1.0002614987799796,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_stop_ratio,4,2000,500,2,750,1.0006182107931465,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,actual_path_length_m,4,2000,500,2,750,0.9997366349757322,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,completion_time_s,4,2000,500,2,750,1.0000669668581794,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,controller_new_path_count,4,2000,500,2,750,0.9994926975636281,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_max_stop_streak_s,4,2000,500,2,750,0.9995386713222246,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_mean_speed_mps,4,2000,500,2,750,0.9999087627185149,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_stop_ratio,4,2000,500,2,750,0.9996861027337801,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.

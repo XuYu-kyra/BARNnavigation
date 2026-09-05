@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Robust Hierarchical Bayesian Model</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Model specification for matched-success completion-time inference.</text>
+<rect x="80" y="155" width="550" height="230" rx="22" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="355" y="205" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#1f6f8b" text-anchor="middle">dᵢⱼ ~ Student-t(ν, θⱼ, σ)</text>
+<text x="355" y="265" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700" fill="#d9822b" text-anchor="middle">θⱼ ~ Normal(μ, τ)</text>
+<text x="355" y="325" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="middle">positive d means slower under fault</text>
+<rect x="700" y="155" width="480" height="230" rx="22" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="735" y="200" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#1d252c" text-anchor="start">Parameter interpretation</text>
+<text x="750" y="235" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">μ</text>
+<text x="830" y="235" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">global fault effect</text>
+<text x="750" y="265" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">θⱼ</text>
+<text x="830" y="265" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">world-specific effect</text>
+<text x="750" y="295" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">τ</text>
+<text x="830" y="295" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">between-world variation</text>
+<text x="750" y="325" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">σ</text>
+<text x="830" y="325" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">pair-level run noise</text>
+<text x="750" y="355" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#2f855a" text-anchor="start">Student-t</text>
+<text x="830" y="355" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">reduces sensitivity to extreme pairs</text>
+<rect x="80" y="435" width="1100" height="120" rx="18" fill="#fffaf2" stroke="#2f855a" stroke-width="2"/>
+<text x="105" y="475" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#2f855a" text-anchor="start">Diagnostics</text>
+<text x="260" y="465" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<text x="260" y="495" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">R-hat(μ) = 1.000</text>
+<text x="260" y="522" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">ESS_bulk(μ) = 2601</text>
+<text x="690" y="465" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<text x="690" y="495" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">R-hat(μ) = 1.002</text>
+<text x="690" y="522" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#1d252c" text-anchor="start">ESS_bulk(μ) = 1498</text>
+<text x="105" y="620" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="start">Why this model: it separates global fault effect, world-specific susceptibility and run noise while avoiding overreaction to outliers.</text>
+</svg>

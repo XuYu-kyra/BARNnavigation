@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Pipeline-Level Degradation Indicators</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Each panel uses its own scale to avoid misleading unit comparisons.</text>
+<rect x="80" y="150" width="490" height="160" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="104" y="188" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Stop ratio increase</text>
+<text x="104" y="239" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="265" y="222" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="265" y="222" width="185.4329450742487" height="24" rx="12" fill="#1f6f8b"/>
+<text x="460.43294507424866" y="240" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f6f8b" text-anchor="start">0.05 ratio</text>
+<text x="104" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="265" y="268" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="265" y="268" width="97.15284382383051" height="24" rx="12" fill="#d9822b"/>
+<text x="372.1528438238305" y="286" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#d9822b" text-anchor="start">0.03 ratio</text>
+<rect x="670" y="150" width="490" height="160" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="694" y="188" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Mean speed decrease</text>
+<text x="694" y="239" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="855" y="222" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="855" y="222" width="193.6565013476924" height="24" rx="12" fill="#1f6f8b"/>
+<text x="1058.6565013476925" y="240" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f6f8b" text-anchor="start">0.0010 m/s</text>
+<text x="694" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="855" y="268" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="855" y="268" width="178.73379942483749" height="24" rx="12" fill="#d9822b"/>
+<text x="1043.7337994248376" y="286" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#d9822b" text-anchor="start">0.0010 m/s</text>
+<rect x="80" y="390" width="490" height="160" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="104" y="428" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Controller path updates</text>
+<text x="104" y="479" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="265" y="462" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="265" y="462" width="232.87037037037038" height="24" rx="12" fill="#1f6f8b"/>
+<text x="507.8703703703704" y="480" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f6f8b" text-anchor="start">9.31 count</text>
+<text x="104" y="525" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="265" y="508" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="265" y="508" width="142.12962962962962" height="24" rx="12" fill="#d9822b"/>
+<text x="417.1296296296296" y="526" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#d9822b" text-anchor="start">5.69 count</text>
+<rect x="670" y="390" width="490" height="160" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="694" y="428" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Max stop streak increase</text>
+<text x="694" y="479" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="855" y="462" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="855" y="462" width="233.6327160493827" height="24" rx="12" fill="#1f6f8b"/>
+<text x="1098.6327160493827" y="480" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1f6f8b" text-anchor="start">14.02 s</text>
+<text x="694" y="525" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="855" y="508" width="270" height="24" rx="12" fill="#efe7db"/>
+<rect x="855" y="508" width="190.52469135802465" height="24" rx="12" fill="#d9822b"/>
+<text x="1055.5246913580247" y="526" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#d9822b" text-anchor="start">11.43 s</text>
+<text x="80" y="665" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" fill="#1d252c" text-anchor="start">Result: both faults leave traces below the mission-level score: more stopping, lower speed, more controller updates, longer stop streaks.</text>
+</svg>

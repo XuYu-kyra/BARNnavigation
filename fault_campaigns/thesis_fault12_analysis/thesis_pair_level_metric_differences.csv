@@ -1,0 +1,649 @@
+fault_label,world_idx,world_class,pair_id,metric,metric_label,baseline_status,fault_status,baseline_value,fault_value,difference_fault_minus_baseline
+frontal_masking,8,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,168.2404,173.5162,5.275800000000004
+frontal_masking,8,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.463646584617113,9.472027251030704,0.008380666413591698
+frontal_masking,8,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.09088710165084349,0.17663633695333134,0.08574923530248785
+frontal_masking,8,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05656193133347713,0.054957600534374554,-0.0016043307991025768
+frontal_masking,8,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,169.0,174.0,5.0
+frontal_masking,8,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,5.019999999999982,15.049999999999997,10.030000000000015
+frontal_masking,8,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,173.1505,178.735,5.58450000000002
+frontal_masking,8,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.490078828489787,9.49261416475726,0.0025353362674724877
+frontal_masking,8,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.1764913104744012,0.22858934884251328,0.05209803836811208
+frontal_masking,8,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.055073266959193214,0.05349876932807195,-0.0015744976311212605
+frontal_masking,8,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,174.0,179.0,5.0
+frontal_masking,8,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.020000000000003,15.039999999999992,0.019999999999988916
+frontal_masking,8,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,172.9362,179.1413,6.205099999999987
+frontal_masking,8,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.499747766182146,9.450766753509837,-0.04898101267230892
+frontal_masking,8,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.1468465825755354,0.142987509268237,-0.0038590733072983996
+frontal_masking,8,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05508798924131502,0.05327534793537807,-0.001812641305936953
+frontal_masking,8,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,173.0,179.0,6.0
+frontal_masking,8,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,5.010000000000005,15.030000000000001,10.019999999999996
+frontal_masking,8,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,167.698,182.0818,14.38379999999998
+frontal_masking,8,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.51686139841138,9.5552249897105,0.03836359129911848
+frontal_masking,8,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.18184565177977896,0.22219143158011415,0.040345779800335185
+frontal_masking,8,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05684934669977266,0.052348417611874414,-0.004500929087898245
+frontal_masking,8,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,168.0,183.0,15.0
+frontal_masking,8,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,10.04000000000002,15.030000000000001,4.989999999999981
+frontal_masking,8,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,175.1873,181.225,6.037700000000001
+frontal_masking,8,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.429381409745416,9.551382437264827,0.12200102751941166
+frontal_masking,8,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.2942005165531816,0.22226534346066412,-0.07193517309251746
+frontal_masking,8,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05470404678178808,0.05234452756702794,-0.0023595192147601377
+frontal_masking,8,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,175.0,182.0,7.0
+frontal_masking,8,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,25.040000000000006,10.039999999999992,-15.000000000000014
+frontal_masking,8,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,174.7633,178.1283,3.365000000000009
+frontal_masking,8,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.416167797845102,9.49325527048888,0.07708747264377891
+frontal_masking,8,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.14694141129505708,0.2572552597069389,0.11031384841188183
+frontal_masking,8,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05463289772129331,0.053499374368486695,-0.0011335233528066146
+frontal_masking,8,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,176.0,178.0,2.0
+frontal_masking,8,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.009999999999998,20.04,5.030000000000001
+frontal_masking,76,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,193.8603,196.5504,2.690100000000001
+frontal_masking,76,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.387425519120622,9.446334932328307,0.058909413207684835
+frontal_masking,76,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4735902551716897,0.5383828568506112,0.06479260167892148
+frontal_masking,76,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.048708242722612365,0.04774654182046967,-0.0009617009021426967
+frontal_masking,76,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,195.0,196.0,1.0
+frontal_masking,76,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,20.060000000000002,40.099999999999994,20.039999999999992
+frontal_masking,76,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,succeeded,194.118,204.3464,10.228399999999993
+frontal_masking,76,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.391871980900428,9.395913486561025,0.004041505660596911
+frontal_masking,76,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.6579168416631667,0.7002045193794582,0.042287677716291494
+frontal_masking,76,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.048726471916886574,0.046318451022043954,-0.0024080208948426204
+frontal_masking,76,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,195.0,204.0,9.0
+frontal_masking,76,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.099999999999994,60.17,15.070000000000007
+frontal_masking,76,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),succeeded,succeeded,194.7292,203.0531,8.323900000000009
+frontal_masking,76,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.351780239492049,9.42102938182541,0.06924914233336033
+frontal_masking,76,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5525915034395841,0.7250499001996007,0.17245839676001662
+frontal_masking,76,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.048528733021688676,0.0464599589403869,-0.0020687740813017733
+frontal_masking,76,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,196.0,204.0,8.0
+frontal_masking,76,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.080000000000002,70.12,40.040000000000006
+frontal_masking,76,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,192.4335,200.3153,7.881799999999998
+frontal_masking,76,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.435114661929576,9.329008222043537,-0.10610643988603918
+frontal_masking,76,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4738721705792765,0.6923667246495445,0.21849455407026802
+frontal_masking,76,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.048971488113847515,0.047163381826827305,-0.00180810628702021
+frontal_masking,76,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,193.0,203.0,10.0
+frontal_masking,76,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.090000000000003,35.11,5.019999999999996
+frontal_masking,76,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),succeeded,succeeded,195.136,202.457,7.320999999999998
+frontal_masking,76,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.326302941539561,9.435529848679966,0.10922690714040506
+frontal_masking,76,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5527379639838297,0.7499750623441397,0.19723709836031
+frontal_masking,76,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04838478149507895,0.04650910842148675,-0.001875673073592203
+frontal_masking,76,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,195.0,203.0,8.0
+frontal_masking,76,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,35.11,65.14999999999999,30.039999999999992
+frontal_masking,76,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,204.9246,199.4257,-5.498899999999992
+frontal_masking,76,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.365536120308018,9.384563056352345,0.019026936044326703
+frontal_masking,76,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.6248067428058452,0.5898223519172682,-0.03498439088857708
+frontal_masking,76,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.0461577103891883,0.047479186229357866,0.0013214758401695684
+frontal_masking,76,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,205.0,200.0,-5.0
+frontal_masking,76,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,35.08,40.08,5.0
+frontal_masking,86,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,197.9869,212.7153,14.728400000000022
+frontal_masking,86,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.270377893818917,9.311952994622857,0.041575100803939335
+frontal_masking,86,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5385756676557862,0.6668408799353825,0.1282652122795963
+frontal_masking,86,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04686342107667576,0.043718816859652135,-0.0031446042170236235
+frontal_masking,86,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,198.0,212.0,14.0
+frontal_masking,86,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.09,75.19999999999999,45.109999999999985
+frontal_masking,86,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,succeeded,211.1576,202.2519,-8.905699999999996
+frontal_masking,86,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.369201613352153,9.326847044566208,-0.0423545687859459
+frontal_masking,86,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5714964370546319,0.6750960147638285,0.10359957770919659
+frontal_masking,86,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04398455108399184,0.0459693422833774,0.0019847911993855633
+frontal_masking,86,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,211.0,202.0,-9.0
+frontal_masking,86,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,40.06999999999999,70.21000000000001,30.140000000000015
+frontal_masking,86,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),succeeded,succeeded,213.7609,218.4816,4.720699999999994
+frontal_masking,86,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.293729430521646,9.306781980782999,0.013052550261352991
+frontal_masking,86,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.619056666508336,0.7210208816705337,0.10196421516219767
+frontal_masking,86,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.043619796800217416,0.04267437758984281,-0.0009454192103746026
+frontal_masking,86,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,214.0,218.0,4.0
+frontal_masking,86,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.099999999999994,55.13000000000001,10.030000000000015
+frontal_masking,86,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,213.0869,221.6684,8.581499999999977
+frontal_masking,86,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.313064894453847,9.345684696366213,0.03261980191236624
+frontal_masking,86,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.643203422053232,0.7499659910216296,0.10676256896839764
+frontal_masking,86,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04373864678841242,0.04187743656733479,-0.0018612102210776305
+frontal_masking,86,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,213.0,221.0,8.0
+frontal_masking,86,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,40.11,50.13999999999999,10.029999999999994
+frontal_masking,86,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),succeeded,succeeded,202.2807,222.0414,19.760700000000014
+frontal_masking,86,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.304052907199255,9.329632018270246,0.02557911107099109
+frontal_masking,86,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5749713088169254,0.8185032410135532,0.24353193219662783
+frontal_masking,86,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04587395487763775,0.04178948555413796,-0.00408446932349979
+frontal_masking,86,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,203.0,222.0,19.0
+frontal_masking,86,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,35.059999999999995,45.18000000000001,10.120000000000012
+frontal_masking,86,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,215.8532,225.8413,9.988100000000003
+frontal_masking,86,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.389005148219143,9.380569181202155,-0.008435967016987789
+frontal_masking,86,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.6743862254606211,0.755510222182802,0.08112399672218085
+frontal_masking,86,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04306191830903267,0.04111098306368479,-0.0019509352453478818
+frontal_masking,86,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,216.0,225.0,9.0
+frontal_masking,86,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.09000000000002,80.16,35.06999999999998
+frontal_masking,94,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,194.2985,198.7355,4.437000000000012
+frontal_masking,94,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.161212814578432,9.151537268181787,-0.009675546396644918
+frontal_masking,94,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.447256497768443,0.5126617895329207,0.06540529176447774
+frontal_masking,94,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04752540201931441,0.046255370482333795,-0.0012700315369806175
+frontal_masking,94,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,193.0,198.0,5.0
+frontal_masking,94,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.069999999999993,35.09000000000002,5.020000000000024
+frontal_masking,94,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,196.652,206.3445,9.692500000000024
+frontal_masking,94,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.176112799804706,9.281601441111851,0.10548864130714541
+frontal_masking,94,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5385796152271797,0.5368287814614672,-0.0017508337657125006
+frontal_masking,94,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.046388215308046994,0.04465021878736114,-0.0017379965206858541
+frontal_masking,94,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,196.0,206.0,10.0
+frontal_masking,94,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.10000000000001,30.08999999999999,-0.010000000000019327
+frontal_masking,94,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,198.0806,211.2413,13.160699999999991
+frontal_masking,94,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.19362163081393,9.218475541024727,0.024853910210797636
+frontal_masking,94,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5129700690713738,0.5714489311163896,0.058478862045015845
+frontal_masking,94,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.046475424051235247,0.043270667653324116,-0.0032047563979111307
+frontal_masking,94,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,197.0,211.0,14.0
+frontal_masking,94,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,35.09,40.10000000000001,5.010000000000005
+frontal_masking,94,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,199.6874,191.2313,-8.456099999999992
+frontal_masking,94,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.139581695570058,9.129419569357163,-0.010162126212895473
+frontal_masking,94,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.48718079934496694,0.49992122262486216,0.012740423279895219
+frontal_masking,94,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04620839105250527,0.0473684132627339,0.0011600222102286298
+frontal_masking,94,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,199.0,191.0,-8.0
+frontal_masking,94,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.07,60.1,30.03
+frontal_masking,94,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,205.867,198.5854,-7.281599999999997
+frontal_masking,94,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.209167392845536,9.190523964937052,-0.01864342790848461
+frontal_masking,94,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5852958349552354,0.5129660886911156,-0.07232974626411981
+frontal_masking,94,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.044273877933269444,0.04644531719572939,0.002171439262459947
+frontal_masking,94,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,205.0,198.0,-7.0
+frontal_masking,94,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.099999999999994,50.12,5.020000000000003
+frontal_masking,94,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,209.9622,204.4981,-5.464100000000002
+frontal_masking,94,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.092043554079728,9.113240875142505,0.021197321062777164
+frontal_masking,94,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5122912914374727,0.5750411491844981,0.06274985774702546
+frontal_masking,94,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04372313466426388,0.044906184224362836,0.0011830495600989588
+frontal_masking,94,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,209.0,204.0,-5.0
+frontal_masking,94,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,40.09,60.14,20.049999999999997
+frontal_masking,173,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,262.8547,270.4791,7.624400000000037
+frontal_masking,173,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.252901636910957,9.203821480341775,-0.04908015656918252
+frontal_masking,173,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.035129938512646335,0.034275848955648044,-0.0008540895569982901
+frontal_masking,173,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,264.0,271.0,7.0
+frontal_masking,173,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,260.53000000000003,265.59000000000003,5.060000000000002
+frontal_masking,173,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,succeeded,265.3982,272.9197,7.521500000000003
+frontal_masking,173,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.191650583515013,9.261879807828866,0.07022922431385226
+frontal_masking,173,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.034885463650436696,0.03384830064146034,-0.001037163008976355
+frontal_masking,173,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,266.0,273.0,7.0
+frontal_masking,173,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,260.6,270.66,10.060000000000002
+frontal_masking,173,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),succeeded,succeeded,267.7853,256.5434,-11.241899999999987
+frontal_masking,173,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.25157828078692,9.271819503569848,0.020241222782928503
+frontal_masking,173,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.034455662956345154,0.03588153657026072,0.0014258736139155653
+frontal_masking,173,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,268.0,257.0,-11.0
+frontal_masking,173,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,265.59000000000003,255.6,-9.990000000000038
+frontal_masking,173,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,262.6764,279.7617,17.085300000000018
+frontal_masking,173,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.261838487399887,9.22315430271121,-0.03868418468867674
+frontal_masking,173,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03514940044194551,0.033097469602365495,-0.002051930839580017
+frontal_masking,173,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,262.0,279.0,17.0
+frontal_masking,173,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,260.64,275.63,14.990000000000009
+frontal_masking,173,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),collided,succeeded,43.0837,278.7567,235.67300000000003
+frontal_masking,173,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),collided,succeeded,1.750500936320691,9.239287273125356,7.488786336804665
+frontal_masking,173,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,collided,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),collided,succeeded,0.04088985384647784,0.03315479798619267,-0.007735055860285174
+frontal_masking,173,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,collided,succeeded,49.0,279.0,230.0
+frontal_masking,173,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),collided,succeeded,40.12,275.64000000000004,235.52000000000004
+frontal_masking,173,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,269.1411,282.1552,13.014099999999985
+frontal_masking,173,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.224753878404654,9.272893029158721,0.04813915075406783
+frontal_masking,173,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,173,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03435207681259533,0.032680351562145986,-0.0016717252504493407
+frontal_masking,173,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,269.0,282.0,13.0
+frontal_masking,173,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,265.61,280.66999999999996,15.059999999999945
+frontal_masking,239,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),timeout,succeeded,300.0131,234.4358,-65.57730000000001
+frontal_masking,239,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),timeout,succeeded,10.811077064402907,10.574620291193202,-0.2364567732097047
+frontal_masking,239,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,timeout,succeeded,0.8812132278352609,0.8045194309507285,-0.07669379688453237
+frontal_masking,239,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,succeeded,0.036182536871005054,0.045385872141834364,0.00920333527082931
+frontal_masking,239,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,timeout,succeeded,247.0,234.0,-13.0
+frontal_masking,239,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),timeout,succeeded,95.22,85.22,-10.0
+frontal_masking,239,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,timeout,236.084,300.0075,63.92349999999999
+frontal_masking,239,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,timeout,10.574134710278205,10.780966837190217,0.20683212691201192
+frontal_masking,239,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,timeout,0.8937001188656819,0.9830944008655667,0.08939428199988475
+frontal_masking,239,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,timeout,0.044420449567440706,0.036078283834928136,-0.00834216573251257
+frontal_masking,239,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,timeout,236.0,252.0,16.0
+frontal_masking,239,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,timeout,110.28,160.4,50.120000000000005
+frontal_masking,239,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),timeout,succeeded,300.0153,240.4852,-59.53010000000003
+frontal_masking,239,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),timeout,succeeded,10.782687319417999,10.612649624930839,-0.17003769448716
+frontal_masking,239,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,timeout,succeeded,0.7626522327469555,0.8299082880434782,0.06725605529652268
+frontal_masking,239,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,succeeded,0.03610363230462155,0.04459152519853501,0.008487892893913461
+frontal_masking,239,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,timeout,succeeded,242.0,240.0,-2.0
+frontal_masking,239,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),timeout,succeeded,100.22,50.12999999999998,-50.09000000000002
+frontal_masking,239,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,234.3767,245.9145,11.537800000000004
+frontal_masking,239,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,10.577941112447943,10.611674406436046,0.033733293988102986
+frontal_masking,239,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.6957351728925335,0.9184919794804984,0.22275680658796493
+frontal_masking,239,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04541406352673031,0.042753932075010895,-0.002660131451719415
+frontal_masking,239,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,233.0,245.0,12.0
+frontal_masking,239,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.06,90.25,45.19
+frontal_masking,239,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),timeout,timeout,300.0131,300.0086,-0.004500000000007276
+frontal_masking,239,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),timeout,timeout,10.782086647952111,10.822337099066667,0.04025045111455583
+frontal_masking,239,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,0.8644216790073369,0.9322177146720757,0.0677960356647388
+frontal_masking,239,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.03608085011252067,0.036213263992206875,0.00013241387968620372
+frontal_masking,239,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,timeout,timeout,243.0,253.0,10.0
+frontal_masking,239,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,100.28,100.32,0.03999999999999204
+frontal_masking,239,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,timeout,245.6785,300.0207,54.34219999999996
+frontal_masking,239,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,timeout,10.749742525781679,10.774657838688885,0.024915312907205944
+frontal_masking,239,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,timeout,0.8572475868529305,0.8984139866761354,0.04116639982320491
+frontal_masking,239,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,timeout,0.04333193058123165,0.03606304902951205,-0.007268881551719598
+frontal_masking,239,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,timeout,245.0,250.0,5.0
+frontal_masking,239,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,timeout,60.11,95.25000000000003,35.14000000000003
+frontal_masking,240,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,173.68,180.571,6.890999999999991
+frontal_masking,240,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.201137387168052,9.302955775237635,0.10181838806958332
+frontal_masking,240,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.26472142311982627,0.3609910209511141,0.09626959783128786
+frontal_masking,240,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05342945242151614,0.051005747805267856,-0.0024237046162482803
+frontal_masking,240,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,174.0,181.0,7.0
+frontal_masking,240,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.02,20.03,5.010000000000002
+frontal_masking,240,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,177.3544,182.3525,4.998099999999994
+frontal_masking,240,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.261068053163685,9.241029012661437,-0.020039040502247474
+frontal_masking,240,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.28593411603784336,0.2775960525586294,-0.008338063479213953
+frontal_masking,240,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05220887550981692,0.050676555172424614,-0.0015323203373923053
+frontal_masking,240,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,178.0,183.0,5.0
+frontal_masking,240,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.060000000000002,15.03,-0.030000000000002913
+frontal_masking,240,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,182.2428,187.5634,5.320600000000013
+frontal_masking,240,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.241104526255405,9.228608826357588,-0.012495699897817403
+frontal_masking,240,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.41670361338949236,0.4865681303268961,0.06986451693740375
+frontal_masking,240,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.050660078287826454,0.04923999390520217,-0.0014200843826242815
+frontal_masking,240,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,182.0,189.0,7.0
+frontal_masking,240,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,25.090000000000003,25.06,-0.03000000000000469
+frontal_masking,240,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,185.4891,188.3375,2.848399999999998
+frontal_masking,240,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.30999825213399,9.246778683758869,-0.06321956837512133
+frontal_masking,240,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4054797475864302,0.43239451818279934,0.026914770596369153
+frontal_masking,240,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.049670996688003774,0.04934865613223081,-0.00032234055577296666
+frontal_masking,240,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,186.0,189.0,3.0
+frontal_masking,240,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.060000000000002,20.050000000000004,4.990000000000002
+frontal_masking,240,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,178.2752,184.0323,5.75709999999998
+frontal_masking,240,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.221284180087595,9.196953953993367,-0.024330226094228635
+frontal_masking,240,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.31427105308170367,0.33338876877875706,0.019117715697053395
+frontal_masking,240,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.052002881714330276,0.05042660456667309,-0.001576277147657186
+frontal_masking,240,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,178.0,184.0,6.0
+frontal_masking,240,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.039999999999992,15.049999999999997,0.010000000000005116
+frontal_masking,240,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,186.0814,183.9194,-2.162000000000006
+frontal_masking,240,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.301928936196292,9.196815577789991,-0.10511335840630132
+frontal_masking,240,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4864106988783433,0.4165235219149996,-0.06988717696334373
+frontal_masking,240,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04961944661337944,0.05040348435517693,0.0007840377417974859
+frontal_masking,240,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,186.0,185.0,-1.0
+frontal_masking,240,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,25.060000000000002,20.04,-5.020000000000003
+frontal_masking,250,class3_marginal_success,1,completion_time_s,Completion time (s),succeeded,succeeded,269.295,276.7178,7.422799999999995
+frontal_masking,250,class3_marginal_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.013694650357259,9.073734782718578,0.06004013236131911
+frontal_masking,250,class3_marginal_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.033531784168859484,0.032526797237530214,-0.00100498693132927
+frontal_masking,250,class3_marginal_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,270.0,277.0,7.0
+frontal_masking,250,class3_marginal_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,265.53000000000003,275.58000000000004,10.050000000000011
+frontal_masking,250,class3_marginal_success,2,completion_time_s,Completion time (s),succeeded,succeeded,269.2325,278.2664,9.03389999999996
+frontal_masking,250,class3_marginal_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.02405327758549,9.055438621958672,0.03138534437318263
+frontal_masking,250,class3_marginal_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03355184160488366,0.03244980818354798,-0.0011020334213356839
+frontal_masking,250,class3_marginal_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,269.0,279.0,10.0
+frontal_masking,250,class3_marginal_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,265.67999999999995,275.66999999999996,9.990000000000009
+frontal_masking,250,class3_marginal_success,3,completion_time_s,Completion time (s),timeout,succeeded,300.016,287.9606,-12.05540000000002
+frontal_masking,250,class3_marginal_success,3,actual_path_length_m,Actual path length (m),timeout,succeeded,5.893146752766673,9.043884249708816,3.150737496942143
+frontal_masking,250,class3_marginal_success,3,whole_stop_ratio,Whole-run stop ratio,timeout,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,succeeded,0.019550207067937777,0.031275631891156355,0.011725424823218578
+frontal_masking,250,class3_marginal_success,3,controller_new_path_count,Controller new-path count,timeout,succeeded,310.0,289.0,-21.0
+frontal_masking,250,class3_marginal_success,3,whole_max_stop_streak_s,Max stop streak (s),timeout,succeeded,295.81,285.65000000000003,-10.159999999999968
+frontal_masking,250,class3_marginal_success,4,completion_time_s,Completion time (s),succeeded,succeeded,272.2746,289.2023,16.92769999999996
+frontal_masking,250,class3_marginal_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.07202865539074,9.035145854517282,-0.03688280087345852
+frontal_masking,250,class3_marginal_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.033104420269617095,0.03123957246943395,-0.0018648478001831448
+frontal_masking,250,class3_marginal_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,273.0,290.0,17.0
+frontal_masking,250,class3_marginal_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,270.72,285.70000000000005,14.980000000000018
+frontal_masking,250,class3_marginal_success,5,completion_time_s,Completion time (s),succeeded,succeeded,274.6906,276.1742,1.4835999999999672
+frontal_masking,250,class3_marginal_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.005045698569793,9.084478419538208,0.07943272096841447
+frontal_masking,250,class3_marginal_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03287521047629003,0.0325527890730103,-0.00032242140327973234
+frontal_masking,250,class3_marginal_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,275.0,276.0,1.0
+frontal_masking,250,class3_marginal_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,270.56999999999994,275.69,5.120000000000061
+frontal_masking,250,class3_marginal_success,6,completion_time_s,Completion time (s),succeeded,succeeded,280.9089,285.2232,4.314300000000003
+frontal_masking,250,class3_marginal_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.09406809817102,8.995474671531793,-0.09859342663922632
+frontal_masking,250,class3_marginal_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+frontal_masking,250,class3_marginal_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.032010504162228386,0.03166598243596506,-0.00034452172626332767
+frontal_masking,250,class3_marginal_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,282.0,285.0,3.0
+frontal_masking,250,class3_marginal_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,280.66,280.59999999999997,-0.06000000000005912
+frontal_masking,274,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,180.6086,183.689,3.0803999999999974
+frontal_masking,274,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.211317975491134,9.089872119160749,-0.12144585633038574
+frontal_masking,274,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.41665742486414553,0.36110187340649585,-0.05555555145764968
+frontal_masking,274,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.050467550047084024,0.04977204367121577,-0.0006955063758682517
+frontal_masking,274,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,181.0,184.0,3.0
+frontal_masking,274,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,65.13,50.129999999999995,-15.0
+frontal_masking,274,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,183.6591,199.0107,15.351600000000019
+frontal_masking,274,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.097857232977484,9.110834831908901,0.012977598931417589
+frontal_masking,274,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4165281010974395,0.5896438804748261,0.1731157793773866
+frontal_masking,274,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.0498163021448702,0.04605421015098701,-0.003762091993883186
+frontal_masking,274,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,184.0,199.0,15.0
+frontal_masking,274,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,50.11000000000001,55.120000000000005,5.009999999999998
+frontal_masking,274,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,185.2445,198.4769,13.232400000000013
+frontal_masking,274,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.058880130917519,9.105680533737603,0.04680040282008413
+frontal_masking,274,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4722930289260777,0.5897186700767262,0.11742564115064846
+frontal_masking,274,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04958927258626577,0.0460137111700133,-0.003575561416252468
+frontal_masking,274,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,186.0,199.0,13.0
+frontal_masking,274,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,60.16,100.24999999999999,40.08999999999999
+frontal_masking,274,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,185.9717,190.4466,4.474899999999991
+frontal_masking,274,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.19677333093302,9.20278641831619,0.006013087383170301
+frontal_masking,274,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.4866569626394954,0.42116324278884054,-0.06549371985065489
+frontal_masking,274,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.048987941834778274,0.047773795083886884,-0.00121414675089139
+frontal_masking,274,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,187.0,191.0,4.0
+frontal_masking,274,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,60.17999999999999,60.11,-0.06999999999999318
+frontal_masking,274,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,184.8504,190.9084,6.057999999999993
+frontal_masking,274,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.04435670402957,9.204195371151657,0.15983866712208794
+frontal_masking,274,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.3890243902439024,0.5263296057121858,0.1373052154682834
+frontal_masking,274,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04952525889151646,0.04774607744606319,-0.0017791814454532692
+frontal_masking,274,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,186.0,191.0,5.0
+frontal_masking,274,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,55.13,65.14000000000001,10.010000000000012
+frontal_masking,274,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,186.8545,190.0658,3.2112999999999943
+frontal_masking,274,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.155112451507994,9.070595750579757,-0.08451670092823704
+frontal_masking,274,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.45933117583603017,0.5136111260848472,0.05427995024881699
+frontal_masking,274,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04878701430155337,0.04830249447781661,-0.00048451982373676206
+frontal_masking,274,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,188.0,191.0,3.0
+frontal_masking,274,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,60.13,65.19,5.059999999999995
+lidar_dropout,8,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,199.4981,198.5801,-0.9180000000000064
+lidar_dropout,8,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.469380641065946,9.514272645700311,0.044892004634364824
+lidar_dropout,8,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.6666154948316446,0.6155735188785431,-0.05104197595310156
+lidar_dropout,8,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04789366820727635,0.04811354060012438,0.00021987239284802784
+lidar_dropout,8,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,199.0,198.0,-1.0
+lidar_dropout,8,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,35.080000000000005,55.16,20.07999999999999
+lidar_dropout,8,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,196.0094,205.9458,9.936399999999992
+lidar_dropout,8,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.556232879492708,9.575306138057883,0.019073258565175166
+lidar_dropout,8,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.5637889565528889,0.8294807533213293,0.26569179676844046
+lidar_dropout,8,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04834058072510468,0.046062125349447085,-0.002278455375657594
+lidar_dropout,8,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,196.0,206.0,10.0
+lidar_dropout,8,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,45.05,60.17999999999999,15.129999999999995
+lidar_dropout,8,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,199.6984,207.902,8.203599999999994
+lidar_dropout,8,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.434614251566567,9.507405889083993,0.07279163751742601
+lidar_dropout,8,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.7436422248375378,0.8780048661800486,0.13436264134251075
+lidar_dropout,8,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04771332063432722,0.045729469046637425,-0.0019838515876897944
+lidar_dropout,8,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,200.0,207.0,7.0
+lidar_dropout,8,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,50.11999999999999,110.27,60.150000000000006
+lidar_dropout,8,class1_stable_success,4,completion_time_s,Completion time (s),timeout,succeeded,300.0153,207.4227,-92.59260000000003
+lidar_dropout,8,class1_stable_success,4,actual_path_length_m,Actual path length (m),timeout,succeeded,8.842396312845317,9.539558773618193,0.6971624607728764
+lidar_dropout,8,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,timeout,succeeded,1.0,0.8051214643882967,-0.19487853561170332
+lidar_dropout,8,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,succeeded,0.029527275014693037,0.04590603560497636,0.01637876059028332
+lidar_dropout,8,class1_stable_success,4,controller_new_path_count,Controller new-path count,timeout,succeeded,298.0,207.0,-91.0
+lidar_dropout,8,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),timeout,succeeded,295.73999999999995,100.2,-195.53999999999996
+lidar_dropout,8,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,143.8965,148.8811,4.9846
+lidar_dropout,8,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.450912580213936,9.435232344412727,-0.015680235801209363
+lidar_dropout,8,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.03563030000712607,0.034542076653134315,-0.0010882233539917519
+lidar_dropout,8,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.06656390351467212,0.06416591443206995,-0.0023979890826021644
+lidar_dropout,8,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,144.0,149.0,5.0
+lidar_dropout,8,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,5.0,5.02000000000001,0.020000000000010232
+lidar_dropout,8,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,153.7662,158.1049,4.338699999999989
+lidar_dropout,8,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.453142487941072,9.461935881257016,0.008793393315944087
+lidar_dropout,8,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.033315600478787205,0.06457220112019568,0.03125660064140848
+lidar_dropout,8,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.062130220028867346,0.060206887795384134,-0.0019233322334832118
+lidar_dropout,8,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,154.0,158.0,4.0
+lidar_dropout,8,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,5.010000000000019,5.020000000000003,0.0099999999999838
+lidar_dropout,76,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,227.2953,232.6019,5.306600000000003
+lidar_dropout,76,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.447654224158994,9.461408973348703,0.01375474918970987
+lidar_dropout,76,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,76,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04140481847362477,0.0405663761362927,-0.0008384423373320668
+lidar_dropout,76,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,228.0,233.0,5.0
+lidar_dropout,76,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,225.51000000000002,230.51000000000002,5.0
+lidar_dropout,76,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,succeeded,226.3856,228.5307,2.145099999999985
+lidar_dropout,76,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.481813189315343,9.434791758136466,-0.04702143117887658
+lidar_dropout,76,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,76,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04156550864518527,0.041342281404471916,-0.00022322724071335148
+lidar_dropout,76,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,226.0,229.0,3.0
+lidar_dropout,76,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,225.45999999999998,225.54,0.0800000000000125
+lidar_dropout,76,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),collided,succeeded,36.3175,231.6212,195.3037
+lidar_dropout,76,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),collided,succeeded,1.960178514522438,9.472385234971032,7.512206720448594
+lidar_dropout,76,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,collided,succeeded,0.28595841640558245,1.0,0.7140415835944176
+lidar_dropout,76,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),collided,succeeded,0.05269662530681966,0.04061046989458708,-0.012086155412232576
+lidar_dropout,76,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,collided,succeeded,41.0,231.0,190.0
+lidar_dropout,76,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),collided,succeeded,5.02,230.53,225.51
+lidar_dropout,76,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,227.7703,234.1294,6.359100000000012
+lidar_dropout,76,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.440504064595643,9.388023153740242,-0.052480910855400964
+lidar_dropout,76,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,76,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04135843988839829,0.040251505677332516,-0.0011069342110657729
+lidar_dropout,76,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,228.0,234.0,6.0
+lidar_dropout,76,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,225.59000000000003,230.49,4.899999999999977
+lidar_dropout,76,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),succeeded,succeeded,173.3884,172.9202,-0.46819999999999595
+lidar_dropout,76,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.417451514207379,9.403452585236572,-0.013998928970806901
+lidar_dropout,76,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.17642915835191927,0.23554616423079172,0.05911700587887245
+lidar_dropout,76,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.054624943679043934,0.054545982127514825,-7.89615515291095e-05
+lidar_dropout,76,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,174.0,173.0,-1.0
+lidar_dropout,76,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.030000000000001,10.040000000000006,-4.989999999999995
+lidar_dropout,76,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,174.9044,179.8801,4.975699999999989
+lidar_dropout,76,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.341240021803019,9.339505222117385,-0.0017347996856340586
+lidar_dropout,76,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.23518366388921488,0.25702399270530574,0.021840328816090854
+lidar_dropout,76,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05422333802131093,0.05259617947196393,-0.001627158549346995
+lidar_dropout,76,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,175.0,181.0,6.0
+lidar_dropout,76,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,10.02000000000001,15.040000000000001,5.019999999999991
+lidar_dropout,86,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,244.9473,249.9497,5.002399999999994
+lidar_dropout,86,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.286994582640506,9.273492185719917,-0.013502396920589632
+lidar_dropout,86,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9167255643786638,0.9796367190681763,0.06291115468951247
+lidar_dropout,86,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03815133651714395,0.03731790574060457,-0.0008334307765393775
+lidar_dropout,86,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,244.0,249.0,5.0
+lidar_dropout,86,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,160.36,165.4,5.039999999999992
+lidar_dropout,86,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),succeeded,succeeded,247.0888,249.5223,2.4335000000000093
+lidar_dropout,86,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.371819183788977,9.30671702251756,-0.0651021612714171
+lidar_dropout,86,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9796284224250326,0.9591005377220141,-0.020527884703018473
+lidar_dropout,86,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.037733725446614665,0.0374623733597266,-0.00027135208688806173
+lidar_dropout,86,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,247.0,249.0,2.0
+lidar_dropout,86,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,165.32,160.31,-5.009999999999991
+lidar_dropout,86,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),succeeded,succeeded,248.8478,249.4809,0.6330999999999847
+lidar_dropout,86,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.289748447620775,9.30352820590313,0.013779758282353782
+lidar_dropout,86,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9796350602802216,1.0,0.020364939719778374
+lidar_dropout,86,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03738715720694405,0.03743870737418553,5.155016724148198e-05
+lidar_dropout,86,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,248.0,249.0,1.0
+lidar_dropout,86,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,160.36,245.55,85.19
+lidar_dropout,86,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),succeeded,succeeded,240.1744,252.2808,12.106400000000008
+lidar_dropout,86,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.242286575110942,9.350875162659385,0.10858858754844292
+lidar_dropout,86,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9575371549893843,0.960028721876496,0.002491566887111718
+lidar_dropout,86,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03877636078530391,0.03686142313901194,-0.0019149376462919698
+lidar_dropout,86,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,240.0,251.0,11.0
+lidar_dropout,86,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,160.34,165.47,5.1299999999999955
+lidar_dropout,86,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),succeeded,succeeded,183.4152,179.4051,-4.010099999999994
+lidar_dropout,86,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.273851746640771,9.235140744570952,-0.038711002069819145
+lidar_dropout,86,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.41669437978051216,0.2857631563943213,-0.13093122338619084
+lidar_dropout,86,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05078925915346911,0.05202512762642726,0.0012358684729581529
+lidar_dropout,86,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,184.0,180.0,-4.0
+lidar_dropout,86,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.049999999999997,35.09,5.040000000000006
+lidar_dropout,86,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,186.5881,192.7404,6.152299999999997
+lidar_dropout,86,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.347607729949155,9.288188716908184,-0.05941901304097108
+lidar_dropout,86,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.3783492371556417,0.36828563927540026,-0.01006359788024147
+lidar_dropout,86,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.049798663646435294,0.048189735398983,-0.0016089282474522973
+lidar_dropout,86,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,187.0,193.0,6.0
+lidar_dropout,86,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.069999999999993,30.049999999999997,-0.01999999999999602
+lidar_dropout,94,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,233.6871,234.419,0.7319000000000244
+lidar_dropout,94,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.134899724614998,9.129862717173689,-0.005037007441309527
+lidar_dropout,94,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.8261529784372424,0.8261473063242822,-5.672112960208864e-06
+lidar_dropout,94,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03915527669146167,0.03912493587739086,-3.034081407080752e-05
+lidar_dropout,94,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,233.0,233.0,0.0
+lidar_dropout,94,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,110.3,160.38,50.08
+lidar_dropout,94,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,229.8168,250.1282,20.311399999999992
+lidar_dropout,94,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.135228315403262,9.162189125338347,0.026960809935085095
+lidar_dropout,94,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.7778172138420586,0.8776008795146382,0.09978366567257957
+lidar_dropout,94,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04004094194943772,0.03685894835025184,-0.0031819935991858825
+lidar_dropout,94,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,229.0,249.0,20.0
+lidar_dropout,94,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,105.2,175.39999999999998,70.19999999999997
+lidar_dropout,94,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,229.5912,244.8271,15.235900000000015
+lidar_dropout,94,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.110165611354752,9.152102345342378,0.041936733987625985
+lidar_dropout,94,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.7999733948208584,0.8750727529724786,0.07509935815162017
+lidar_dropout,94,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03990850306560284,0.03759084703310209,-0.0023176560325007534
+lidar_dropout,94,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,228.0,244.0,16.0
+lidar_dropout,94,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,140.29,115.26,-25.029999999999987
+lidar_dropout,94,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,230.182,233.9292,3.7472000000000207
+lidar_dropout,94,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.091006306957183,9.155255447745859,0.06424914078867516
+lidar_dropout,94,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.8888839602555005,0.8043110552109988,-0.08457290504450177
+lidar_dropout,94,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.039837678792393465,0.03922997548573473,-0.0006077033066587342
+lidar_dropout,94,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,229.0,233.0,4.0
+lidar_dropout,94,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,105.18,150.38,45.19999999999999
+lidar_dropout,94,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,164.5889,168.7717,4.1828000000000145
+lidar_dropout,94,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.087173684475077,9.26480577706083,0.1776320925857533
+lidar_dropout,94,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.31253898939488445,0.3030358006773099,-0.009503188717574551
+lidar_dropout,94,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.056002331157049764,0.05536287963873265,-0.0006394515183171176
+lidar_dropout,94,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,165.0,168.0,3.0
+lidar_dropout,94,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,20.03,10.030000000000001,-10.0
+lidar_dropout,94,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,172.3318,177.2798,4.9480000000000075
+lidar_dropout,94,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.210416094909423,9.17855104928142,-0.03186504562800252
+lidar_dropout,94,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.3527996243690575,0.3428310918623204,-0.009968532506737071
+lidar_dropout,94,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05341246680895307,0.05167854484432082,-0.0017339219646322485
+lidar_dropout,94,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,173.0,177.0,4.0
+lidar_dropout,94,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,25.03,25.07,0.03999999999999915
+lidar_dropout,173,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),timeout,timeout,300.0089,300.025,0.016099999999994452
+lidar_dropout,173,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),timeout,timeout,8.975277254836934,8.40762762721396,-0.5676496276229734
+lidar_dropout,173,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.03001379315710956,0.028090247425025364,-0.001923545732084194
+lidar_dropout,173,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,timeout,timeout,299.0,300.0,1.0
+lidar_dropout,173,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.69000000000005,295.73,0.03999999999996362
+lidar_dropout,173,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),timeout,timeout,300.0096,300.0098,0.0002000000000066393
+lidar_dropout,173,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),timeout,timeout,8.942624215730564,8.655182501212671,-0.28744171451789313
+lidar_dropout,173,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.02990336318279061,0.028921477213568622,-0.0009818859692219892
+lidar_dropout,173,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,timeout,timeout,300.0,300.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.69000000000005,295.78999999999996,0.09999999999990905
+lidar_dropout,173,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),timeout,timeout,300.0063,300.0164,0.010099999999965803
+lidar_dropout,173,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),timeout,timeout,8.776345180379986,8.75873616360186,-0.017609016778125763
+lidar_dropout,173,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.029347968419487093,0.029287411316140613,-6.055710334647996e-05
+lidar_dropout,173,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,timeout,timeout,299.0,300.0,1.0
+lidar_dropout,173,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.62,295.63000000000005,0.010000000000047748
+lidar_dropout,173,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),timeout,timeout,300.0214,300.0157,-0.005700000000047112
+lidar_dropout,173,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),timeout,timeout,8.190973117381745,7.976578362675033,-0.21439475470671177
+lidar_dropout,173,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.027357638255065556,0.026622767734125963,-0.0007348705209395921
+lidar_dropout,173,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,timeout,timeout,300.0,302.0,2.0
+lidar_dropout,173,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.72999999999996,295.84,0.11000000000001364
+lidar_dropout,173,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),succeeded,succeeded,226.7397,235.028,8.288299999999992
+lidar_dropout,173,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.264551202209047,9.17121384671869,-0.09333735549035715
+lidar_dropout,173,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04064241815681141,0.039340395934022124,-0.001302022222789287
+lidar_dropout,173,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,227.0,236.0,9.0
+lidar_dropout,173,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,225.48,230.57000000000002,5.090000000000032
+lidar_dropout,173,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,succeeded,245.0968,238.0134,-7.083400000000012
+lidar_dropout,173,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.18355985961832,9.264167088380574,0.08060722876225412
+lidar_dropout,173,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,173,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03776112539871585,0.03886102092213417,0.0010998955234183191
+lidar_dropout,173,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,245.0,239.0,-6.0
+lidar_dropout,173,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,240.54000000000002,235.54999999999998,-4.9900000000000375
+lidar_dropout,239,class2_tune_dependent_recovered,1,completion_time_s,Completion time (s),succeeded,succeeded,274.7034,285.2539,10.5505
+lidar_dropout,239,class2_tune_dependent_recovered,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,10.617016079288753,10.69588651475415,0.07887043546539729
+lidar_dropout,239,class2_tune_dependent_recovered,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,239,class2_tune_dependent_recovered,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03882547751050175,0.03772831344969982,-0.0010971640608019306
+lidar_dropout,239,class2_tune_dependent_recovered,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,273.0,284.0,11.0
+lidar_dropout,239,class2_tune_dependent_recovered,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,270.61,280.57,9.95999999999998
+lidar_dropout,239,class2_tune_dependent_recovered,2,completion_time_s,Completion time (s),timeout,timeout,300.0186,300.0145,-0.004099999999993997
+lidar_dropout,239,class2_tune_dependent_recovered,2,actual_path_length_m,Actual path length (m),timeout,timeout,10.796915696223488,10.709700599262158,-0.08721509696133012
+lidar_dropout,239,class2_tune_dependent_recovered,2,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,239,class2_tune_dependent_recovered,2,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.03613709619251865,0.03583368940495042,-0.00030340678756822503
+lidar_dropout,239,class2_tune_dependent_recovered,2,controller_new_path_count,Controller new-path count,timeout,timeout,281.0,297.0,16.0
+lidar_dropout,239,class2_tune_dependent_recovered,2,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.72,295.79,0.06999999999999318
+lidar_dropout,239,class2_tune_dependent_recovered,3,completion_time_s,Completion time (s),timeout,timeout,300.0033,300.0204,0.017099999999970805
+lidar_dropout,239,class2_tune_dependent_recovered,3,actual_path_length_m,Actual path length (m),timeout,timeout,10.795077466868733,10.783397303211602,-0.011680163657130649
+lidar_dropout,239,class2_tune_dependent_recovered,3,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,239,class2_tune_dependent_recovered,3,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.03614677038024581,0.03609748602509463,-4.928435515117596e-05
+lidar_dropout,239,class2_tune_dependent_recovered,3,controller_new_path_count,Controller new-path count,timeout,timeout,281.0,287.0,6.0
+lidar_dropout,239,class2_tune_dependent_recovered,3,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.59000000000003,295.67,0.07999999999998408
+lidar_dropout,239,class2_tune_dependent_recovered,4,completion_time_s,Completion time (s),timeout,timeout,300.014,300.0049,-0.00909999999998945
+lidar_dropout,239,class2_tune_dependent_recovered,4,actual_path_length_m,Actual path length (m),timeout,timeout,10.768462320287771,10.045647431106499,-0.7228148891812722
+lidar_dropout,239,class2_tune_dependent_recovered,4,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,239,class2_tune_dependent_recovered,4,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.036050631545514474,0.033592080811923934,-0.0024585507335905393
+lidar_dropout,239,class2_tune_dependent_recovered,4,controller_new_path_count,Controller new-path count,timeout,timeout,286.0,297.0,11.0
+lidar_dropout,239,class2_tune_dependent_recovered,4,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.64,295.76000000000005,0.12000000000006139
+lidar_dropout,239,class2_tune_dependent_recovered,5,completion_time_s,Completion time (s),timeout,timeout,300.0082,300.0173,0.00909999999998945
+lidar_dropout,239,class2_tune_dependent_recovered,5,actual_path_length_m,Actual path length (m),timeout,timeout,10.777168421874267,10.830291497549057,0.05312307567479024
+lidar_dropout,239,class2_tune_dependent_recovered,5,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,0.5254558370826427,0.5253027535349434,-0.00015308354769927313
+lidar_dropout,239,class2_tune_dependent_recovered,5,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.036083741455642214,0.03626222139022118,0.00017847993457896505
+lidar_dropout,239,class2_tune_dependent_recovered,5,controller_new_path_count,Controller new-path count,timeout,timeout,210.0,214.0,4.0
+lidar_dropout,239,class2_tune_dependent_recovered,5,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,120.25,120.23999999999998,-0.010000000000019327
+lidar_dropout,239,class2_tune_dependent_recovered,6,completion_time_s,Completion time (s),succeeded,timeout,246.2345,300.0193,53.78479999999999
+lidar_dropout,239,class2_tune_dependent_recovered,6,actual_path_length_m,Actual path length (m),succeeded,timeout,10.750417414276358,10.806095232295522,0.055677818019164604
+lidar_dropout,239,class2_tune_dependent_recovered,6,whole_stop_ratio,Whole-run stop ratio,succeeded,timeout,0.8165193662688875,0.5593598809080759,-0.2571594853608117
+lidar_dropout,239,class2_tune_dependent_recovered,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,timeout,0.04333467928197974,0.03618649261468907,-0.007148186667290668
+lidar_dropout,239,class2_tune_dependent_recovered,6,controller_new_path_count,Controller new-path count,succeeded,timeout,246.0,222.0,-24.0
+lidar_dropout,239,class2_tune_dependent_recovered,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,timeout,95.22999999999999,110.24999999999997,15.019999999999982
+lidar_dropout,240,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,210.2102,216.2525,6.0423000000000116
+lidar_dropout,240,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.189101482494095,9.301991551908873,0.11289006941477808
+lidar_dropout,240,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9024627664752264,0.9301948051948051,0.027732038719578744
+lidar_dropout,240,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.0442353875512649,0.04267853801344,-0.0015568495378249017
+lidar_dropout,240,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,210.0,216.0,6.0
+lidar_dropout,240,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,70.10999999999999,75.24,5.13000000000001
+lidar_dropout,240,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,208.8547,222.3398,13.485099999999989
+lidar_dropout,240,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.21379629021306,9.252957483420317,0.039161193207258194
+lidar_dropout,240,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.878023850085179,0.9545516396788678,0.07652778959368878
+lidar_dropout,240,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.044357739274771726,0.041513397411026935,-0.002844341863744791
+lidar_dropout,240,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,209.0,222.0,13.0
+lidar_dropout,240,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,120.24000000000001,125.28999999999999,5.049999999999983
+lidar_dropout,240,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,211.3685,219.7199,8.351399999999984
+lidar_dropout,240,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.304735447989872,9.272695991578265,-0.03203945641160644
+lidar_dropout,240,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9046578984853522,0.9767420268325517,0.07208412834719957
+lidar_dropout,240,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04370275244185301,0.04258018307119937,-0.0011225693706536366
+lidar_dropout,240,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,211.0,220.0,9.0
+lidar_dropout,240,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,115.31,130.23999999999998,14.929999999999978
+lidar_dropout,240,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,212.7665,214.8857,2.1192000000000064
+lidar_dropout,240,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.242389898410678,9.202135041218117,-0.04025485719256139
+lidar_dropout,240,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9047890535917901,0.9761995249406176,0.0714104713488275
+lidar_dropout,240,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04343353830387434,0.04323817712592355,-0.00019536117795079105
+lidar_dropout,240,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,213.0,215.0,2.0
+lidar_dropout,240,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,65.13999999999999,125.31,60.170000000000016
+lidar_dropout,240,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,153.7994,157.7166,3.9172000000000082
+lidar_dropout,240,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.192735978548628,9.233323867279529,0.0405878887309008
+lidar_dropout,240,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.06665779670037242,0.16133599330716258,0.09467819660679017
+lidar_dropout,240,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.060485878275262236,0.05877357044255305,-0.0017123078327091895
+lidar_dropout,240,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,154.0,159.0,5.0
+lidar_dropout,240,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,5.019999999999982,10.030000000000001,5.010000000000019
+lidar_dropout,240,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,157.0093,161.9259,4.916600000000017
+lidar_dropout,240,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.258744638205389,9.260944415675102,0.0021997774697126715
+lidar_dropout,240,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.09676173308440088,0.06250000000000007,-0.03426173308440081
+lidar_dropout,240,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05895992971090054,0.05713850835493945,-0.0018214213559610906
+lidar_dropout,240,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,158.0,162.0,4.0
+lidar_dropout,240,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,10.019999999999982,10.02000000000001,2.842170943040401e-14
+lidar_dropout,250,class3_marginal_success,1,completion_time_s,Completion time (s),timeout,timeout,300.0155,300.0068,-0.008699999999976171
+lidar_dropout,250,class3_marginal_success,1,actual_path_length_m,Actual path length (m),timeout,timeout,8.277510263117527,7.9532188577324865,-0.32429140538504075
+lidar_dropout,250,class3_marginal_success,1,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.027620934268236478,0.026522449809727056,-0.0010984844585094217
+lidar_dropout,250,class3_marginal_success,1,controller_new_path_count,Controller new-path count,timeout,timeout,301.0,301.0,0.0
+lidar_dropout,250,class3_marginal_success,1,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.70000000000005,295.72,0.01999999999998181
+lidar_dropout,250,class3_marginal_success,2,completion_time_s,Completion time (s),timeout,timeout,300.0129,300.0214,0.008500000000026375
+lidar_dropout,250,class3_marginal_success,2,actual_path_length_m,Actual path length (m),timeout,timeout,8.426308824884606,8.143267436946587,-0.2830413879380185
+lidar_dropout,250,class3_marginal_success,2,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.028130801423687058,0.02716878868014944,-0.0009620127435376186
+lidar_dropout,250,class3_marginal_success,2,controller_new_path_count,Controller new-path count,timeout,timeout,301.0,300.0,-1.0
+lidar_dropout,250,class3_marginal_success,2,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.63,295.68,0.05000000000001137
+lidar_dropout,250,class3_marginal_success,3,completion_time_s,Completion time (s),timeout,timeout,300.0118,300.0149,0.003100000000017644
+lidar_dropout,250,class3_marginal_success,3,actual_path_length_m,Actual path length (m),timeout,timeout,8.054957432562661,8.273219145322038,0.2182617127593769
+lidar_dropout,250,class3_marginal_success,3,whole_stop_ratio,Whole-run stop ratio,timeout,timeout,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),timeout,timeout,0.026867395193137397,0.027601755351891938,0.0007343601587545406
+lidar_dropout,250,class3_marginal_success,3,controller_new_path_count,Controller new-path count,timeout,timeout,301.0,300.0,-1.0
+lidar_dropout,250,class3_marginal_success,3,whole_max_stop_streak_s,Max stop streak (s),timeout,timeout,295.71000000000004,295.74999999999994,0.03999999999990678
+lidar_dropout,250,class3_marginal_success,4,completion_time_s,Completion time (s),succeeded,succeeded,243.8575,235.0671,-8.790399999999977
+lidar_dropout,250,class3_marginal_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.016253953400026,8.985407800379724,-0.03084615302030258
+lidar_dropout,250,class3_marginal_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03700608282461473,0.038505022995139804,0.0014989401705250704
+lidar_dropout,250,class3_marginal_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,244.0,236.0,-8.0
+lidar_dropout,250,class3_marginal_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,240.67,230.5,-10.169999999999987
+lidar_dropout,250,class3_marginal_success,5,completion_time_s,Completion time (s),succeeded,succeeded,249.6876,247.2328,-2.454800000000006
+lidar_dropout,250,class3_marginal_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.007957989345323,9.055175913623083,0.04721792427775995
+lidar_dropout,250,class3_marginal_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.036232421163552915,0.036423209062352226,0.00019078789879931057
+lidar_dropout,250,class3_marginal_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,250.0,248.0,-2.0
+lidar_dropout,250,class3_marginal_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,245.57999999999998,245.59,0.010000000000019327
+lidar_dropout,250,class3_marginal_success,6,completion_time_s,Completion time (s),succeeded,succeeded,252.6898,251.7466,-0.9431999999999903
+lidar_dropout,250,class3_marginal_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.044381831544824,9.062481592059445,0.018099760514621366
+lidar_dropout,250,class3_marginal_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,1.0,1.0,0.0
+lidar_dropout,250,class3_marginal_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.03566050064478656,0.03573274364197112,7.224299718455729e-05
+lidar_dropout,250,class3_marginal_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,253.0,252.0,-1.0
+lidar_dropout,250,class3_marginal_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,250.54,250.54000000000002,2.842170943040401e-14
+lidar_dropout,274,class1_stable_success,1,completion_time_s,Completion time (s),succeeded,succeeded,224.5545,226.5795,2.0250000000000057
+lidar_dropout,274,class1_stable_success,1,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.100454170997585,9.190410880115959,0.08995670911837372
+lidar_dropout,274,class1_stable_success,1,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9092145837112281,0.955609756097561,0.04639517238633295
+lidar_dropout,274,class1_stable_success,1,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04076933689006704,0.04026789747279805,-0.0005014394172689896
+lidar_dropout,274,class1_stable_success,1,controller_new_path_count,Controller new-path count,succeeded,succeeded,224.0,226.0,2.0
+lidar_dropout,274,class1_stable_success,1,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,105.25,150.36,45.110000000000014
+lidar_dropout,274,class1_stable_success,2,completion_time_s,Completion time (s),succeeded,succeeded,214.0715,221.7008,7.629300000000001
+lidar_dropout,274,class1_stable_success,2,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.105078943612773,9.18260210289816,0.07752315928538778
+lidar_dropout,274,class1_stable_success,2,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9048456057007125,0.9545537010159653,0.049708095315252776
+lidar_dropout,274,class1_stable_success,2,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04273196647797041,0.04114932013288353,-0.0015826463450868827
+lidar_dropout,274,class1_stable_success,2,controller_new_path_count,Controller new-path count,succeeded,succeeded,214.0,222.0,8.0
+lidar_dropout,274,class1_stable_success,2,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,130.29999999999998,140.25000000000003,9.950000000000045
+lidar_dropout,274,class1_stable_success,3,completion_time_s,Completion time (s),succeeded,succeeded,215.3951,226.5947,11.199599999999975
+lidar_dropout,274,class1_stable_success,3,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.064168791094344,9.18377164738314,0.11960285628879497
+lidar_dropout,274,class1_stable_success,3,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9524488147831457,0.9778368794326241,0.025388064649478403
+lidar_dropout,274,class1_stable_success,3,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04253559826656379,0.04022061900435789,-0.0023149792622059046
+lidar_dropout,274,class1_stable_success,3,controller_new_path_count,Controller new-path count,succeeded,succeeded,215.0,226.0,11.0
+lidar_dropout,274,class1_stable_success,3,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,90.22,145.36999999999998,55.14999999999998
+lidar_dropout,274,class1_stable_success,4,completion_time_s,Completion time (s),succeeded,succeeded,213.9751,222.9211,8.945999999999998
+lidar_dropout,274,class1_stable_success,4,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.103928039972537,9.14962023044581,0.04569219047327344
+lidar_dropout,274,class1_stable_success,4,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.9286834228156032,0.977273758221819,0.04859033540621571
+lidar_dropout,274,class1_stable_success,4,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.04273258915746917,0.041005308371267,-0.0017272807862021705
+lidar_dropout,274,class1_stable_success,4,controller_new_path_count,Controller new-path count,succeeded,succeeded,214.0,223.0,9.0
+lidar_dropout,274,class1_stable_success,4,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,110.3,140.27,29.970000000000013
+lidar_dropout,274,class1_stable_success,5,completion_time_s,Completion time (s),succeeded,succeeded,155.5037,159.1685,3.6647999999999854
+lidar_dropout,274,class1_stable_success,5,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.21188481703828,9.05506546912476,-0.1568193479135207
+lidar_dropout,274,class1_stable_success,5,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.2258479757997038,0.29043265516353317,0.06458467936382936
+lidar_dropout,274,class1_stable_success,5,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05858199663408819,0.05759120183572468,-0.0009907947983635104
+lidar_dropout,274,class1_stable_success,5,controller_new_path_count,Controller new-path count,succeeded,succeeded,156.0,161.0,5.0
+lidar_dropout,274,class1_stable_success,5,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,15.030000000000001,25.059999999999988,10.029999999999987
+lidar_dropout,274,class1_stable_success,6,completion_time_s,Completion time (s),succeeded,succeeded,170.31,172.8454,2.53540000000001
+lidar_dropout,274,class1_stable_success,6,actual_path_length_m,Actual path length (m),succeeded,succeeded,9.020379074868371,9.130643092840774,0.11026401797240304
+lidar_dropout,274,class1_stable_success,6,whole_stop_ratio,Whole-run stop ratio,succeeded,succeeded,0.27270528479864553,0.41180266322520087,0.13909737842655534
+lidar_dropout,274,class1_stable_success,6,whole_mean_speed_mps,Whole-run mean speed (m/s),succeeded,succeeded,0.05387821426332308,0.052916308399371004,-0.0009619058639520756
+lidar_dropout,274,class1_stable_success,6,controller_new_path_count,Controller new-path count,succeeded,succeeded,170.0,174.0,4.0
+lidar_dropout,274,class1_stable_success,6,whole_max_stop_streak_s,Max stop streak (s),succeeded,succeeded,30.069999999999993,30.08999999999999,0.01999999999999602

@@ -1,0 +1,111 @@
+{
+  "campaign_label": "odom_drift_stronger_tuned_clean",
+  "fault_label": "odom_drift_stronger",
+  "generated_at": "2026-08-03T18:33:57.908899",
+  "worlds_total": 9,
+  "worlds_completed": 0,
+  "worlds_retry_needed": 0,
+  "worlds_pending_validation": 0,
+  "worlds_in_progress": 9,
+  "status_rows": [
+    {
+      "world_idx": 240,
+      "complete_pairs": 4,
+      "valid_runs": 8,
+      "invalid_runs": 0,
+      "missing_runs": 4,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 5,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 274,
+      "complete_pairs": 4,
+      "valid_runs": 8,
+      "invalid_runs": 0,
+      "missing_runs": 4,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 5,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 94,
+      "complete_pairs": 4,
+      "valid_runs": 8,
+      "invalid_runs": 0,
+      "missing_runs": 4,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 5,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 8,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "fault,baseline"
+    },
+    {
+      "world_idx": 86,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "fault,baseline"
+    },
+    {
+      "world_idx": 173,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 76,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 239,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "baseline,fault"
+    },
+    {
+      "world_idx": 250,
+      "complete_pairs": 3,
+      "valid_runs": 6,
+      "invalid_runs": 0,
+      "missing_runs": 6,
+      "validation_ready": true,
+      "overall_state": "in_progress",
+      "next_pair_id": 4,
+      "next_conditions": "fault,baseline"
+    }
+  ]
+}

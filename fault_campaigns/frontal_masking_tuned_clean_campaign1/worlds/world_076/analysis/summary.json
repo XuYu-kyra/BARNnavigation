@@ -1,0 +1,37 @@
+{
+  "log_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/fault_campaigns/frontal_masking_tuned_clean_campaign1/worlds/world_076/logs",
+  "metric": "completion_time_s",
+  "run_count": 12,
+  "pair_summary": {
+    "pair_count": 6,
+    "mean_difference": 5.157716666666668,
+    "sd_difference": 5.787738452078378,
+    "t_statistic": 2.1828515880231345,
+    "ci95_halfwidth": 6.074847059121028,
+    "ci95_lower": -0.9171303924543599,
+    "ci95_upper": 11.232563725787696,
+    "relative_ci95_halfwidth": 1.17781713338028,
+    "passes_abs_rule": false,
+    "passes_rel_rule": false,
+    "recommended_stop": false,
+    "abs_threshold_s": 5.0,
+    "rel_threshold_fraction": 0.25
+  },
+  "condition_drift": [
+    {
+      "condition": "baseline",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": 1.6022799999999962,
+      "whole_mean_speed_slope_mps_per_run": -0.00038099936686812266,
+      "whole_stop_ratio_slope_per_run": 0.010337899207784525
+    },
+    {
+      "condition": "fault",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": 0.17058571428572286,
+      "whole_mean_speed_slope_mps_per_run": -1.7537963082927975e-06,
+      "whole_stop_ratio_slope_per_run": 0.010680740819350687
+    }
+  ],
+  "resource_summary_available": true
+}

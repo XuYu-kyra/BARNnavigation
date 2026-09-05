@@ -1,0 +1,1083 @@
+COMMAND: ros2 launch jackal_helper BARN_runner.launch.py world_idx:=239 gui:=false rviz:=false timeout:=300 throttle_duration:=5 out_file:=fault_campaign_world239_fault_r005.txt setup_path:=/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean nav2_log_level:=INFO scan_fault_enable:=true scan_fault_start:=15.0 scan_fault_duration:=20.0 scan_fault_center_deg:=0.0 scan_fault_width_deg:=90.0
+STARTED_AT: 2026-08-01T11:43:35.345662
+
+[INFO] [launch]: All log files can be found below /home/student24/.ros/log/2026-08-01-11-43-35-655737-barn-vm-184030
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: >>>>>>>>> LiDAR fault injector enabled: start=15.0s duration=20.0s width=90.0deg
+[INFO] [laser_scan_fault_injector.py-4]: process started with pid [184039]
+[INFO] [gazebo-1]: process started with pid [184035]
+[INFO] [parameter_bridge-2]: process started with pid [184036]
+[INFO] [generate_description-3]: process started with pid [184037]
+[generate_description-3] Generated /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/robot.urdf.xacro
+[INFO] [generate_description-3]: process has finished cleanly [pid 184037]
+[INFO] [generate_semantic_description-5]: process started with pid [184060]
+[laser_scan_fault_injector.py-4] [0m[INFO] [laser_scan_fault_injector]: Laser scan fault injector ready: /front/scan -> /front/scan_faulted, start=15.0s, duration=20.0s, center=0.0deg, width=90.0deg, replacement=range_max[0m
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.urdf]: Loaded j100-0000 robot model.
+[generate_semantic_description-5] [INFO] [moveit_550463571.moveit.core.robot_model]: Loading robot model 'j100-0000'...
+[generate_semantic_description-5] [INFO] [moveit_550463571.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link lidar2d_0_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link lidar3d_0_laser has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link lidar2d_1_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link gps_0_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link front_fender_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [WARN] [moveit_550463571.moveit.core.robot_model]: Link rear_fender_link has visual geometry but no collision geometry. Collision geometry will be left empty. Fix your URDF file by explicitly specifying collision geometry.
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.srdf]: Robot semantic model successfully loaded.
+[generate_semantic_description-5] [INFO] [moveit_collision_updater.Self-Collisions]: Thread complete 36
+[generate_semantic_description-5] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
+[generate_semantic_description-5]          at line 127 in ./src/class_loader.cpp
+[generate_semantic_description-5] Generated /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/robot.srdf.xacro
+[INFO] [generate_semantic_description-5]: process has finished cleanly [pid 184060]
+[INFO] [generate_launch-6]: process started with pid [184113]
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/manipulators/launch/manipulators-service.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar2d_0.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar2d_1.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/lidar3d_0.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/launch/sensors-service.launch.py
+[generate_launch-6] Generated launch file: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/launch/platform-service.launch.py
+[INFO] [generate_launch-6]: process has finished cleanly [pid 184113]
+[INFO] [generate_param-7]: process started with pid [184115]
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar2d_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar2d_1.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/lidar3d_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/diagnostic_aggregator.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/diagnostic_updater.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/foxglove_bridge.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/imu_filter.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/localization.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/teleop_interactive_markers.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/teleop_joy.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/twist_mux.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/imu_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/sensors/config/gps_0.yaml
+[generate_param-7] Generated config: /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/manipulators/config/moveit.yaml
+[INFO] [generate_param-7]: process has finished cleanly [pid 184115]
+[INFO] [robot_state_publisher-8]: process started with pid [184359]
+[INFO] [spawner-9]: process started with pid [184360]
+[INFO] [spawner-10]: process started with pid [184361]
+[INFO] [ekf_node-11]: process started with pid [184362]
+[INFO] [marker_server-12]: process started with pid [184363]
+[INFO] [twist_mux-13]: process started with pid [184364]
+[INFO] [joy_linux_node-14]: process started with pid [184367]
+[INFO] [teleop_node-15]: process started with pid [184368]
+[INFO] [parameter_bridge-16]: process started with pid [184369]
+[INFO] [parameter_bridge-17]: process started with pid [184370]
+[INFO] [parameter_bridge-18]: process started with pid [184371]
+[INFO] [imu_filter_madgwick_node-19]: process started with pid [184372]
+[INFO] [parameter_bridge-20]: process started with pid [184373]
+[INFO] [parameter_bridge-21]: process started with pid [184374]
+[INFO] [static_transform_publisher-22]: process started with pid [184375]
+[INFO] [parameter_bridge-23]: process started with pid [184386]
+[INFO] [static_transform_publisher-24]: process started with pid [184387]
+[INFO] [parameter_bridge-25]: process started with pid [184395]
+[INFO] [static_transform_publisher-26]: process started with pid [184403]
+[INFO] [create-27]: process started with pid [184409]
+[robot_state_publisher-8] [INFO] [robot_state_publisher]: Robot initialized
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Teleop enable button 4.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo on button 5.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Linear axis x on 1 at scale 0.400000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for linear axis x is scale 2.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Linear axis y on 3 at scale 0.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for linear axis y is scale 0.000000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Angular axis yaw on 0 at scale 0.600000.
+[teleop_node-15] [INFO] [TeleopTwistJoy]: Turbo for angular axis yaw is scale 1.400000.
+[joy_linux_node-14] [ERROR] [joy_node]: Couldn't open joystick /dev/input/ps4. Will retry every second.
+[create-27] [INFO] [ros_gz_sim]: Requesting list of world names.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.external' subscribed to topic 'cmd_vel': timeout = 0.500000s , priority = 1.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.interactive_marker' subscribed to topic 'twist_marker_server/cmd_vel': timeout = 0.500000s , priority = 8.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.joy' subscribed to topic 'joy_teleop/cmd_vel': timeout = 0.500000s , priority = 10.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'topics.rc' subscribed to topic 'rc_teleop/cmd_vel': timeout = 0.500000s , priority = 12.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'locks.e_stop' subscribed to topic 'platform/emergency_stop': timeout = None , priority = 255.
+[twist_mux-13] [INFO] [twist_mux]: Topic handler 'locks.safety_stop' subscribed to topic 'platform/safety_stop': timeout = None , priority = 254.
+[create-27] [INFO] [ros_gz_sim]: Waiting messages on topic [robot_description].
+[create-27] [INFO] [ros_gz_sim]: Entity creation successful.
+[static_transform_publisher-26] [INFO] [lidar3d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-26] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-26] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-26] from 'lidar3d_0_link' to 'robot/base_link/lidar3d_0'
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Starting ImuFilter
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Using dt computed from message headers
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: The gravity vector is kept in the IMU message.
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Imu filter gain set to 0.100000
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Gyro drift bias set to 0.000000
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: Magnetometer bias values: 0.000000 0.000000 0.000000
+[marker_server-12] [INFO] [twist_server_node]: [interactive_marker_twist_server] Initialized.
+[INFO] [create-27]: process has finished cleanly [pid 184409]
+[static_transform_publisher-24] [INFO] [lidar2d_1_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-24] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-24] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-24] from 'lidar2d_1_link' to 'robot/base_link/lidar2d_1'
+[parameter_bridge-17] [INFO] [odom_base_tf_bridge]: Creating GZ->ROS Bridge: [/model/robot/tf (gz.msgs.Pose_V) -> /model/robot/tf (tf2_msgs/msg/TFMessage)] (Lazy 0)
+[gazebo-1] [INFO] [gz_ros_control]: Loading controller_manager
+[gazebo-1] [INFO] [controller_manager]: Using ROS clock for triggering controller manager cycles.
+[gazebo-1] [INFO] [controller_manager]: Subscribing to '/robot_description' topic for robot description.
+[gazebo-1] [WARN] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Creating GZ->ROS Bridge: [/cmd_vel (gz.msgs.Twist) -> /cmd_vel (geometry_msgs/msg/TwistStamped)] (Lazy 0)
+[parameter_bridge-18] [INFO] [imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/imu_0/data (gz.msgs.IMU) -> sensors/imu_0/data (sensor_msgs/msg/Imu)] (Lazy 0)
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Creating ROS->GZ Bridge: [/model/robot/cmd_vel (geometry_msgs/msg/TwistStamped) -> /model/robot/cmd_vel (gz.msgs.Twist)] (Lazy 0)
+[parameter_bridge-18] [INFO] [imu_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/imu_0/data_raw (gz.msgs.IMU) -> sensors/imu_0/data_raw (sensor_msgs/msg/Imu)] (Lazy 0)
+[static_transform_publisher-22] [INFO] [lidar2d_0_static_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-22] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-22] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-22] from 'lidar2d_0_link' to 'robot/base_link/lidar2d_0'
+[parameter_bridge-21] [INFO] [sensors.lidar2d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar2d_0/scan (gz.msgs.LaserScan) -> lidar2d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-25] [INFO] [sensors.lidar3d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar3d_0/scan (gz.msgs.LaserScan) -> lidar3d_0/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[parameter_bridge-25] [INFO] [sensors.lidar3d_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar3d_0/scan/points (gz.msgs.PointCloudPacked) -> lidar3d_0/points (sensor_msgs/msg/PointCloud2)] (Lazy 0)
+[parameter_bridge-20] [INFO] [gps_0_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/gps_0/navsat (gz.msgs.NavSat) -> sensors/gps_0/fix (sensor_msgs/msg/NavSatFix)] (Lazy 0)
+[parameter_bridge-23] [INFO] [sensors.lidar2d_1_gz_bridge]: Creating GZ->ROS Bridge: [/sensors/lidar2d_1/scan (gz.msgs.LaserScan) -> lidar2d_1/scan (sensor_msgs/msg/LaserScan)] (Lazy 0)
+[gazebo-1] [WARN] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
+[gazebo-1] [WARN] [controller_manager]: Waiting for data on 'robot_description' topic to finish initialization
+[gazebo-1] [WARN] [gz_ros_control]: Waiting RM to load and initialize hardware...
+[gazebo-1] [INFO] [controller_manager]: Received robot description from topic.
+[gazebo-1] [INFO] [controller_manager]: Enforcing command limits is disabled. Command limits from URDF will be ignored.
+[gazebo-1] [INFO] [gz_ros_control]: The position_proportional_gain has been set to: 0.1
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: front_left_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: front_right_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: rear_left_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading joint: rear_right_wheel_joint
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [INFO] [gz_ros_control]: 		 position
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: 	Command:
+[gazebo-1] [INFO] [gz_ros_control]: 		 velocity
+[gazebo-1] [INFO] [gz_ros_control]: Loading sensor: imu_0
+[gazebo-1] [INFO] [gz_ros_control]: 	State:
+[gazebo-1] [WARN] [gz_ros_control]: IMU sensor 'imu_0' not found in hardware_info, skipping.
+[gazebo-1] [INFO] [controller_manager]: Initialize hardware 'j100_hardware' 
+[gazebo-1] [WARN] [controller_manager.hardware_component.system.j100_hardware]: Executor is not available during hardware component initialization for 'j100_hardware'. Skipping node creation!
+[gazebo-1] [INFO] [controller_manager]: Successful initialization of hardware 'j100_hardware'
+[gazebo-1] [INFO] [controller_manager]: Activating component 'j100_hardware'.
+[gazebo-1] [INFO] [resource_manager]: 'configure' hardware 'j100_hardware' 
+[gazebo-1] [INFO] [gz_ros_control]: System Successfully configured!
+[gazebo-1] [INFO] [resource_manager]: Successful 'configure' of hardware 'j100_hardware'
+[gazebo-1] [INFO] [resource_manager]: 'activate' hardware 'j100_hardware' 
+[gazebo-1] [INFO] [resource_manager]: Successful 'activate' of hardware 'j100_hardware'
+[gazebo-1] [WARN] [controller_manager]: Component 'j100_hardware' does not have read or write statistics initialized, skipping registration.
+[gazebo-1] [INFO] [controller_manager]: Resource Manager has been successfully initialized. Starting Controller Manager services...
+[gazebo-1] [INFO] [controller_manager]: Loading controller : 'joint_state_broadcaster' of type 'joint_state_broadcaster/JointStateBroadcaster'
+[gazebo-1] [INFO] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[gazebo-1] [WARN] [controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-1] [INFO] [controller_manager]: Controller 'joint_state_broadcaster' node arguments: --ros-args --params-file /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: Loaded joint_state_broadcaster
+[gazebo-1] [INFO] [controller_manager]: Configuring controller: 'joint_state_broadcaster'
+[gazebo-1] [INFO] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[gazebo-1] [INFO] [controller_manager]: Activating controllers: [ joint_state_broadcaster ]
+[gazebo-1] [WARN] [gz_ros_control]:  Desired controller update period (0.02 s) is slower than the gazebo simulation period (0.001 s).
+[gazebo-1] [INFO] [controller_manager]: Successfully switched controllers!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: egl: failed to create dri2 screen
+[gazebo-1] libEGL warning: NEEDS EXTENSION: falling back to kms_swrast
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-9] [INFO] [spawner_joint_state_broadcaster]: Configured and activated joint_state_broadcaster
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: waiting for service /controller_manager/list_controllers to become available...
+[INFO] [spawner-9]: process has finished cleanly [pid 184360]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[INFO] [launch.user]: >>>>>>>>> Starting BARN Runner node...
+[INFO] [barn_runner.py-28]: process started with pid [185030]
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> BARN Runner started.[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Resetting Jackal...[0m
+[gazebo-1] [INFO] [controller_manager]: Loading controller : 'platform_velocity_controller' of type 'diff_drive_controller/DiffDriveController'
+[gazebo-1] [INFO] [controller_manager]: Loading controller 'platform_velocity_controller'
+[gazebo-1] [WARN] [controller_manager]: The use of remapping arguments to the controller_manager node is deprecated. Please use the '--controller-ros-args' argument of the spawner to pass remapping arguments to the controller node.
+[gazebo-1] [INFO] [controller_manager]: Controller 'platform_velocity_controller' node arguments: --ros-args --params-file /home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean/platform/config/control.yaml --ros-args --remap ~/odom:=platform/odom --remap ~/cmd_vel:=platform/cmd_vel --remap /tf:=tf --remap /tf_static:=tf_static --remap /diagnostics:=diagnostics --remap /dynamic_joint_states:=platform/dynamic_joint_states --remap joint_states:=platform/joint_states --remap ~/reference:=platform/cmd_vel --remap ~/odometry:=platform/odom -p use_sim_time:=true --param use_sim_time:=true 
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[imu_filter_madgwick_node-19] [WARN] [imu_filter_node]: The IMU seems to be in free fall, cannot determine gravity direction!
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: Loaded platform_velocity_controller
+[gazebo-1] [INFO] [controller_manager]: Configuring controller: 'platform_velocity_controller'
+[gazebo-1] [INFO] [controller_manager]: Activating controllers: [ platform_velocity_controller ]
+[imu_filter_madgwick_node-19] [INFO] [imu_filter_node]: First IMU message received.
+[gazebo-1] [INFO] [controller_manager]: Successfully switched controllers!
+[spawner-10] [INFO] [spawner_platform_velocity_controller]: Configured and activated platform_velocity_controller
+[INFO] [spawner-10]: process has finished cleanly [pid 184361]
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Initial position: (-2.25, 3.00).[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Goal position: (-2.25, 13.00).[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Waiting for robot to start moving...[0m
+[INFO] [launch.user]: >>>>>>>>> Launching Nav2...
+[INFO] [controller_server-29]: process started with pid [185054]
+[INFO] [smoother_server-30]: process started with pid [185055]
+[INFO] [planner_server-31]: process started with pid [185056]
+[INFO] [behavior_server-32]: process started with pid [185057]
+[INFO] [bt_navigator-33]: process started with pid [185058]
+[INFO] [velocity_smoother-34]: process started with pid [185059]
+[INFO] [lifecycle_manager-35]: process started with pid [185060]
+[planner_server-31] [INFO] [planner_server]: 
+[planner_server-31] 	planner_server lifecycle node launched. 
+[planner_server-31] 	Waiting on external lifecycle transitions to activate
+[planner_server-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-31] [INFO] [planner_server]: Creating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: 
+[planner_server-31] 	global_costmap lifecycle node launched. 
+[planner_server-31] 	Waiting on external lifecycle transitions to activate
+[planner_server-31] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Creating
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[behavior_server-32] [INFO] [behavior_server]: 
+[behavior_server-32] 	behavior_server lifecycle node launched. 
+[behavior_server-32] 	Waiting on external lifecycle transitions to activate
+[behavior_server-32] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[velocity_smoother-34] [INFO] [velocity_smoother]: 
+[velocity_smoother-34] 	velocity_smoother lifecycle node launched. 
+[velocity_smoother-34] 	Waiting on external lifecycle transitions to activate
+[velocity_smoother-34] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-29] [INFO] [controller_server]: 
+[controller_server-29] 	controller_server lifecycle node launched. 
+[controller_server-29] 	Waiting on external lifecycle transitions to activate
+[controller_server-29] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-29] [INFO] [controller_server]: Creating controller server
+[controller_server-29] [INFO] [local_costmap.local_costmap]: 
+[controller_server-29] 	local_costmap lifecycle node launched. 
+[controller_server-29] 	Waiting on external lifecycle transitions to activate
+[controller_server-29] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Creating Costmap
+[bt_navigator-33] [INFO] [bt_navigator]: 
+[bt_navigator-33] 	bt_navigator lifecycle node launched. 
+[bt_navigator-33] 	Waiting on external lifecycle transitions to activate
+[bt_navigator-33] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[bt_navigator-33] [INFO] [bt_navigator]: Creating
+[smoother_server-30] [INFO] [smoother_server]: 
+[smoother_server-30] 	smoother_server lifecycle node launched. 
+[smoother_server-30] 	Waiting on external lifecycle transitions to activate
+[smoother_server-30] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[smoother_server-30] [INFO] [smoother_server]: Creating smoother server
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring controller_server[0m[0m
+[controller_server-29] [INFO] [controller_server]: Configuring controller interface
+[controller_server-29] [INFO] [controller_server]: getting progress checker plugins..
+[controller_server-29] [INFO] [controller_server]: getting goal checker plugins..
+[controller_server-29] [INFO] [controller_server]: Controller frequency set to 20.0000Hz
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Configuring
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Using plugin "voxel_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Subscribed to Topics: scan
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Initialized plugin "voxel_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Using plugin "inflation_layer"
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Initialized plugin "inflation_layer"
+[controller_server-29] [INFO] [controller_server]: Created progress_checker : progress_checker of type nav2_controller::SimpleProgressChecker
+[controller_server-29] [INFO] [controller_server]: Controller Server has progress_checker  progress checkers available.
+[controller_server-29] [INFO] [controller_server]: Created goal checker : general_goal_checker of type nav2_controller::SimpleGoalChecker
+[controller_server-29] [INFO] [controller_server]: Controller Server has general_goal_checker  goal checkers available.
+[controller_server-29] [INFO] [controller_server]: Created controller : FollowPath of type nav2_mppi_controller::MPPIController
+[controller_server-29] [INFO] [controller_server]: Controller period is equal to model dt. Control sequence shifting is ON
+[controller_server-29] [INFO] [controller_server]: ConstraintCritic instantiated with 1 power and 4.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::ConstraintCritic
+[controller_server-29] [INFO] [controller_server]: InflationCostCritic instantiated with 1 power and 300.000000 / 0.015000 weights. Critic will collision check based on footprint cost.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::CostCritic
+[controller_server-29] [INFO] [controller_server]: GoalCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::GoalCritic
+[controller_server-29] [INFO] [controller_server]: GoalAngleCritic instantiated with 1 power, 3.000000 weight, 0.500000 angular threshold and symmetric_yaw_tolerance disabled
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::GoalAngleCritic
+[controller_server-29] [INFO] [controller_server]: ReferenceTrajectoryCritic instantiated with 1 power and 8.000000 weight
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathAlignCritic
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathFollowCritic
+[controller_server-29] [INFO] [controller_server]: PathAngleCritic instantiated with 1 power and 2.000000 weight. Mode set to: Forward Preference
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PathAngleCritic
+[controller_server-29] [INFO] [controller_server]: PreferForwardCritic instantiated with 1 power and 5.000000 weight.
+[controller_server-29] [INFO] [controller_server]: Critic loaded : mppi::critics::PreferForwardCritic
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[controller_server-29] [INFO] [MPPIController]: Configured MPPI Controller: FollowPath
+[controller_server-29] [INFO] [controller_server]: Controller Server has FollowPath  controllers available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring smoother_server[0m[0m
+[smoother_server-30] [INFO] [smoother_server]: Configuring smoother server
+[smoother_server-30] [INFO] [smoother_server]: Created smoother : simple_smoother of type nav2_smoother::SimpleSmoother
+[smoother_server-30] [INFO] [smoother_server]: Smoother Server has simple_smoother  smoothers available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring planner_server[0m[0m
+[planner_server-31] [INFO] [planner_server]: Configuring
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Configuring
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-31] [INFO] [planner_server]: Created global planner plugin GridBased of type nav2_navfn_planner::NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring behavior_server[0m[0m
+[behavior_server-32] [INFO] [behavior_server]: Configuring
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin spin of type nav2_behaviors::Spin
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin backup of type nav2_behaviors::BackUp
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin drive_on_heading of type nav2_behaviors::DriveOnHeading
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin assisted_teleop of type nav2_behaviors::AssistedTeleop
+[behavior_server-32] [INFO] [behavior_server]: Creating behavior plugin wait of type nav2_behaviors::Wait
+[behavior_server-32] [INFO] [behavior_server]: Configuring spin
+[behavior_server-32] [INFO] [behavior_server]: Configuring backup
+[behavior_server-32] [INFO] [behavior_server]: Configuring drive_on_heading
+[behavior_server-32] [INFO] [behavior_server]: Configuring assisted_teleop
+[behavior_server-32] [INFO] [behavior_server]: Configuring wait
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring velocity_smoother[0m[0m
+[velocity_smoother-34] [INFO] [velocity_smoother]: Configuring velocity smoother
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mConfiguring bt_navigator[0m[0m
+[bt_navigator-33] [INFO] [bt_navigator]: Configuring
+[bt_navigator-33] [INFO] [bt_navigator]: Creating navigator id navigate_to_pose of type nav2_bt_navigator::NavigateToPoseNavigator
+[bt_navigator-33] [INFO] [bt_navigator]: Creating navigator id navigate_through_poses of type nav2_bt_navigator::NavigateThroughPosesNavigator
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating controller_server[0m[0m
+[controller_server-29] [INFO] [controller_server]: Activating
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Activating
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Checking transform
+[controller_server-29] [INFO] [local_costmap.local_costmap]: start
+[controller_server-29] [WARN] [controller_server]: Parameter controller_server.verbose not found
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[controller_server-29] [INFO] [MPPIController]: Activated MPPI Controller: FollowPath
+[controller_server-29] [INFO] [controller_server]: Creating bond (controller_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server controller_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating smoother_server[0m[0m
+[smoother_server-30] [INFO] [smoother_server]: Activating
+[smoother_server-30] [INFO] [smoother_server]: Creating bond (smoother_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server smoother_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating planner_server[0m[0m
+[planner_server-31] [INFO] [planner_server]: Activating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Activating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Checking transform
+[planner_server-31] [INFO] [global_costmap.global_costmap]: start
+[planner_server-31] [INFO] [planner_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Creating bond (planner_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server planner_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating behavior_server[0m[0m
+[behavior_server-32] [INFO] [behavior_server]: Activating
+[behavior_server-32] [INFO] [behavior_server]: Activating spin
+[behavior_server-32] [INFO] [behavior_server]: Activating backup
+[behavior_server-32] [INFO] [behavior_server]: Activating drive_on_heading
+[behavior_server-32] [INFO] [behavior_server]: Activating assisted_teleop
+[behavior_server-32] [INFO] [behavior_server]: Activating wait
+[behavior_server-32] [INFO] [behavior_server]: Creating bond (behavior_server) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server behavior_server connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating velocity_smoother[0m[0m
+[velocity_smoother-34] [INFO] [velocity_smoother]: Activating
+[velocity_smoother-34] [INFO] [velocity_smoother]: Creating bond (velocity_smoother) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server velocity_smoother connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mActivating bt_navigator[0m[0m
+[bt_navigator-33] [INFO] [bt_navigator]: Activating
+[bt_navigator-33] [INFO] [bt_navigator]: Creating bond (bt_navigator) to lifecycle manager.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Server bt_navigator connected with bond.
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mCreating bond timer...[0m[0m
+[INFO] [launch.user]: >>>>>>>>> Publishing Nav2 goal... 
+[INFO] [ros2-36]: process started with pid [185199]
+[bt_navigator-33] [INFO] [bt_navigator]: Begin navigating from current location (0.00, -0.00) to (10.00, 0.00)
+[controller_server-29] [INFO] [controller_server]: Received a goal, begin computing control effort.
+[controller_server-29] [WARN] [controller_server]: No goal checker was specified in parameter 'current_goal_checker'. Server will use only plugin loaded general_goal_checker . This warning will appear once.
+[controller_server-29] [WARN] [controller_server]: No progress checker was specified in parameter 'current_progress_checker'. Server will use only plugin loaded progress_checker . This warning will appear once.
+[parameter_bridge-16] [INFO] [cmd_vel_bridge]: Passing message from ROS geometry_msgs/msg/TwistStamped to Gazebo gz.msgs.Twist (showing msg only once per type)
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>> Trial running...[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 0.02 (s), x: -2.26 (m), y: 3.11 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 5.02 (s), x: -2.30 (m), y: 3.29 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 10.04 (s), x: -2.39 (m), y: 3.47 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 15.05 (s), x: -2.50 (m), y: 3.65 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 20.05 (s), x: -2.64 (m), y: 3.85 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 25.07 (s), x: -2.78 (m), y: 4.03 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 30.07 (s), x: -2.92 (m), y: 4.22 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 35.07 (s), x: -3.05 (m), y: 4.42 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 40.08 (s), x: -3.15 (m), y: 4.62 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 45.11 (s), x: -3.24 (m), y: 4.83 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 50.11 (s), x: -3.30 (m), y: 5.05 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 55.13 (s), x: -3.34 (m), y: 5.26 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 60.13 (s), x: -3.34 (m), y: 5.48 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 65.15 (s), x: -3.32 (m), y: 5.73 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 70.16 (s), x: -3.27 (m), y: 5.95 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 200.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 75.17 (s), x: -3.20 (m), y: 6.19 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 80.19 (s), x: -3.12 (m), y: 6.41 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 85.21 (s), x: -3.04 (m), y: 6.60 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 90.22 (s), x: -2.92 (m), y: 6.79 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 95.23 (s), x: -2.78 (m), y: 6.97 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 100.24 (s), x: -2.60 (m), y: 7.16 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 105.25 (s), x: -2.43 (m), y: 7.34 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 110.27 (s), x: -2.26 (m), y: 7.49 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 200.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 115.29 (s), x: -2.09 (m), y: 7.65 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 120.31 (s), x: -1.97 (m), y: 7.75 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 125.32 (s), x: -1.79 (m), y: 7.89 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 130.34 (s), x: -1.63 (m), y: 8.03 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 135.34 (s), x: -1.49 (m), y: 8.16 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 140.36 (s), x: -1.36 (m), y: 8.30 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 145.36 (s), x: -1.24 (m), y: 8.44 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 150.36 (s), x: -1.15 (m), y: 8.63 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 155.38 (s), x: -1.10 (m), y: 8.86 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 160.40 (s), x: -1.09 (m), y: 9.09 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 200.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 165.42 (s), x: -1.09 (m), y: 9.33 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 170.42 (s), x: -1.11 (m), y: 9.58 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 175.43 (s), x: -1.13 (m), y: 9.81 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 180.45 (s), x: -1.15 (m), y: 10.07 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 185.46 (s), x: -1.15 (m), y: 10.32 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 190.48 (s), x: -1.16 (m), y: 10.57 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 195.50 (s), x: -1.16 (m), y: 10.83 (m)[0m
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[laser_scan_fault_injector.py-4] [33m[WARN] [laser_scan_fault_injector]: Fault active at t=15.01s: replacing frontal sector scan ranges.[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 200.52 (s), x: -1.17 (m), y: 11.07 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 205.54 (s), x: -1.17 (m), y: 11.31 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is inf Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 1000.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 210.55 (s), x: -1.18 (m), y: 11.53 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 215.57 (s), x: -1.18 (m), y: 11.71 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 220.59 (s), x: -1.19 (m), y: 11.87 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 225.61 (s), x: -1.19 (m), y: 12.03 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 230.62 (s), x: -1.20 (m), y: 12.18 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 500.0000 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 235.64 (s), x: -1.21 (m), y: 12.31 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 240.65 (s), x: -1.23 (m), y: 12.44 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 245.67 (s), x: -1.24 (m), y: 12.55 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 250.0000 Hz.
+[controller_server-29] [WARN] [controller_server]: Control loop missed its desired rate of 20.0000 Hz. Current loop rate is 333.3333 Hz.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 250.69 (s), x: -1.25 (m), y: 12.64 (m)[0m
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Passing new path to controller.
+[controller_server-29] [INFO] [controller_server]: Reached the goal!
+[controller_server-29] [INFO] [controller_server]: Optimizer reset
+[bt_navigator-33] [INFO] [bt_navigator]: Goal succeeded
+[INFO] [ros2-36]: process has finished cleanly [pid 185199]
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 255.71 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 260.72 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5030000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5070000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5090000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5100000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5100000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5110000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5110000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5110000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5130000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5150000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5190000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5210000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5230000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5260000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5290000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5330000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5370000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5400000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5440000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5460000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5480000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5500000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5540000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5550000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5580000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5620000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5660000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5690000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5700000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5730000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5750000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5770000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5790000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5830000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5880000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5920000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5950000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.5970000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6000000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6020000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6050000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6070000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6090000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6100000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6100000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6120000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6140000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6150000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6160000000 seconds, which exceeds the allowed timeout (0.5000)
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 265.73 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6170000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6190000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6210000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6230000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6260000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6280000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6320000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6340000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6360000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6370000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6400000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6430000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6450000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6470000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6500000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6530000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6540000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6550000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6570000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6600000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6630000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6650000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6660000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6690000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6710000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6750000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6770000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6780000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6780000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6800000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6820000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6860000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6900000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6930000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6950000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6970000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.6990000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7010000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7040000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7080000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7120000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7150000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7180000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7180000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7210000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7230000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7250000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7280000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7320000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7340000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7380000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7420000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7440000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7480000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7510000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7550000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7590000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7600000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7650000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7690000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7710000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7730000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7750000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7780000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7790000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7830000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7860000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7890000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7930000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7950000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.7980000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8000000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8040000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8070000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8120000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8150000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8180000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8210000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8210000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8240000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8270000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8300000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8330000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8370000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8380000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8380000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8420000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8440000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8460000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8480000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8520000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8550000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8580000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8610000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8640000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8680000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8710000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8730000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8750000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8760000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8790000000 seconds, which exceeds the allowed timeout (0.5000)
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 270.74 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8820000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8850000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8890000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8920000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8950000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8960000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.8970000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9010000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9050000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9080000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9110000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9140000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9170000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9200000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9230000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9250000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9290000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9330000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9370000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9410000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9450000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9470000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9490000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9540000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9590000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9630000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9650000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9690000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9720000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9750000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9790000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9830000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9880000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9930000000 seconds, which exceeds the allowed timeout (0.5000)
+[gazebo-1] [WARN] [platform_velocity_controller]: Ignoring the received message (timestamp 18.6820000000) because it is older than the current time by 0.9960000000 seconds, which exceeds the allowed timeout (0.5000)
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 275.78 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 280.79 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 285.80 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 290.81 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Time: 295.82 (s), x: -1.25 (m), y: 12.71 (m)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: >>>>>>>>>>>>>>>>>> Test finished! <<<<<<<<<<<<<<<<<<[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Navigation timeout with time 300.0086 (s)[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: Navigation metric: 0.0000[0m
+[barn_runner.py-28] [0m[INFO] [BARN_Runner]: ----------------------------------------------------[0m
+[INFO] [barn_runner.py-28]: process has finished cleanly [pid 185030]
+[INFO] [launch.user]: >>>>>>>>> Shutting down in 5 seconds...
+[INFO] [launch]: process[barn_runner.py-28] was required: shutting down launched system
+[INFO] [lifecycle_manager-35]: sending signal 'SIGINT' to process[lifecycle_manager-35]
+[INFO] [velocity_smoother-34]: sending signal 'SIGINT' to process[velocity_smoother-34]
+[INFO] [pkill-37]: process started with pid [186329]
+[INFO] [bt_navigator-33]: sending signal 'SIGINT' to process[bt_navigator-33]
+[ERROR] [gazebo-1]: process has died [pid 184035, exit code -9, cmd 'ruby /opt/ros/jazzy/opt/gz_tools_vendor/bin/gz sim /home/student24/dissertation/barn_ros2/install/jackal_helper/share/jackal_helper/worlds/BARN/world_239.world -s -r -v 0 --gui-config /home/student24/dissertation/barn_ros2/install/jackal_helper/share/jackal_helper/config/gui.config --force-version 8'].
+[ERROR] [pkill-37]: process has died [pid 186329, exit code -9, cmd 'pkill -9 -f 'gz sim''].
+[INFO] [behavior_server-32]: sending signal 'SIGINT' to process[behavior_server-32]
+[INFO] [planner_server-31]: sending signal 'SIGINT' to process[planner_server-31]
+[INFO] [smoother_server-30]: sending signal 'SIGINT' to process[smoother_server-30]
+[INFO] [controller_server-29]: sending signal 'SIGINT' to process[controller_server-29]
+[INFO] [static_transform_publisher-26]: sending signal 'SIGINT' to process[static_transform_publisher-26]
+[INFO] [parameter_bridge-25]: sending signal 'SIGINT' to process[parameter_bridge-25]
+[INFO] [static_transform_publisher-24]: sending signal 'SIGINT' to process[static_transform_publisher-24]
+[INFO] [parameter_bridge-23]: sending signal 'SIGINT' to process[parameter_bridge-23]
+[INFO] [static_transform_publisher-22]: sending signal 'SIGINT' to process[static_transform_publisher-22]
+[INFO] [parameter_bridge-21]: sending signal 'SIGINT' to process[parameter_bridge-21]
+[INFO] [velocity_smoother-34]: process has finished cleanly [pid 185059]
+[INFO] [parameter_bridge-25]: process has finished cleanly [pid 184395]
+[INFO] [parameter_bridge-20]: sending signal 'SIGINT' to process[parameter_bridge-20]
+[INFO] [imu_filter_madgwick_node-19]: sending signal 'SIGINT' to process[imu_filter_madgwick_node-19]
+[INFO] [parameter_bridge-18]: sending signal 'SIGINT' to process[parameter_bridge-18]
+[INFO] [static_transform_publisher-26]: process has finished cleanly [pid 184403]
+[INFO] [parameter_bridge-17]: sending signal 'SIGINT' to process[parameter_bridge-17]
+[INFO] [parameter_bridge-23]: process has finished cleanly [pid 184386]
+[INFO] [lifecycle_manager-35]: process has finished cleanly [pid 185060]
+[INFO] [parameter_bridge-16]: sending signal 'SIGINT' to process[parameter_bridge-16]
+[INFO] [static_transform_publisher-24]: process has finished cleanly [pid 184387]
+[INFO] [teleop_node-15]: sending signal 'SIGINT' to process[teleop_node-15]
+[INFO] [joy_linux_node-14]: sending signal 'SIGINT' to process[joy_linux_node-14]
+[INFO] [smoother_server-30]: process has finished cleanly [pid 185055]
+[INFO] [twist_mux-13]: sending signal 'SIGINT' to process[twist_mux-13]
+[INFO] [parameter_bridge-21]: process has finished cleanly [pid 184374]
+[INFO] [marker_server-12]: sending signal 'SIGINT' to process[marker_server-12]
+[INFO] [parameter_bridge-20]: process has finished cleanly [pid 184373]
+[INFO] [parameter_bridge-18]: process has finished cleanly [pid 184371]
+[INFO] [static_transform_publisher-22]: process has finished cleanly [pid 184375]
+[INFO] [ekf_node-11]: sending signal 'SIGINT' to process[ekf_node-11]
+[INFO] [parameter_bridge-17]: process has finished cleanly [pid 184370]
+[INFO] [imu_filter_madgwick_node-19]: process has finished cleanly [pid 184372]
+[INFO] [robot_state_publisher-8]: sending signal 'SIGINT' to process[robot_state_publisher-8]
+[INFO] [laser_scan_fault_injector.py-4]: sending signal 'SIGINT' to process[laser_scan_fault_injector.py-4]
+[INFO] [behavior_server-32]: process has finished cleanly [pid 185057]
+[INFO] [parameter_bridge-16]: process has finished cleanly [pid 184369]
+[INFO] [parameter_bridge-2]: sending signal 'SIGINT' to process[parameter_bridge-2]
+[INFO] [teleop_node-15]: process has finished cleanly [pid 184368]
+[INFO] [joy_linux_node-14]: process has finished cleanly [pid 184367]
+[lifecycle_manager-35] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_navigation)
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: [34m[1mTerminating bond timer...[0m[0m
+[velocity_smoother-34] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[velocity_smoother-34] [INFO] [velocity_smoother]: Running Nav2 LifecycleNode rcl preshutdown (velocity_smoother)
+[velocity_smoother-34] [INFO] [velocity_smoother]: Deactivating
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[velocity_smoother-34] [INFO] [velocity_smoother]: Cleaning up
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying bond (velocity_smoother) to lifecycle manager.
+[bt_navigator-33] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-33] [INFO] [bt_navigator]: Running Nav2 LifecycleNode rcl preshutdown (bt_navigator)
+[bt_navigator-33] [INFO] [bt_navigator]: Deactivating
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[velocity_smoother-34] [INFO] [velocity_smoother]: Destroying
+[bt_navigator-33] [INFO] [bt_navigator]: Cleaning up
+[behavior_server-32] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-32] [INFO] [behavior_server]: Running Nav2 LifecycleNode rcl preshutdown (behavior_server)
+[behavior_server-32] [INFO] [behavior_server]: Deactivating
+[behavior_server-32] [INFO] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[behavior_server-32] [INFO] [behavior_server]: Cleaning up
+[planner_server-31] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[planner_server-31] [INFO] [planner_server]: Deactivating
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Deactivating
+[smoother_server-30] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[smoother_server-30] [INFO] [smoother_server]: Running Nav2 LifecycleNode rcl preshutdown (smoother_server)
+[smoother_server-30] [INFO] [smoother_server]: Deactivating
+[smoother_server-30] [INFO] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[smoother_server-30] [INFO] [smoother_server]: Cleaning up
+[controller_server-29] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-29] [INFO] [controller_server]: Running Nav2 LifecycleNode rcl preshutdown (controller_server)
+[controller_server-29] [INFO] [controller_server]: Deactivating
+[controller_server-29] [INFO] [MPPIController]: Deactivated MPPI Controller: FollowPath
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Deactivating
+[behavior_server-32] [INFO] [behavior_server]: Destroying bond (behavior_server) to lifecycle manager.
+[static_transform_publisher-26] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-25] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[smoother_server-30] [INFO] [smoother_server]: Destroying bond (smoother_server) to lifecycle manager.
+[INFO] [twist_mux-13]: process has finished cleanly [pid 184364]
+[smoother_server-30] [INFO] [smoother_server]: Destroying
+[static_transform_publisher-24] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-35] [INFO] [lifecycle_manager_navigation]: Destroying lifecycle_manager_navigation
+[controller_server-29] [INFO] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[controller_server-29] [INFO] [controller_server]: Cleaning up
+[controller_server-29] [INFO] [MPPIController]: Cleaned up MPPI Controller: FollowPath
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Cleaning up
+[parameter_bridge-23] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[static_transform_publisher-22] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-21] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-20] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[imu_filter_madgwick_node-19] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-18] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[parameter_bridge-17] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[behavior_server-32] [INFO] [behavior_server]: Destroying
+[controller_server-29] [INFO] [controller_server]: Destroying bond (controller_server) to lifecycle manager.
+[parameter_bridge-16] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[teleop_node-15] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-29] [INFO] [local_costmap.local_costmap]: Destroying
+[joy_linux_node-14] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[joy_linux_node-14] [INFO] [joy_node]: joy_node shut down.
+[twist_mux-13] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[controller_server-29] [INFO] [controller_server]: Destroying
+[planner_server-31] [INFO] [planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-31] [INFO] [planner_server]: Cleaning up
+[marker_server-12] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ekf_node-11] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Cleaning up
+[planner_server-31] [INFO] [planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-31] [INFO] [planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[robot_state_publisher-8] [INFO] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[bt_navigator-33] [INFO] [bt_navigator]: Completed Cleaning up
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying bond (bt_navigator) to lifecycle manager.
+[bt_navigator-33] [INFO] [bt_navigator]: Destroying
+[planner_server-31] [INFO] [planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[planner_server-31] [INFO] [global_costmap.global_costmap]: Destroying
+[planner_server-31] [INFO] [planner_server]: Destroying
+[INFO] [marker_server-12]: process has finished cleanly [pid 184363]
+[INFO] [controller_server-29]: process has finished cleanly [pid 185054]
+[INFO] [robot_state_publisher-8]: process has finished cleanly [pid 184359]
+[INFO] [ekf_node-11]: process has finished cleanly [pid 184362]
+[INFO] [bt_navigator-33]: process has finished cleanly [pid 185058]
+[INFO] [parameter_bridge-2]: process has finished cleanly [pid 184036]
+[INFO] [planner_server-31]: process has finished cleanly [pid 185056]
+[INFO] [laser_scan_fault_injector.py-4]: process has finished cleanly [pid 184039]

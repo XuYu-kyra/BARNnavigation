@@ -1,0 +1,37 @@
+{
+  "log_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/fault_campaigns/odom_drift_stronger_tuned_clean_campaign2/worlds/world_094/logs",
+  "metric": "completion_time_s",
+  "run_count": 8,
+  "pair_summary": {
+    "pair_count": 4,
+    "mean_difference": 10.377350000000007,
+    "sd_difference": 3.3356523854662483,
+    "t_statistic": 6.222081200796041,
+    "ci95_halfwidth": 5.307022945276801,
+    "ci95_lower": 5.070327054723206,
+    "ci95_upper": 15.684372945276808,
+    "relative_ci95_halfwidth": 0.5114044476939485,
+    "passes_abs_rule": false,
+    "passes_rel_rule": false,
+    "recommended_stop": false,
+    "abs_threshold_s": 5.0,
+    "rel_threshold_fraction": 0.25
+  },
+  "condition_drift": [
+    {
+      "condition": "baseline",
+      "run_count": 4,
+      "completion_time_slope_s_per_run": 0.4956500000000083,
+      "whole_mean_speed_slope_mps_per_run": -0.00015139990367297798,
+      "whole_stop_ratio_slope_per_run": 0.012524315515918386
+    },
+    {
+      "condition": "fault",
+      "run_count": 4,
+      "completion_time_slope_s_per_run": 1.0829499999999839,
+      "whole_mean_speed_slope_mps_per_run": -4.624718948635061e-05,
+      "whole_stop_ratio_slope_per_run": 0.01878202022168284
+    }
+  ],
+  "resource_summary_available": true
+}

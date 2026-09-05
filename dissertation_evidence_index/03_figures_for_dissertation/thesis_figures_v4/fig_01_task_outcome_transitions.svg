@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style><![CDATA[text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.title{font-size:34px;font-weight:700}.subtitle{font-size:19px;fill:#4b5563}.axis{font-size:16px;fill:#4b5563}.tick{font-size:14px;fill:#6b7280}.label{font-size:18px;font-weight:700}.note{font-size:16px;fill:#4b5563}]]></style>
+<text x="70" y="62" text-anchor="start" class="title">Task outcome transitions</text>
+<text x="70" y="95" text-anchor="start" class="subtitle">Each bar counts paired baseline/fault outcome transitions before completion-time filtering.</text>
+<line x1="70" y1="120" x2="1430" y2="120" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="370" y="175" text-anchor="middle" style="font-size:23px;font-weight:700;fill:#2563eb">Frontal LiDAR masking</text>
+<line x1="170" y1="690" x2="670" y2="690" stroke="#9ca3af" stroke-width="2"/>
+<line x1="160" y1="690.0" x2="170" y2="690.0" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="695.0" text-anchor="end" class="tick">0</text>
+<line x1="160" y1="598.5106382978723" x2="170" y2="598.5106382978723" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="603.5106382978723" text-anchor="end" class="tick">10</text>
+<line x1="160" y1="507.02127659574467" x2="170" y2="507.02127659574467" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="512.0212765957447" text-anchor="end" class="tick">20</text>
+<line x1="160" y1="415.531914893617" x2="170" y2="415.531914893617" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="420.531914893617" text-anchor="end" class="tick">30</text>
+<line x1="160" y1="324.04255319148933" x2="170" y2="324.04255319148933" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="329.04255319148933" text-anchor="end" class="tick">40</text>
+<line x1="160" y1="232.55319148936172" x2="170" y2="232.55319148936172" stroke="#9ca3af" stroke-width="2"/>
+<text x="152" y="237.55319148936172" text-anchor="end" class="tick">50</text>
+<rect x="200" y="260.0" width="56" height="430.0" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="228" y="250.0" text-anchor="middle" style="font-size:16px;font-weight:700">47</text>
+<text x="228" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">success→success</text>
+<rect x="294" y="671.7021276595744" width="56" height="18.29787234042553" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="322" y="661.7021276595744" text-anchor="middle" style="font-size:16px;font-weight:700">2</text>
+<text x="322" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">success→timeout</text>
+<rect x="388" y="662.5531914893617" width="56" height="27.446808510638295" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="416" y="652.5531914893617" text-anchor="middle" style="font-size:16px;font-weight:700">3</text>
+<text x="416" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">timeout→success</text>
+<rect x="482" y="680.8510638297872" width="56" height="9.148936170212766" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="510" y="670.8510638297872" text-anchor="middle" style="font-size:16px;font-weight:700">1</text>
+<text x="510" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">timeout→timeout</text>
+<rect x="576" y="680.8510638297872" width="56" height="9.148936170212766" rx="5" fill="#2563eb" stroke="none" stroke-width="1"/>
+<text x="604" y="670.8510638297872" text-anchor="middle" style="font-size:16px;font-weight:700">1</text>
+<text x="604" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">collision→success</text>
+<text x="120" y="450" text-anchor="middle" class="axis">count</text>
+<text x="1060" y="175" text-anchor="middle" style="font-size:23px;font-weight:700;fill:#f97316">Intermittent LiDAR dropout</text>
+<line x1="860" y1="690" x2="1360" y2="690" stroke="#9ca3af" stroke-width="2"/>
+<line x1="850" y1="690.0" x2="860" y2="690.0" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="695.0" text-anchor="end" class="tick">0</text>
+<line x1="850" y1="598.5106382978723" x2="860" y2="598.5106382978723" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="603.5106382978723" text-anchor="end" class="tick">10</text>
+<line x1="850" y1="507.02127659574467" x2="860" y2="507.02127659574467" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="512.0212765957447" text-anchor="end" class="tick">20</text>
+<line x1="850" y1="415.531914893617" x2="860" y2="415.531914893617" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="420.531914893617" text-anchor="end" class="tick">30</text>
+<line x1="850" y1="324.04255319148933" x2="860" y2="324.04255319148933" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="329.04255319148933" text-anchor="end" class="tick">40</text>
+<line x1="850" y1="232.55319148936172" x2="860" y2="232.55319148936172" stroke="#9ca3af" stroke-width="2"/>
+<text x="842" y="237.55319148936172" text-anchor="end" class="tick">50</text>
+<rect x="890" y="324.04255319148933" width="56" height="365.95744680851067" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="918" y="314.04255319148933" text-anchor="middle" style="font-size:16px;font-weight:700">40</text>
+<text x="918" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">success→success</text>
+<rect x="984" y="680.8510638297872" width="56" height="9.148936170212766" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="1012" y="670.8510638297872" text-anchor="middle" style="font-size:16px;font-weight:700">1</text>
+<text x="1012" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">success→timeout</text>
+<rect x="1078" y="680.8510638297872" width="56" height="9.148936170212766" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="1106" y="670.8510638297872" text-anchor="middle" style="font-size:16px;font-weight:700">1</text>
+<text x="1106" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">timeout→success</text>
+<rect x="1172" y="589.3617021276596" width="56" height="100.63829787234043" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="1200" y="579.3617021276596" text-anchor="middle" style="font-size:16px;font-weight:700">11</text>
+<text x="1200" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">timeout→timeout</text>
+<rect x="1266" y="680.8510638297872" width="56" height="9.148936170212766" rx="5" fill="#f97316" stroke="none" stroke-width="1"/>
+<text x="1294" y="670.8510638297872" text-anchor="middle" style="font-size:16px;font-weight:700">1</text>
+<text x="1294" y="718" text-anchor="middle" style="font-size:13px;fill:#4b5563">collision→success</text>
+<text x="810" y="450" text-anchor="middle" class="axis">count</text>
+<text x="750" y="812" text-anchor="middle" class="note">Note: success-success pairs are used for primary completion-time inference; mixed outcomes are retained as outcome evidence.</text>
+</svg>

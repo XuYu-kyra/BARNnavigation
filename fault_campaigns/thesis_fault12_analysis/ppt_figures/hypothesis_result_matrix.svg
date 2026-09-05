@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Hypotheses vs Evidence</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">A concise closing slide for the data-analysis section.</text>
+<rect x="70" y="155" width="1140" height="88" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="105" y="209" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#2f855a" text-anchor="start">H1</text>
+<text x="175" y="190" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Frontal masking causes measurable degradation</text>
+<text x="175" y="220" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">+9.21s paired mean; PyMC P(slowdown&gt;0)=1.000</text>
+<rect x="1010" y="179" width="145" height="40" rx="20" fill="#2f855a"/>
+<text x="1082" y="206" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+<rect x="70" y="270" width="1140" height="88" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="105" y="324" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#2f855a" text-anchor="start">H2</text>
+<text x="175" y="305" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Dropout causes weaker / more variable degradation</text>
+<text x="175" y="335" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Directionally positive; PyMC P(&gt;5s)=0.058</text>
+<rect x="1010" y="294" width="145" height="40" rx="20" fill="#2f855a"/>
+<text x="1082" y="321" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+<rect x="70" y="385" width="1140" height="88" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="105" y="439" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#2f855a" text-anchor="start">H3</text>
+<text x="175" y="420" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Fault impact is world-dependent</text>
+<text x="175" y="450" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">W173 masking +44.95s; W76 dropout +35.60s</text>
+<rect x="1010" y="409" width="145" height="40" rx="20" fill="#2f855a"/>
+<text x="1082" y="436" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+<rect x="70" y="500" width="1140" height="88" rx="18" fill="#fffaf2" stroke="#d8d2c8"/>
+<text x="105" y="554" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="800" fill="#2f855a" text-anchor="start">H4</text>
+<text x="175" y="535" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1d252c" text-anchor="start">Pipeline metrics reveal propagation</text>
+<text x="175" y="565" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">stop ratio up, speed down, controller updates up</text>
+<rect x="1010" y="524" width="145" height="40" rx="20" fill="#2f855a"/>
+<text x="1082" y="551" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+</svg>

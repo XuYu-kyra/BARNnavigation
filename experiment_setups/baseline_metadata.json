@@ -1,0 +1,12 @@
+{
+  "source_config": "/home/student24/dissertation/barn_ros2/jackal_helper/config",
+  "original_setup_path": "/home/student24/dissertation/barn_ros2/experiment_setups/original_clean",
+  "tuned_setup_path": "/home/student24/dissertation/barn_ros2/experiment_setups/tuned_clean",
+  "tuned_changes": {
+    "vx_max": 1.0,
+    "local_inflation_radius": 0.65,
+    "global_inflation_radius": 0.65,
+    "PathAlignCritic.cost_weight": 10.0,
+    "PathFollowCritic.cost_weight": 7.0
+  }
+}

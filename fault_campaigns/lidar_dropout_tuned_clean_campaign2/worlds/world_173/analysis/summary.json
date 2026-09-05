@@ -1,0 +1,37 @@
+{
+  "log_dir": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_runs/fault_campaigns/lidar_dropout_tuned_clean_campaign2/worlds/world_173/logs",
+  "metric": "completion_time_s",
+  "run_count": 12,
+  "pair_summary": {
+    "pair_count": 6,
+    "mean_difference": 0.20426666666665008,
+    "sd_difference": 4.87073951209328,
+    "t_statistic": 0.10272549035935544,
+    "ci95_halfwidth": 5.112359144383769,
+    "ci95_lower": -4.908092477717118,
+    "ci95_upper": 5.316625811050419,
+    "relative_ci95_halfwidth": 25.027867873943457,
+    "passes_abs_rule": false,
+    "passes_rel_rule": false,
+    "recommended_stop": false,
+    "abs_threshold_s": 5.0,
+    "rel_threshold_fraction": 0.25
+  },
+  "condition_drift": [
+    {
+      "condition": "baseline",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": -14.124431428571423,
+      "whole_mean_speed_slope_mps_per_run": 0.001970385599019208,
+      "whole_stop_ratio_slope_per_run": -4.655319848376387e-17
+    },
+    {
+      "condition": "fault",
+      "run_count": 6,
+      "completion_time_slope_s_per_run": -14.428688571428571,
+      "whole_mean_speed_slope_mps_per_run": 0.002355599430425426,
+      "whole_stop_ratio_slope_per_run": -4.655319848376387e-17
+    }
+  ],
+  "resource_summary_available": true
+}

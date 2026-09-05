@@ -1,0 +1,8 @@
+topic,message_count
+/cmd_vel,1878
+/fault/scan_active,714
+/front/scan_faulted,714
+/global_costmap/costmap,15
+/local_costmap/costmap,32
+/plan,92
+/platform/odom/filtered,880

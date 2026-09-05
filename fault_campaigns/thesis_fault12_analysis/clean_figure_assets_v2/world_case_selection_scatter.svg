@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="470" viewBox="0 0 1060 470">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<text x="272.5" y="20" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#148A84">Frontal masking</text>
+<line x1="75" y1="365" x2="470" y2="365" stroke="#111827" stroke-width="1.5"/>
+<line x1="75" y1="45" x2="75" y2="365" stroke="#111827" stroke-width="1.5"/>
+<line x1="75" y1="334.42629162125513" x2="470" y2="334.42629162125513" stroke="#1f2937" stroke-width="1.3" stroke-dasharray="5 5"/>
+<line x1="107.26870078740157" y1="45" x2="107.26870078740157" y2="365" stroke="#1f2937" stroke-width="1.3" stroke-dasharray="5 5"/>
+<line x1="75.0" y1="365" x2="75.0" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="75.0" y="389" text-anchor="middle" class="tick">-4</text>
+<line x1="272.5" y1="365" x2="272.5" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="272.5" y="389" text-anchor="middle" class="tick">23</text>
+<line x1="470.0" y1="365" x2="470.0" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="470.0" y="389" text-anchor="middle" class="tick">50</text>
+<line x1="69" y1="365.0" x2="75" y2="365.0" stroke="#111827" stroke-width="1.5"/>
+<text x="65" y="370.0" text-anchor="end" class="tick">-5</text>
+<line x1="69" y1="205.0" x2="75" y2="205.0" stroke="#111827" stroke-width="1.5"/>
+<text x="65" y="210.0" text-anchor="end" class="tick">23</text>
+<line x1="69" y1="45.0" x2="75" y2="45.0" stroke="#111827" stroke-width="1.5"/>
+<text x="65" y="50.0" text-anchor="end" class="tick">51</text>
+<circle cx="161.94082185039372" cy="288.31638267553444" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="167.94082185039372" y="283.31638267553444" text-anchor="start" style="font-size:9px;fill:#9ca3af">W86</text>
+<circle cx="159.51094980314951" cy="291.58553245318205" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="165.51094980314951" y="286.58553245318205" text-anchor="start" style="font-size:9px;fill:#9ca3af">W274</text>
+<circle cx="144.93171751968498" cy="305.22999432420255" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="150.93171751968498" y="300.22999432420255" text-anchor="start" style="font-size:9px;fill:#9ca3af">W76</text>
+<circle cx="127.92261318897665" cy="308.8334085577739" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="133.92261318897664" y="303.8334085577739" text-anchor="start" style="font-size:9px;fill:#9ca3af">W250</text>
+<circle cx="140.07197342519686" cy="312.1106720083567" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="146.07197342519686" y="307.1106720083567" text-anchor="start" style="font-size:9px;fill:#9ca3af">W240</text>
+<circle cx="118.203125" cy="328.68218856326837" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="124.203125" y="323.68218856326837" text-anchor="start" style="font-size:9px;fill:#9ca3af">W94</text>
+<circle cx="141.28690944881885" cy="330.0" r="5.5" fill="#148A84" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="147.28690944881885" y="325.0" text-anchor="start" style="font-size:9px;fill:#9ca3af">W239</text>
+<circle cx="426.796875" cy="80.0" r="10.5" fill="#148A84" stroke="#991b1b" stroke-width="3.2" opacity="0.95"/>
+<text x="406.796875" y="60.0" text-anchor="end" style="font-size:12px;font-weight:700;fill:#111827">W173 — extreme</text>
+<circle cx="155.86614173228338" cy="295.8845526233957" r="10.5" fill="#148A84" stroke="white" stroke-width="3.2" opacity="0.95"/>
+<text x="169.86614173228338" y="280.8845526233957" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">W8 — typical</text>
+<text x="777.5" y="20" text-anchor="middle" style="font-size:16px;font-weight:700;fill:#F57C16">LiDAR dropout</text>
+<line x1="580" y1="365" x2="975" y2="365" stroke="#111827" stroke-width="1.5"/>
+<line x1="580" y1="45" x2="580" y2="365" stroke="#111827" stroke-width="1.5"/>
+<line x1="580" y1="270.9594653399568" x2="975" y2="270.9594653399568" stroke="#1f2937" stroke-width="1.3" stroke-dasharray="5 5"/>
+<line x1="697.265625" y1="45" x2="697.265625" y2="365" stroke="#1f2937" stroke-width="1.3" stroke-dasharray="5 5"/>
+<line x1="580.0" y1="365" x2="580.0" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="580.0" y="389" text-anchor="middle" class="tick">-17</text>
+<line x1="777.5" y1="365" x2="777.5" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="777.5" y="389" text-anchor="middle" class="tick">12</text>
+<line x1="975.0" y1="365" x2="975.0" y2="371" stroke="#111827" stroke-width="1.5"/>
+<text x="975.0" y="389" text-anchor="middle" class="tick">41</text>
+<line x1="574" y1="365.0" x2="580" y2="365.0" stroke="#111827" stroke-width="1.5"/>
+<text x="570" y="370.0" text-anchor="end" class="tick">-18</text>
+<line x1="574" y1="205.0" x2="580" y2="205.0" stroke="#111827" stroke-width="1.5"/>
+<text x="570" y="210.0" text-anchor="end" class="tick">12</text>
+<line x1="574" y1="45.0" x2="580" y2="45.0" stroke="#111827" stroke-width="1.5"/>
+<text x="570" y="50.0" text-anchor="end" class="tick">42</text>
+<circle cx="724.1974431818181" cy="213.43768872736473" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="730.1974431818181" y="208.43768872736473" text-anchor="start" style="font-size:9px;fill:#9ca3af">W239</text>
+<circle cx="750.0071022727273" cy="227.01720925392945" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="756.0071022727273" y="222.01720925392945" text-anchor="start" style="font-size:9px;fill:#9ca3af">W94</text>
+<circle cx="741.0298295454545" cy="238.77851090555882" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="747.0298295454545" y="233.77851090555882" text-anchor="start" style="font-size:9px;fill:#9ca3af">W274</text>
+<circle cx="720.8309659090909" cy="251.00947440423369" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="726.8309659090909" y="246.00947440423369" text-anchor="start" style="font-size:9px;fill:#9ca3af">W86</text>
+<circle cx="705.1207386363637" cy="269.8638856678225" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="711.1207386363637" y="264.8638856678225" text-anchor="start" style="font-size:9px;fill:#9ca3af">W173</text>
+<circle cx="682.6775568181816" cy="281.8522412005893" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="688.6775568181816" y="276.8522412005893" text-anchor="start" style="font-size:9px;fill:#9ca3af">W250</text>
+<circle cx="623.203125" cy="330.0" r="5.5" fill="#F57C16" stroke="white" stroke-width="1.4" opacity="0.42"/>
+<text x="629.203125" y="325.0" text-anchor="start" style="font-size:9px;fill:#9ca3af">W8</text>
+<circle cx="931.796875" cy="80.0" r="10.5" fill="#F57C16" stroke="#991b1b" stroke-width="3.2" opacity="0.95"/>
+<text x="913.796875" y="60.0" text-anchor="end" style="font-size:12px;font-weight:700;fill:#111827">W76 — extreme</text>
+<circle cx="741.0298295454545" cy="236.24721769604304" r="10.5" fill="#F57C16" stroke="white" stroke-width="3.2" opacity="0.95"/>
+<text x="755.0298295454545" y="258.24721769604304" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">W240 — typical</text>
+<text x="520" y="454" text-anchor="middle" class="axis">world-level controller-update delta</text>
+<text x="18" y="235" text-anchor="middle" class="axis" transform="rotate(-90 18 235)">raw completion-time slowdown (s)</text>
+<circle cx="760" cy="427" r="8" fill="#ffffff" stroke="white" stroke-width="3" opacity="1.0"/>
+<circle cx="760" cy="427" r="5" fill="#6b7280" stroke="white" stroke-width="1" opacity="1.0"/>
+<text x="775" y="432" text-anchor="start" style="font-size:12px">other worlds</text>
+<circle cx="870" cy="427" r="8" fill="#148A84" stroke="white" stroke-width="3" opacity="1.0"/>
+<text x="885" y="432" text-anchor="start" style="font-size:12px">typical</text>
+<circle cx="950" cy="427" r="8" fill="#148A84" stroke="#991b1b" stroke-width="3" opacity="1.0"/>
+<text x="965" y="432" text-anchor="start" style="font-size:12px">extreme</text>
+</svg>

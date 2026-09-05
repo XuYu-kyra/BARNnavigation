@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Analysis Questions / Working Hypotheses vs Evidence</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Use cautious judgement labels; avoid claiming full proof before direct scan/costmap timelines are added.</text>
+<rect x="70" y="150" width="1140" height="90" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="1"/>
+<text x="105" y="203" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" fill="#2f855a" text-anchor="start">Q1</text>
+<text x="175" y="184" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Frontal masking causes degradation</text>
+<text x="175" y="214" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">Clear slowdown; PyMC P(slowdown&gt;0)=1.000</text>
+<rect x="940" y="174" width="220" height="40" rx="20" fill="#2f855a" stroke="none" stroke-width="1"/>
+<text x="1050" y="201" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+<rect x="70" y="268" width="1140" height="90" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="1"/>
+<text x="105" y="321" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" fill="#b7791f" text-anchor="start">Q2</text>
+<text x="175" y="302" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Dropout causes weaker / more variable degradation</text>
+<text x="175" y="332" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">P(slowdown&gt;0)=0.991; P(&gt;5s)=0.058</text>
+<rect x="940" y="292" width="220" height="40" rx="20" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1050" y="319" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">Directional support</text>
+<rect x="70" y="386" width="1140" height="90" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="1"/>
+<text x="105" y="439" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" fill="#2f855a" text-anchor="start">Q3</text>
+<text x="175" y="420" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Fault effect varies by world</text>
+<text x="175" y="450" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">Large world-level differences; hierarchical model estimates theta_j</text>
+<rect x="940" y="410" width="220" height="40" rx="20" fill="#2f855a" stroke="none" stroke-width="1"/>
+<text x="1050" y="437" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">Supported</text>
+<rect x="70" y="504" width="1140" height="90" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="1"/>
+<text x="105" y="557" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="24" font-weight="800" fill="#b7791f" text-anchor="start">Q4</text>
+<text x="175" y="538" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Pipeline metrics reveal propagation</text>
+<text x="175" y="568" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" fill="#64717a" text-anchor="start">Aggregated proxies align with mechanism; direct layer timeline still needed</text>
+<rect x="940" y="528" width="220" height="40" rx="20" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1050" y="555" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle">Partial / mechanism-consistent</text>
+<text x="70" y="660" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="start">Rename “pre-analysis hypotheses” to “analysis questions / working hypotheses” unless they were formally written before analysis.</text>
+</svg>

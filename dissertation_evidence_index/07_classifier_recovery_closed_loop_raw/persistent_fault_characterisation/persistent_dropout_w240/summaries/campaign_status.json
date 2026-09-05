@@ -1,0 +1,23 @@
+{
+  "campaign_label": "persistent_dropout_w240",
+  "fault_label": "persistent_dropout",
+  "generated_at": "2026-08-10T23:26:27.286481",
+  "worlds_total": 1,
+  "worlds_completed": 1,
+  "worlds_retry_needed": 0,
+  "worlds_pending_validation": 0,
+  "worlds_in_progress": 0,
+  "status_rows": [
+    {
+      "world_idx": 240,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    }
+  ]
+}

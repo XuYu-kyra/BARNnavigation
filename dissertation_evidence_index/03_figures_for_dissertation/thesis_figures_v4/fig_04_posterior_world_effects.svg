@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="930" viewBox="0 0 1500 930">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style><![CDATA[text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.title{font-size:34px;font-weight:700}.subtitle{font-size:19px;fill:#4b5563}.axis{font-size:16px;fill:#4b5563}.tick{font-size:14px;fill:#6b7280}.label{font-size:18px;font-weight:700}.note{font-size:16px;fill:#4b5563}]]></style>
+<text x="70" y="62" text-anchor="start" class="title">Posterior world-level completion-time effects</text>
+<text x="70" y="95" text-anchor="start" class="subtitle">Partial pooling shrinks uncertain world estimates towards the global fault effect.</text>
+<line x1="70" y1="120" x2="1430" y2="120" stroke="#d1d5db" stroke-width="1.5"/>
+<text x="440" y="165" text-anchor="middle" style="font-size:21px;font-weight:700;fill:#2563eb">Frontal LiDAR masking</text>
+<line x1="245" y1="240" x2="705" y2="240" stroke="#9ca3af" stroke-width="2"/>
+<line x1="245" y1="230" x2="245" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="245" y="273" text-anchor="middle" class="tick">-5</text>
+<line x1="360" y1="230" x2="360" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="360" y="273" text-anchor="middle" class="tick">0</text>
+<line x1="475" y1="230" x2="475" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="475" y="273" text-anchor="middle" class="tick">5</text>
+<line x1="590" y1="230" x2="590" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="590" y="273" text-anchor="middle" class="tick">10</text>
+<line x1="705" y1="230" x2="705" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="705" y="273" text-anchor="middle" class="tick">15</text>
+<text x="125" y="315" text-anchor="start" style="font-size:15px">W008 (n=6)</text>
+<line x1="432.61771006667493" y1="310" x2="582.0387464139695" y2="310" stroke="#374151" stroke-width="2.5"/>
+<circle cx="504.3336280566458" cy="310" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="371" text-anchor="start" style="font-size:15px">W076 (n=6)</text>
+<line x1="419.64912827000273" y1="366" x2="573.105891021313" y2="366" stroke="#374151" stroke-width="2.5"/>
+<circle cx="501.4525085936506" cy="366" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="427" text-anchor="start" style="font-size:15px">W086 (n=6)</text>
+<line x1="441.09803331132275" y1="422" x2="607.287285013764" y2="422" stroke="#374151" stroke-width="2.5"/>
+<circle cx="513.2340470134781" cy="422" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="483" text-anchor="start" style="font-size:15px">W094 (n=6)</text>
+<line x1="365.26856514749227" y1="478" x2="552.7381910835485" y2="478" stroke="#374151" stroke-width="2.5"/>
+<circle cx="482.98917807721307" cy="478" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="539" text-anchor="start" style="font-size:15px">W173 (n=5)</text>
+<line x1="432.41598682961467" y1="534" x2="609.439830828961" y2="534" stroke="#374151" stroke-width="2.5"/>
+<circle cx="509.34772596195205" cy="534" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="595" text-anchor="start" style="font-size:15px">W239 (n=1)</text>
+<line x1="417.8171193086771" y1="590" x2="630.9476852680774" y2="590" stroke="#374151" stroke-width="2.5"/>
+<circle cx="509.04386580198496" cy="590" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="651" text-anchor="start" style="font-size:15px">W240 (n=6)</text>
+<line x1="404.66525198923284" y1="646" x2="562.103372311656" y2="646" stroke="#374151" stroke-width="2.5"/>
+<circle cx="493.9714819208631" cy="646" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="707" text-anchor="start" style="font-size:15px">W250 (n=5)</text>
+<line x1="434.92686691692467" y1="702" x2="596.2737107776159" y2="702" stroke="#374151" stroke-width="2.5"/>
+<circle cx="509.0787943609753" cy="702" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="125" y="763" text-anchor="start" style="font-size:15px">W274 (n=6)</text>
+<line x1="436.4861468043936" y1="758" x2="591.2513204410401" y2="758" stroke="#374151" stroke-width="2.5"/>
+<circle cx="509.0413033405256" cy="758" r="7" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+<text x="475" y="840" text-anchor="middle" class="axis">slowdown seconds</text>
+<text x="1155" y="165" text-anchor="middle" style="font-size:21px;font-weight:700;fill:#f97316">Intermittent LiDAR dropout</text>
+<line x1="960" y1="240" x2="1420" y2="240" stroke="#9ca3af" stroke-width="2"/>
+<line x1="960" y1="230" x2="960" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="960" y="273" text-anchor="middle" class="tick">-5</text>
+<line x1="1075" y1="230" x2="1075" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="1075" y="273" text-anchor="middle" class="tick">0</text>
+<line x1="1190" y1="230" x2="1190" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="1190" y="273" text-anchor="middle" class="tick">5</text>
+<line x1="1305" y1="230" x2="1305" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="1305" y="273" text-anchor="middle" class="tick">10</text>
+<line x1="1420" y1="230" x2="1420" y2="250" stroke="#9ca3af" stroke-width="2"/>
+<text x="1420" y="273" text-anchor="middle" class="tick">15</text>
+<text x="840" y="315" text-anchor="start" style="font-size:15px">W008 (n=5)</text>
+<line x1="1111.6429260694133" y1="310" x2="1271.0576962263913" y2="310" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1187.8814002090553" cy="310" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="371" text-anchor="start" style="font-size:15px">W076 (n=5)</text>
+<line x1="1088.534511223459" y1="366" x2="1246.521512296091" y2="366" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1174.4543096868765" cy="366" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="427" text-anchor="start" style="font-size:15px">W086 (n=6)</text>
+<line x1="1092.4936700528579" y1="422" x2="1244.3442066026241" y2="422" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1173.1469299178032" cy="422" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="483" text-anchor="start" style="font-size:15px">W094 (n=6)</text>
+<line x1="1135.942860071095" y1="478" x2="1306.7156440256513" y2="478" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1205.8075869560896" cy="478" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="539" text-anchor="start" style="font-size:15px">W173 (n=2)</text>
+<line x1="1025.8773809722973" y1="534" x2="1262.0367111150508" y2="534" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1167.122250723837" cy="534" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="595" text-anchor="start" style="font-size:15px">W239 (n=1)</text>
+<line x1="1096.6033105892784" y1="590" x2="1357.0386043029032" y2="590" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1197.4122191168317" cy="590" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="651" text-anchor="start" style="font-size:15px">W240 (n=6)</text>
+<line x1="1128.1626859675725" y1="646" x2="1279.4183883651895" y2="646" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1196.6854783015153" cy="646" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="707" text-anchor="start" style="font-size:15px">W250 (n=3)</text>
+<line x1="959.0759766436616" y1="702" x2="1216.7663019594056" y2="702" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1126.1219396757344" cy="702" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="840" y="763" text-anchor="start" style="font-size:15px">W274 (n=6)</text>
+<line x1="1123.675460854977" y1="758" x2="1276.3074020117997" y2="758" stroke="#374151" stroke-width="2.5"/>
+<circle cx="1193.0175887307453" cy="758" r="7" fill="#f97316" stroke="#ffffff" stroke-width="2"/>
+<text x="1190" y="840" text-anchor="middle" class="axis">slowdown seconds</text>
+<text x="750" y="900" text-anchor="middle" class="note">Interpret cautiously: apparent world dependence is shown, but stronger heterogeneity claims require explicit tau/PPC reporting.</text>
+</svg>

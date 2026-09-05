@@ -1,7 +1,22 @@
-# pycache files
-*.pyc 
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
 
-# generated files by spawn_jackal
+# Python virtual environments
+.venv/
+.venv_*/
+venv/
+env/
+
+# ROS 2 / colcon generated output
+build/
+install/
+log/
+
+# Generated files by spawn_jackal
 jackal_helper/config/*.xacro
 jackal_helper/config/*.srdf
 jackal_helper/config/manipulators
@@ -9,5 +24,24 @@ jackal_helper/config/platform
 jackal_helper/config/platform-extras
 jackal_helper/config/sensors
 
-# Singularity file
+# Large local archives and transfer bundles
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Office/export artifacts kept outside normal git history
+*.docx
+*.pptx
+*.pdf
+
+# Singularity image
 *.sif
+
+# Local raw imports used while building the evidence index
+_raw_imports/
+
+# Temporary extracted/generated text
+extracted_docx_text/
+tmp_*.txt
+test_appendix_v3.*

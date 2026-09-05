@@ -1,0 +1,111 @@
+{
+  "campaign_label": "lidar_dropout_tuned_clean",
+  "fault_label": "lidar_dropout",
+  "generated_at": "2026-08-05T21:00:03.483637",
+  "worlds_total": 9,
+  "worlds_completed": 9,
+  "worlds_retry_needed": 0,
+  "worlds_pending_validation": 0,
+  "worlds_in_progress": 0,
+  "status_rows": [
+    {
+      "world_idx": 240,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 274,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 94,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 8,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 86,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 173,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 76,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 239,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 250,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    }
+  ]
+}

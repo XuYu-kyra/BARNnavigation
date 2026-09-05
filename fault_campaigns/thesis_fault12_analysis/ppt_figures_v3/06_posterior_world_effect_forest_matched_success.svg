@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Posterior World Effects: Matched-Success Completion Time</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">World-specific effects from the hierarchical model. This is the model-based heterogeneity view.</text>
+<rect x="95" y="145" width="520" height="460" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="120" y="183" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<line x1="264.2857142857143" y1="215" x2="264.2857142857143" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="264.2857142857143" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">0</text>
+<line x1="338.2142857142857" y1="215" x2="338.2142857142857" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="338.2142857142857" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">3</text>
+<line x1="387.5" y1="215" x2="387.5" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="387.5" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">5</text>
+<line x1="436.78571428571433" y1="215" x2="436.78571428571433" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="436.78571428571433" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">7</text>
+<line x1="510.7142857142857" y1="215" x2="510.7142857142857" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="510.7142857142857" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">10</text>
+<line x1="264.2857142857143" y1="215" x2="264.2857142857143" y2="527" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="117" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W86</text>
+<text x="157" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="351.1764642621315" y1="229" x2="529.2363768004614" y2="229" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="428.4650503715837" cy="229" r="6" fill="#1f6f8b"/>
+<text x="585" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.7</text>
+<text x="117" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W173</text>
+<text x="157" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=5</text>
+<line x1="341.87427160315855" y1="261" x2="531.5426758881727" y2="261" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="424.30113495923433" cy="261" r="6" fill="#1f6f8b"/>
+<text x="585" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.5</text>
+<text x="117" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W250</text>
+<text x="157" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=5</text>
+<line x1="344.56450026813354" y1="293" x2="517.4361186903027" y2="293" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="424.01299395818785" cy="293" r="6" fill="#1f6f8b"/>
+<text x="585" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.5</text>
+<text x="117" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W239</text>
+<text x="157" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=1</text>
+<line x1="326.2326278307255" y1="325" x2="554.5868056443686" y2="325" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="423.97557050212674" cy="325" r="6" fill="#1f6f8b"/>
+<text x="585" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.5</text>
+<text x="117" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W274</text>
+<text x="157" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="346.23515729042174" y1="357" x2="512.0549861868287" y2="357" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="423.972825007706" cy="357" r="6" fill="#1f6f8b"/>
+<text x="585" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.5</text>
+<text x="117" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W8</text>
+<text x="157" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="342.0904036428659" y1="389" x2="502.1843711578245" y2="389" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="418.9288872035491" cy="389" r="6" fill="#1f6f8b"/>
+<text x="585" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.3</text>
+<text x="117" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W76</text>
+<text x="157" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="328.1954945750029" y1="421" x2="492.6134546656926" y2="421" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="415.8419734931971" cy="421" r="6" fill="#1f6f8b"/>
+<text x="585" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">6.2</text>
+<text x="117" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W240</text>
+<text x="157" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="312.1413414170352" y1="453" x2="480.8250417624886" y2="453" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="407.82658777235326" cy="453" r="6" fill="#1f6f8b"/>
+<text x="585" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.8</text>
+<text x="117" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W94</text>
+<text x="157" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="269.9306055151703" y1="485" x2="470.7909190180877" y2="485" stroke="#1f6f8b" stroke-width="4"/>
+<circle cx="396.05983365415693" cy="485" r="6" fill="#1f6f8b"/>
+<text x="585" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.3</text>
+<rect x="690" y="145" width="520" height="460" rx="18" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="715" y="183" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="23" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<line x1="859.2857142857143" y1="215" x2="859.2857142857143" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="859.2857142857143" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">0</text>
+<line x1="933.2142857142858" y1="215" x2="933.2142857142858" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="933.2142857142858" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">3</text>
+<line x1="982.5" y1="215" x2="982.5" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="982.5" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">5</text>
+<line x1="1031.7857142857142" y1="215" x2="1031.7857142857142" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="1031.7857142857142" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">7</text>
+<line x1="1105.7142857142858" y1="215" x2="1105.7142857142858" y2="527" stroke="#d8d2c8" stroke-width="1"/>
+<text x="1105.7142857142858" y="560" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">10</text>
+<line x1="859.2857142857143" y1="215" x2="859.2857142857143" y2="527" stroke="#333" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="712" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W94</text>
+<text x="752" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="924.5816357904589" y1="229" x2="1107.5524757417693" y2="229" stroke="#d9822b" stroke-width="4"/>
+<circle cx="999.4367003100961" cy="229" r="6" fill="#d9822b"/>
+<text x="1180" y="234" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.7</text>
+<text x="712" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W239</text>
+<text x="752" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=1</text>
+<line x1="882.4321184885125" y1="261" x2="1161.469933181682" y2="261" stroke="#d9822b" stroke-width="4"/>
+<circle cx="990.4416633394624" cy="261" r="6" fill="#d9822b"/>
+<text x="1180" y="266" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.3</text>
+<text x="712" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W240</text>
+<text x="752" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="916.2457349652561" y1="293" x2="1078.3054161055602" y2="293" stroke="#d9822b" stroke-width="4"/>
+<circle cx="989.6630124659093" cy="293" r="6" fill="#d9822b"/>
+<text x="1180" y="298" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.3</text>
+<text x="712" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W274</text>
+<text x="752" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="911.4379937731896" y1="325" x2="1074.972216441214" y2="325" stroke="#d9822b" stroke-width="4"/>
+<circle cx="985.7331307829413" cy="325" r="6" fill="#d9822b"/>
+<text x="1180" y="330" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">5.1</text>
+<text x="712" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W8</text>
+<text x="752" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=5</text>
+<line x1="898.5459922172287" y1="357" x2="1069.3475316711335" y2="357" stroke="#d9822b" stroke-width="4"/>
+<circle cx="980.2300716525591" cy="357" r="6" fill="#d9822b"/>
+<text x="1180" y="362" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">4.9</text>
+<text x="712" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W76</text>
+<text x="752" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=5</text>
+<line x1="873.786976310849" y1="389" x2="1043.0587631743833" y2="389" stroke="#d9822b" stroke-width="4"/>
+<circle cx="965.8439032359391" cy="389" r="6" fill="#d9822b"/>
+<text x="1180" y="394" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">4.3</text>
+<text x="712" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W86</text>
+<text x="752" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=6</text>
+<line x1="878.0289321994907" y1="421" x2="1040.7259356456686" y2="421" stroke="#d9822b" stroke-width="4"/>
+<circle cx="964.4431391976464" cy="421" r="6" fill="#d9822b"/>
+<text x="1180" y="426" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">4.3</text>
+<text x="712" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W173</text>
+<text x="752" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=2</text>
+<line x1="806.6543367560328" y1="453" x2="1059.6821904804117" y2="453" stroke="#d9822b" stroke-width="4"/>
+<circle cx="957.9881257755394" cy="453" r="6" fill="#d9822b"/>
+<text x="1180" y="458" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">4.0</text>
+<text x="712" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" fill="#1d252c" text-anchor="start">W250</text>
+<text x="752" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="start">n=3</text>
+<line x1="735.0814035467804" y1="485" x2="1011.1781806707918" y2="485" stroke="#d9822b" stroke-width="4"/>
+<circle cx="914.059221081144" cy="485" r="6" fill="#d9822b"/>
+<text x="1180" y="490" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" fill="#1d252c" text-anchor="end">2.2</text>
+<text x="95" y="650" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="start">Careful wording: world susceptibility varies, with clearer heterogeneity for dropout; masking is relatively consistent after partial pooling.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<rect x="35" y="165" width="120" height="58" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="95.0" y="191.0" text-anchor="middle" style="font-size:15px;font-weight:700">paired</text>
+<text x="95.0" y="211.0" text-anchor="middle" style="font-size:15px">runs</text>
+<rect x="205" y="165" width="135" height="58" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="272.5" y="191.0" text-anchor="middle" style="font-size:15px;font-weight:700">pair</text>
+<text x="272.5" y="211.0" text-anchor="middle" style="font-size:15px">differences</text>
+<line x1="155" y1="194" x2="205" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="205" y1="194" x2="212.470481817117" y2="188.98084654347724" stroke="#6b7280" stroke-width="2"/>
+<line x1="205" y1="194" x2="212.470481817117" y2="199.01915345652276" stroke="#6b7280" stroke-width="2"/>
+<line x1="340" y1="194" x2="420" y2="89" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="89" x2="420.53504095297933" y2="80.0159179000504" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="89" x2="428.51982868703726" y2="86.09956569742785" stroke="#6b7280" stroke-width="2"/>
+<rect x="420" y="60" width="160" height="58" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="500.0" y="86.0" text-anchor="middle" style="font-size:15px;font-weight:700">descriptive</text>
+<text x="500.0" y="106.0" text-anchor="middle" style="font-size:15px">summary</text>
+<line x1="340" y1="194" x2="420" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="194" x2="427.470481817117" y2="188.98084654347724" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="194" x2="427.470481817117" y2="199.01915345652276" stroke="#6b7280" stroke-width="2"/>
+<rect x="420" y="165" width="160" height="58" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="500.0" y="191.0" text-anchor="middle" style="font-size:15px;font-weight:700">cluster</text>
+<text x="500.0" y="211.0" text-anchor="middle" style="font-size:15px">bootstrap</text>
+<line x1="340" y1="194" x2="420" y2="299" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="299" x2="428.51982868703726" y2="301.90043430257214" stroke="#6b7280" stroke-width="2"/>
+<line x1="420" y1="299" x2="420.53504095297933" y2="307.9840820999496" stroke="#6b7280" stroke-width="2"/>
+<rect x="420" y="270" width="160" height="58" rx="10" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="500.0" y="296.0" text-anchor="middle" style="font-size:15px;font-weight:700">robust hierarchical</text>
+<text x="500.0" y="316.0" text-anchor="middle" style="font-size:15px">Bayesian</text>
+<rect x="665" y="235" width="120" height="48" rx="10" fill="#f0fdfa" stroke="#148A84" stroke-width="1.5" opacity="1.0"/>
+<text x="725.0" y="256.0" text-anchor="middle" style="font-size:15px;font-weight:700">global</text>
+<text x="725.0" y="276.0" text-anchor="middle" style="font-size:15px">effect</text>
+<rect x="665" y="295" width="120" height="48" rx="10" fill="#fff7ed" stroke="#F57C16" stroke-width="1.5" opacity="1.0"/>
+<text x="725.0" y="316.0" text-anchor="middle" style="font-size:15px;font-weight:700">world</text>
+<text x="725.0" y="336.0" text-anchor="middle" style="font-size:15px">effects</text>
+<rect x="665" y="355" width="120" height="48" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5" opacity="1.0"/>
+<text x="725.0" y="385.0" text-anchor="middle" style="font-size:15px;font-weight:700">probabilities</text>
+<line x1="580" y1="299" x2="665" y2="259" stroke="#148A84" stroke-width="2"/>
+<line x1="665" y1="259" x2="669.6222909959076" y2="251.2776670656368" stroke="#148A84" stroke-width="2"/>
+<line x1="665" y1="259" x2="673.8965723292522" y2="260.36051489899387" stroke="#148A84" stroke-width="2"/>
+<line x1="580" y1="299" x2="665" y2="319" stroke="#F57C16" stroke-width="2"/>
+<line x1="665" y1="319" x2="673.4214788200537" y2="315.8253040329212" stroke="#F57C16" stroke-width="2"/>
+<line x1="665" y1="319" x2="671.1223116929573" y2="325.59676432308135" stroke="#F57C16" stroke-width="2"/>
+<line x1="580" y1="299" x2="665" y2="379" stroke="#6b7280" stroke-width="2"/>
+<line x1="665" y1="379" x2="673.8799554026259" y2="380.4650570116467" stroke="#6b7280" stroke-width="2"/>
+<line x1="665" y1="379" x2="667.0000542066467" y2="387.7749520323746" stroke="#6b7280" stroke-width="2"/>
+<rect x="850" y="165" width="100" height="58" rx="10" fill="#ffffff" stroke="#111827" stroke-width="1.5" opacity="1.0"/>
+<text x="900.0" y="200.0" text-anchor="middle" style="font-size:15px;font-weight:700">interpretation</text>
+<line x1="580" y1="89" x2="850" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="858.781697356697" y2="192.02977373497822" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="855.1433505477378" y2="201.38552267230193" stroke="#6b7280" stroke-width="2"/>
+<line x1="580" y1="194" x2="850" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="857.470481817117" y2="188.98084654347724" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="857.470481817117" y2="199.01915345652276" stroke="#6b7280" stroke-width="2"/>
+<line x1="785" y1="259" x2="850" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="851.733350906691" y2="185.16849420346264" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="858.8315057965374" y2="192.2666490933089" stroke="#6b7280" stroke-width="2"/>
+<line x1="785" y1="319" x2="850" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="848.9934499557595" y2="185.0564628357434" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="857.8996045049628" y2="189.68766320132912" stroke="#6b7280" stroke-width="2"/>
+<line x1="785" y1="379" x2="850" y2="194" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="847.7409888773489" y2="185.2881191039054" stroke="#6b7280" stroke-width="2"/>
+<line x1="850" y1="194" x2="857.2117313193917" y2="188.61567725921773" stroke="#6b7280" stroke-width="2"/>
+</svg>

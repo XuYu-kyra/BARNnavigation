@@ -1,0 +1,5 @@
+world_idx,condition,evidence_mode,observation_window_s,fault_episode_start_s,decision_time_s,identification_latency_s,sample_count,ground_truth_type,predicted_type,decision_reason,correct_type,wrong_type,unknown,degraded_fraction,switching_rate_per_s,longest_degraded_streak_s,longest_healthy_streak_s,evidence_mean,evidence_max,fault_active_true_fraction,fault_active_switch_count
+173,dropout,online,2.0,5.023000000000001,7.023000000000001,2.0,80,DROPOUT,DROPOUT,clear_dropout_switching,True,False,False,0.5125,2.025316455696203,0.47499999999999964,0.47499999999999964,0.5125,1.0,1.0,0
+173,masking,online,2.0,5.022,7.022,2.0,80,MASKING,MASKING,clear_sustained_masking,True,False,False,1.0,0.0,1.9749999999999996,0.0,1.0,1.0,1.0,0
+274,dropout,online,2.0,5.023000000000001,7.023000000000001,2.0,80,DROPOUT,DROPOUT,clear_dropout_switching,True,False,False,0.5,2.025316455696203,0.47499999999999964,0.47499999999999964,0.5229861111111112,1.0,1.0,0
+274,masking,online,2.0,5.023000000000001,7.023000000000001,2.0,80,MASKING,MASKING,clear_sustained_masking,True,False,False,1.0,0.0,1.9749999999999996,0.0,1.0,1.0,1.0,0

@@ -1,0 +1,45 @@
+{
+  "campaign_label": "lidar_dropout_probe",
+  "fault_label": "lidar_dropout",
+  "generated_at": "2026-08-04T11:58:49.102586",
+  "worlds_total": 3,
+  "worlds_completed": 3,
+  "worlds_retry_needed": 0,
+  "worlds_pending_validation": 0,
+  "worlds_in_progress": 0,
+  "status_rows": [
+    {
+      "world_idx": 8,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 86,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    },
+    {
+      "world_idx": 240,
+      "complete_pairs": 6,
+      "valid_runs": 12,
+      "invalid_runs": 0,
+      "missing_runs": 0,
+      "validation_ready": true,
+      "overall_state": "completed",
+      "next_pair_id": "",
+      "next_conditions": ""
+    }
+  ]
+}

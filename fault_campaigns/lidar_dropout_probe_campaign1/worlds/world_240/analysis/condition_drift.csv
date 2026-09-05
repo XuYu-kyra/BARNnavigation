@@ -1,0 +1,3 @@
+condition,run_count,completion_time_slope_s_per_run,whole_mean_speed_slope_mps_per_run,whole_stop_ratio_slope_per_run
+baseline,6,-0.5267971428571426,5.850730553605696e-05,-0.015243269546285212
+fault,6,0.007240000000002802,1.382434604876118e-05,0.012094142658590648

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Task Outcome Transitions</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Separate mission outcome changes from continuous completion-time degradation.</text>
+<rect x="100" y="160" width="500" height="400" rx="20" fill="#fffaf2" stroke="#1f6f8b" stroke-width="3"/>
+<text x="125" y="202" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<text x="130" y="270" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">success→success</text>
+<rect x="290" y="252" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="290" y="252" width="270.0" height="25" rx="12" fill="#2f855a" stroke="none" stroke-width="1"/>
+<text x="580" y="270" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">47</text>
+<text x="130" y="326" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">success→timeout</text>
+<rect x="290" y="308" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="290" y="308" width="11.48936170212766" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="580" y="326" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">2</text>
+<text x="130" y="382" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">timeout→success</text>
+<rect x="290" y="364" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="290" y="364" width="17.23404255319149" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="580" y="382" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">3</text>
+<text x="130" y="438" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">timeout→timeout</text>
+<rect x="290" y="420" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="290" y="420" width="5.74468085106383" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="580" y="438" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">1</text>
+<text x="130" y="494" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">collision→success</text>
+<rect x="290" y="476" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="290" y="476" width="5.74468085106383" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="580" y="494" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">1</text>
+<text x="130" y="532" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#64717a" text-anchor="start">Total pairs: 54 | success-success: 47</text>
+<rect x="690" y="160" width="500" height="400" rx="20" fill="#fffaf2" stroke="#d9822b" stroke-width="3"/>
+<text x="715" y="202" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<text x="720" y="270" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">success→success</text>
+<rect x="880" y="252" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="880" y="252" width="270.0" height="25" rx="12" fill="#2f855a" stroke="none" stroke-width="1"/>
+<text x="1170" y="270" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">40</text>
+<text x="720" y="326" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">success→timeout</text>
+<rect x="880" y="308" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="880" y="308" width="6.75" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1170" y="326" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">1</text>
+<text x="720" y="382" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">timeout→success</text>
+<rect x="880" y="364" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="880" y="364" width="6.75" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1170" y="382" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">1</text>
+<text x="720" y="438" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">timeout→timeout</text>
+<rect x="880" y="420" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="880" y="420" width="74.25" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1170" y="438" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">11</text>
+<text x="720" y="494" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600" fill="#1d252c" text-anchor="start">collision→success</text>
+<rect x="880" y="476" width="280" height="25" rx="12" fill="#efe7db" stroke="none" stroke-width="1"/>
+<rect x="880" y="476" width="6.75" height="25" rx="12" fill="#b7791f" stroke="none" stroke-width="1"/>
+<text x="1170" y="494" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1d252c" text-anchor="end">1</text>
+<text x="720" y="532" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" fill="#64717a" text-anchor="start">Total pairs: 54 | success-success: 40</text>
+<text x="100" y="650" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="start">Interpretation: faults mainly show efficiency degradation within successful missions, rather than a clear systematic success→failure shift.</text>
+</svg>

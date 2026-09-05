@@ -43,6 +43,14 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/gazebo_simulation.py
   scripts/barn_runner.py
+  scripts/laser_scan_fault_injector.py
+  scripts/fault_aware_cmdvel_gate.py
+  scripts/masking_reorientation_recovery.py
+  scripts/masking_nav2_recovery_supervisor.py
+  scripts/dropout_scan_recovery_filter.py
+  scripts/scan_fault_policy_selector.py
+  scripts/odometry_fault_injector.py
+  scripts/scan_signature_recorder.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

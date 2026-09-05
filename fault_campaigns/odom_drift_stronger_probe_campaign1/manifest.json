@@ -1,0 +1,33 @@
+{
+  "campaign_label": "odom_drift_stronger_probe",
+  "fault_label": "odom_drift_stronger",
+  "worlds": [
+    8,
+    86,
+    240
+  ],
+  "setup_path": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/experiment_setups/tuned_clean",
+  "path_root": "/home/student24/dissertation/barn_ros2/src/The-Barn-Challenge-Ros2/jackal_helper/worlds/BARN/path_files",
+  "target_pairs": 6,
+  "validation_pairs": 1,
+  "timeout": 300,
+  "hard_timeout_buffer": 180,
+  "nav2_log_level": "INFO",
+  "throttle_duration": 5,
+  "cleanup_timeout": 45.0,
+  "resource_sample_period": 1.0,
+  "sleep_between_runs": 8.0,
+  "stale_process_timeout": 20.0,
+  "stop_speed_threshold": 0.05,
+  "seed": 8,
+  "fault_type": "odom",
+  "scan_fault_start": 15.0,
+  "scan_fault_duration": 20.0,
+  "scan_fault_center_deg": 0.0,
+  "scan_fault_width_deg": 90.0,
+  "odom_fault_start": 20.0,
+  "odom_fault_duration": 30.0,
+  "odom_fault_linear_scale": 1.12,
+  "odom_fault_yaw_rate_bias_deg_s": 2.5,
+  "created_at": "2026-08-03T00:01:52.285857"
+}

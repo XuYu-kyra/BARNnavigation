@@ -1,0 +1,13 @@
+fault_label,metric,chains,iterations,burn_in,thin,posterior_samples_per_chain,rhat_mu,note
+frontal_masking,actual_path_length_m,4,8000,2000,3,2000,1.000570763027475,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,completion_time_s,4,8000,2000,3,2000,0.9998372167238286,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,controller_new_path_count,4,8000,2000,3,2000,0.9999455522270494,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_max_stop_streak_s,4,8000,2000,3,2000,1.0000211476956886,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_mean_speed_mps,4,8000,2000,3,2000,1.000304026252643,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+frontal_masking,whole_stop_ratio,4,8000,2000,3,2000,1.0003064629769531,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,actual_path_length_m,4,8000,2000,3,2000,0.999802067561812,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,completion_time_s,4,8000,2000,3,2000,1.0006264288099442,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,controller_new_path_count,4,8000,2000,3,2000,1.000270940416086,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_max_stop_streak_s,4,8000,2000,3,2000,0.9997855671228433,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_mean_speed_mps,4,8000,2000,3,2000,1.0001498478185482,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.
+lidar_dropout,whole_stop_ratio,4,8000,2000,3,2000,1.0000976373894275,R-hat near 1.00 suggests chains mixed acceptably for this quick supervisor-facing analysis.

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="390" viewBox="0 0 930 390">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<text x="193.0" y="28" text-anchor="middle" style="font-size:18px;font-weight:700;fill:#148A84">Masking</text>
+<text x="193.0" y="56" text-anchor="middle" class="axis">fault outcome</text>
+<text x="23" y="186.0" text-anchor="middle" class="axis" transform="rotate(-90 23 186.0)">baseline outcome</text>
+<text x="121.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">success</text>
+<text x="193.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">timeout</text>
+<text x="265.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">collision</text>
+<text x="73" y="119.0" text-anchor="end" style="font-size:12px;fill:#4b5563">success</text>
+<rect x="85" y="78" width="68" height="68" rx="5" fill="#148a84" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="119.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:white">47</text>
+<rect x="157" y="78" width="68" height="68" rx="5" fill="#daeceb" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="191.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">2</text>
+<rect x="229" y="78" width="68" height="68" rx="5" fill="#e2f0f0" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="263.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<text x="73" y="191.0" text-anchor="end" style="font-size:12px;fill:#4b5563">timeout</text>
+<rect x="85" y="150" width="68" height="68" rx="5" fill="#d5eae9" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="119.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">3</text>
+<rect x="157" y="150" width="68" height="68" rx="5" fill="#deeeed" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="191.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">1</text>
+<rect x="229" y="150" width="68" height="68" rx="5" fill="#e2f0f0" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="263.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<text x="73" y="263.0" text-anchor="end" style="font-size:12px;fill:#4b5563">collision</text>
+<rect x="85" y="222" width="68" height="68" rx="5" fill="#deeeed" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="119.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">1</text>
+<rect x="157" y="222" width="68" height="68" rx="5" fill="#e2f0f0" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="191.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<rect x="229" y="222" width="68" height="68" rx="5" fill="#e2f0f0" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="263.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<text x="658.0" y="28" text-anchor="middle" style="font-size:18px;font-weight:700;fill:#F57C16">Dropout</text>
+<text x="658.0" y="56" text-anchor="middle" class="axis">fault outcome</text>
+<text x="488" y="186.0" text-anchor="middle" class="axis" transform="rotate(-90 488 186.0)">baseline outcome</text>
+<text x="586.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">success</text>
+<text x="658.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">timeout</text>
+<text x="730.0" y="66" text-anchor="middle" style="font-size:12px;fill:#4b5563">collision</text>
+<text x="538" y="119.0" text-anchor="end" style="font-size:12px;fill:#4b5563">success</text>
+<rect x="550" y="78" width="68" height="68" rx="5" fill="#f68d34" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="584.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:white">40</text>
+<rect x="622" y="78" width="68" height="68" rx="5" fill="#fdecde" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="656.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">1</text>
+<rect x="694" y="78" width="68" height="68" rx="5" fill="#fdefe3" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="728.0" y="120.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<text x="538" y="191.0" text-anchor="end" style="font-size:12px;fill:#4b5563">timeout</text>
+<rect x="550" y="150" width="68" height="68" rx="5" fill="#fdecde" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="584.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">1</text>
+<rect x="622" y="150" width="68" height="68" rx="5" fill="#fbd4b3" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="656.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">11</text>
+<rect x="694" y="150" width="68" height="68" rx="5" fill="#fdefe3" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="728.0" y="192.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<text x="538" y="263.0" text-anchor="end" style="font-size:12px;fill:#4b5563">collision</text>
+<rect x="550" y="222" width="68" height="68" rx="5" fill="#fdecde" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="584.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">1</text>
+<rect x="622" y="222" width="68" height="68" rx="5" fill="#fdefe3" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="656.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+<rect x="694" y="222" width="68" height="68" rx="5" fill="#fdefe3" stroke="#ffffff" stroke-width="1" opacity="1.0"/>
+<text x="728.0" y="264.0" text-anchor="middle" style="font-size:20px;font-weight:700;fill:#111827">0</text>
+</svg>

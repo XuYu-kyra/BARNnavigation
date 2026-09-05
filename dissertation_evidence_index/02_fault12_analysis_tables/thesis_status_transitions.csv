@@ -1,0 +1,11 @@
+fault_label,baseline_status,fault_status,pair_count
+frontal_masking,collided,succeeded,1
+frontal_masking,succeeded,succeeded,47
+frontal_masking,succeeded,timeout,2
+frontal_masking,timeout,succeeded,3
+frontal_masking,timeout,timeout,1
+lidar_dropout,collided,succeeded,1
+lidar_dropout,succeeded,succeeded,40
+lidar_dropout,succeeded,timeout,1
+lidar_dropout,timeout,succeeded,1
+lidar_dropout,timeout,timeout,11

@@ -1,0 +1,6 @@
+Raw MCAP bags are retained in the imported evidence package, not duplicated in this curated index.
+Local extracted source: /home/student24/dissertation/barn_ros2/_raw_imports/recovery_layer_trace_w8_masking
+Original package: /home/student24/dissertation/barn_ros2/recovery_layer_trace_w8_masking.tar.gz
+Bags:
+- /home/student24/dissertation/barn_ros2/_raw_imports/recovery_layer_trace_w8_masking/w8_masking_recovery_off_bag
+- /home/student24/dissertation/barn_ros2/_raw_imports/recovery_layer_trace_w8_masking/w8_masking_recovery_on_bag

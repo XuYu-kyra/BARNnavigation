@@ -1,3 +1,20 @@
+# ROS 2 Nav2 Fault-Injection Dissertation Archive
+
+This repository archives a dissertation project built on The BARN Challenge ROS 2 benchmark. The project extends the original Nav2/Gazebo simulation setup with controlled LiDAR fault injection, paired fault campaigns, cross-layer analysis scripts, Bayesian analysis outputs, conditional fault identification, and exploratory recovery prototypes.
+
+Key project additions:
+
+- Controlled frontal LiDAR masking and intermittent sector-level LiDAR dropout injection.
+- Paired campaign runner for baseline-vs-fault comparisons across selected BARN worlds.
+- Analysis scripts for task outcomes, process metrics, world heterogeneity, bootstrap intervals, and PyMC hierarchical Bayesian modelling.
+- Curated dissertation evidence in `dissertation_evidence_index/`.
+- Experimental configurations in `experiment_setups/original_clean/` and `experiment_setups/tuned_clean/`.
+- Classifier and recovery prototype nodes in `jackal_helper/scripts/`.
+
+For repository packaging and raw-data archive guidance, see `GITHUB_ARCHIVE_GUIDE.md`.
+
+---
+
 <p align="center">
   <img width = "100%" src='res/BARN_Challenge.png' />
   </p>

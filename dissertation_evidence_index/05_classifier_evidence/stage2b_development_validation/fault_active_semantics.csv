@@ -1,0 +1,7 @@
+world_idx,condition,ground_truth_type,fault_window_sample_count,fault_window_start_s,fault_window_end_s,fault_active_true_fraction,fault_active_switch_count,burst_phase_leak_suspected,semantics_ok_episode_level
+8,dropout,DROPOUT,480,5.023000000000001,16.998,0.9979166666666667,1,False,True
+8,masking,MASKING,480,5.023000000000001,16.998,1.0,0,False,True
+94,dropout,DROPOUT,480,5.022,16.997,0.9979166666666667,1,False,True
+94,masking,MASKING,480,5.021000000000001,16.996,0.9979166666666667,1,False,True
+240,dropout,DROPOUT,480,5.023000000000001,16.998,0.9979166666666667,1,False,True
+240,masking,MASKING,186,5.022,9.647,1.0,0,False,True

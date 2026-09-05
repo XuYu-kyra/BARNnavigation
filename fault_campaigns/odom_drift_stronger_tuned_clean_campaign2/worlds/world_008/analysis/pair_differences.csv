@@ -1,0 +1,4 @@
+world_idx,run_id,metric,baseline_status,fault_status,baseline_value,fault_value,difference_fault_minus_baseline,baseline_whole_mean_speed_mps,fault_whole_mean_speed_mps,baseline_whole_stop_ratio,fault_whole_stop_ratio
+8,1,completion_time_s,succeeded,succeeded,200.8973,204.9903,4.092999999999989,0.047176110380549446,0.046678165515024024,0.6500249376558604,0.7251870324189525
+8,2,completion_time_s,succeeded,succeeded,196.5663,200.0378,3.471499999999992,0.04846979675199145,0.04772504346775634,0.564280963830767,0.6153846153846153
+8,3,completion_time_s,succeeded,collided,238.2793,88.8142,-149.4651,0.039902121399855744,0.05355685866636124,1.0,0.23543917332080785

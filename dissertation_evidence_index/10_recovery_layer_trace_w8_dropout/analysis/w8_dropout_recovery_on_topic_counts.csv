@@ -1,0 +1,8 @@
+topic,message_count
+/cmd_vel,2020
+/fault/scan_active,702
+/front/scan_recovered,702
+/global_costmap/costmap,15
+/local_costmap/costmap,31
+/plan,99
+/platform/odom/filtered,866

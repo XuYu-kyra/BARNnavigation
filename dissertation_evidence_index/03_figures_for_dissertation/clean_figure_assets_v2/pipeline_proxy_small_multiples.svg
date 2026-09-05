@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="430" viewBox="0 0 860 430">
+<style><![CDATA[
+text{font-family:Arial,Helvetica,sans-serif;fill:#111827}
+.axis{font-size:15px;fill:#374151}
+.tick{font-size:13px;fill:#6b7280}
+.label{font-size:16px;font-weight:700}
+.small{font-size:13px;fill:#4b5563}
+.value{font-size:14px;font-weight:700}
+]]></style>
+<text x="30" y="25" text-anchor="start" style="font-size:15px;font-weight:700">Stop ratio increase</text>
+<text x="130" y="75" text-anchor="end" style="font-size:12px;fill:#374151">Masking</text>
+<rect x="145" y="60" width="156.77966101694918" height="18" rx="4" fill="#148A84" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="309.77966101694915" y="75" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">0.050</text>
+<text x="130" y="117" text-anchor="end" style="font-size:12px;fill:#374151">Dropout</text>
+<rect x="145" y="102" width="94.06779661016948" height="18" rx="4" fill="#F57C16" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="247.06779661016947" y="117" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">0.030</text>
+<text x="470" y="25" text-anchor="start" style="font-size:15px;font-weight:700">Mean speed decrease (m/s)</text>
+<text x="570" y="75" text-anchor="end" style="font-size:12px;fill:#374151">Masking</text>
+<rect x="585" y="60" width="156.77966101694918" height="18" rx="4" fill="#148A84" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="749.7796610169491" y="75" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">0.0013</text>
+<text x="570" y="117" text-anchor="end" style="font-size:12px;fill:#374151">Dropout</text>
+<rect x="585" y="102" width="120.59973924380706" height="18" rx="4" fill="#F57C16" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="713.5997392438071" y="117" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">0.0010</text>
+<text x="30" y="220" text-anchor="start" style="font-size:15px;font-weight:700">Controller new-path count increase</text>
+<text x="130" y="270" text-anchor="end" style="font-size:12px;fill:#374151">Masking</text>
+<rect x="145" y="255" width="156.77966101694918" height="18" rx="4" fill="#148A84" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="309.77966101694915" y="270" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">5.91</text>
+<text x="130" y="312" text-anchor="end" style="font-size:12px;fill:#374151">Dropout</text>
+<rect x="145" y="297" width="128.12957067882647" height="18" rx="4" fill="#F57C16" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="281.12957067882644" y="312" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">4.83</text>
+<text x="470" y="220" text-anchor="start" style="font-size:15px;font-weight:700">Max stop streak increase (s)</text>
+<text x="570" y="270" text-anchor="end" style="font-size:12px;fill:#374151">Masking</text>
+<rect x="585" y="255" width="118.16073821921222" height="18" rx="4" fill="#148A84" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="711.1607382192122" y="270" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">10.77</text>
+<text x="570" y="312" text-anchor="end" style="font-size:12px;fill:#374151">Dropout</text>
+<rect x="585" y="297" width="156.77966101694918" height="18" rx="4" fill="#F57C16" stroke="none" stroke-width="1" opacity="1.0"/>
+<text x="749.7796610169491" y="312" text-anchor="start" style="font-size:12px;font-weight:700;fill:#111827">14.29</text>
+<circle cx="355" cy="410" r="6" fill="#148A84" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="370" y="415" text-anchor="start" style="font-size:12px">Masking</text>
+<circle cx="505" cy="410" r="6" fill="#F57C16" stroke="white" stroke-width="2" opacity="1.0"/>
+<text x="520" y="415" text-anchor="start" style="font-size:12px">Dropout</text>
+</svg>

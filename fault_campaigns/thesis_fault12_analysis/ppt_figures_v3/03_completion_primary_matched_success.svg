@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">Completion-Time Degradation: Primary vs Sensitivity</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="400" fill="#64717a" text-anchor="start">Primary inference uses matched successful pairs; all-pair/capped outcome results are a sensitivity check.</text>
+<line x1="308.57142857142856" y1="150" x2="308.57142857142856" y2="420" stroke="#d8d2c8" stroke-width="1"/>
+<text x="308.57142857142856" y="455" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">0s</text>
+<line x1="456.42857142857144" y1="150" x2="456.42857142857144" y2="420" stroke="#d8d2c8" stroke-width="1"/>
+<text x="456.42857142857144" y="455" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">3s</text>
+<line x1="555.0" y1="150" x2="555.0" y2="420" stroke="#d8d2c8" stroke-width="1"/>
+<text x="555.0" y="455" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">5s</text>
+<line x1="653.5714285714287" y1="150" x2="653.5714285714287" y2="420" stroke="#d8d2c8" stroke-width="1"/>
+<text x="653.5714285714287" y="455" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">7s</text>
+<line x1="801.4285714285714" y1="150" x2="801.4285714285714" y2="420" stroke="#d8d2c8" stroke-width="1"/>
+<text x="801.4285714285714" y="455" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="13" font-weight="400" fill="#64717a" text-anchor="middle">10s</text>
+<line x1="308.57142857142856" y1="145" x2="308.57142857142856" y2="420" stroke="#333" stroke-width="2" stroke-dasharray="5 5"/>
+<text x="55" y="252" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<line x1="474.3301722098215" y1="245" x2="725.6573842633929" y2="245" stroke="#1f6f8b" stroke-width="8"/>
+<circle cx="602.7605835866261" cy="245" r="13" fill="#1f6f8b"/>
+<text x="741.6573842633929" y="252" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#1f6f8b" text-anchor="start">+5.97s [+3.36, +8.46] n=47</text>
+<text x="55" y="367" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="20" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<line x1="412.48642094594584" y1="360" x2="655.0795992234218" y2="360" stroke="#d9822b" stroke-width="8"/>
+<circle cx="543.5870303571429" cy="360" r="13" fill="#d9822b"/>
+<text x="671.0795992234218" y="367" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" fill="#d9822b" text-anchor="start">+4.77s [+2.11, +7.03] n=40</text>
+<rect x="940" y="165" width="270" height="250" rx="16" fill="#fffaf2" stroke="#d8d2c8" stroke-width="2"/>
+<text x="1075" y="200" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">All-pair sensitivity</text>
+<text x="1075" y="225" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">includes capped non-success outcomes</text>
+<text x="965" y="265" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#1f6f8b" text-anchor="start">Frontal masking</text>
+<text x="1165" y="265" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="end">+9.21s</text>
+<text x="1165" y="289" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="end">cluster CI [-0.2, +23.9]</text>
+<text x="965" y="335" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="14" font-weight="700" fill="#d9822b" text-anchor="start">LiDAR dropout</text>
+<text x="1165" y="335" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="end">+6.43s</text>
+<text x="1165" y="359" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="11" font-weight="400" fill="#64717a" text-anchor="end">cluster CI [-2.5, +19.5]</text>
+<text x="210" y="610" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Primary conclusion: among matched successful missions, both faults slow navigation; masking remains larger and clearer.</text>
+</svg>

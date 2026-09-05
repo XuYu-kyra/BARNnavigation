@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<rect width="100%" height="100%" fill="#f7f4ee"/>
+<text x="60" y="65" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" fill="#1d252c" text-anchor="start">World Heterogeneity: Completion-Time Slowdown</text>
+<text x="60" y="100" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="400" fill="#64717a" text-anchor="start">Heatmap shows that fault impact is not uniform across BARN worlds.</text>
+<text x="231.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W8</text>
+<text x="231.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C1_stable_success</text>
+<text x="323.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W76</text>
+<text x="323.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C2_tune_dependent_recovered</text>
+<text x="415.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W86</text>
+<text x="415.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C2_tune_dependent_recovered</text>
+<text x="507.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W94</text>
+<text x="507.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C1_stable_success</text>
+<text x="599.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W173</text>
+<text x="599.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C2_tune_dependent_recovered</text>
+<text x="691.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W239</text>
+<text x="691.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C2_tune_dependent_recovered</text>
+<text x="783.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W240</text>
+<text x="783.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C1_stable_success</text>
+<text x="875.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W250</text>
+<text x="875.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C3_marginal_success</text>
+<text x="967.0" y="141" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" fill="#1d252c" text-anchor="middle">W274</text>
+<text x="967.0" y="167" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="12" font-weight="400" fill="#64717a" text-anchor="middle">C1_stable_success</text>
+<text x="40" y="210" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">Frontal masking</text>
+<rect x="185" y="165" width="84" height="68" rx="12" fill="rgb(245,219,202)" stroke="#ffffff" stroke-width="2"/>
+<text x="227.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">6.8s</text>
+<rect x="277" y="165" width="84" height="68" rx="12" fill="rgb(248,226,211)" stroke="#ffffff" stroke-width="2"/>
+<text x="319.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">5.2s</text>
+<rect x="369" y="165" width="84" height="68" rx="12" fill="rgb(243,214,196)" stroke="#ffffff" stroke-width="2"/>
+<text x="411.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">8.1s</text>
+<rect x="461" y="165" width="84" height="68" rx="12" fill="rgb(253,242,231)" stroke="#ffffff" stroke-width="2"/>
+<text x="503.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">1.0s</text>
+<rect x="553" y="165" width="84" height="68" rx="12" fill="rgb(194,65,12)" stroke="#ffffff" stroke-width="2"/>
+<text x="595.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">44.9s</text>
+<rect x="645" y="165" width="84" height="68" rx="12" fill="rgb(253,243,233)" stroke="#ffffff" stroke-width="2"/>
+<text x="687.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">0.8s</text>
+<rect x="737" y="165" width="84" height="68" rx="12" fill="rgb(249,231,217)" stroke="#ffffff" stroke-width="2"/>
+<text x="779.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">3.9s</text>
+<rect x="829" y="165" width="84" height="68" rx="12" fill="rgb(248,228,214)" stroke="#ffffff" stroke-width="2"/>
+<text x="871.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">4.5s</text>
+<rect x="921" y="165" width="84" height="68" rx="12" fill="rgb(244,216,199)" stroke="#ffffff" stroke-width="2"/>
+<text x="963.0" y="207" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">7.6s</text>
+<text x="40" y="288" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" fill="#1d252c" text-anchor="start">LiDAR dropout</text>
+<rect x="185" y="243" width="84" height="68" rx="12" fill="rgb(255,247,237)" stroke="#ffffff" stroke-width="2"/>
+<text x="227.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">-11.0s</text>
+<rect x="277" y="243" width="84" height="68" rx="12" fill="rgb(206,102,58)" stroke="#ffffff" stroke-width="2"/>
+<text x="319.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">35.6s</text>
+<rect x="369" y="243" width="84" height="68" rx="12" fill="rgb(249,231,218)" stroke="#ffffff" stroke-width="2"/>
+<text x="411.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">3.7s</text>
+<rect x="461" y="243" width="84" height="68" rx="12" fill="rgb(243,213,195)" stroke="#ffffff" stroke-width="2"/>
+<text x="503.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">8.2s</text>
+<rect x="553" y="243" width="84" height="68" rx="12" fill="rgb(254,246,235)" stroke="#ffffff" stroke-width="2"/>
+<text x="595.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">0.2s</text>
+<rect x="645" y="243" width="84" height="68" rx="12" fill="rgb(240,203,183)" stroke="#ffffff" stroke-width="2"/>
+<text x="687.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">10.7s</text>
+<rect x="737" y="243" width="84" height="68" rx="12" fill="rgb(246,220,204)" stroke="#ffffff" stroke-width="2"/>
+<text x="779.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">6.5s</text>
+<rect x="829" y="243" width="84" height="68" rx="12" fill="rgb(255,247,237)" stroke="#ffffff" stroke-width="2"/>
+<text x="871.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">-2.0s</text>
+<rect x="921" y="243" width="84" height="68" rx="12" fill="rgb(246,222,206)" stroke="#ffffff" stroke-width="2"/>
+<text x="963.0" y="285" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" fill="#1d252c" text-anchor="middle">6.0s</text>
+<text x="185" y="390" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="22" font-weight="700" fill="#1d252c" text-anchor="start">Most affected: masking W173 (+44.95s), dropout W76 (+35.60s).</text>
+<text x="185" y="425" font-family="Aptos,Segoe UI,Arial,sans-serif" font-size="18" font-weight="400" fill="#64717a" text-anchor="start">Interpretation: world/environment structure mediates fault impact; pooled averages alone hide this.</text>
+</svg>

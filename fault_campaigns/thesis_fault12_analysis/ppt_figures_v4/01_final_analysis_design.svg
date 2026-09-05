@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<style><![CDATA[text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:42px;font-weight:700}.subtitle{font-size:22px;fill:#475569}.small{font-size:17px;fill:#475569}.tiny{font-size:14px;fill:#64748b}.label{font-size:20px;font-weight:700}.metric{font-size:18px;fill:#334155}.note{font-size:18px;fill:#475569}]]></style>
+<text x="70" y="78" text-anchor="start" class="title">Data Analysis Design</text>
+<text x="72" y="116" text-anchor="start" class="subtitle">Separate mission outcome from continuous performance before modelling slowdown.</text>
+<line x1="70" y1="138" x2="1530" y2="138" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="90" y="220" width="315" height="210" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="132" cy="272" r="26" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="132" y="281" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#1d4ed8">1</text>
+<text x="172" y="278" text-anchor="start" style="font-size:24px;font-weight:700">Outcome transitions</text>
+<text x="126" y="330" text-anchor="start" class="note">success / timeout / collision</text>
+<text x="126" y="361" text-anchor="start" class="note">analysed as task outcome</text>
+<line x1="412" y1="325.0" x2="438" y2="325.0" stroke="#64748b" stroke-width="4"/>
+<line x1="438" y1="325.0" x2="449.6207494932931" y2="317.19242795652013" stroke="#64748b" stroke-width="4"/>
+<line x1="438" y1="325.0" x2="449.6207494932931" y2="332.80757204347987" stroke="#64748b" stroke-width="4"/>
+<rect x="445" y="220" width="315" height="210" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="487" cy="272" r="26" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="487" y="281" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#1d4ed8">2</text>
+<text x="527" y="278" text-anchor="start" style="font-size:24px;font-weight:700">Primary estimand</text>
+<text x="481" y="330" text-anchor="start" class="note">completion time only for</text>
+<text x="481" y="361" text-anchor="start" class="note">matched-success pairs</text>
+<line x1="767" y1="325.0" x2="793" y2="325.0" stroke="#64748b" stroke-width="4"/>
+<line x1="793" y1="325.0" x2="804.6207494932931" y2="317.19242795652013" stroke="#64748b" stroke-width="4"/>
+<line x1="793" y1="325.0" x2="804.6207494932931" y2="332.80757204347987" stroke="#64748b" stroke-width="4"/>
+<rect x="800" y="220" width="315" height="210" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="842" cy="272" r="26" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="842" y="281" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#1d4ed8">3</text>
+<text x="882" y="278" text-anchor="start" style="font-size:24px;font-weight:700">Uncertainty</text>
+<text x="836" y="330" text-anchor="start" class="note">cluster bootstrap by world</text>
+<text x="836" y="361" text-anchor="start" class="note">+ hierarchical Bayesian model</text>
+<line x1="1122" y1="325.0" x2="1148" y2="325.0" stroke="#64748b" stroke-width="4"/>
+<line x1="1148" y1="325.0" x2="1159.620749493293" y2="317.19242795652013" stroke="#64748b" stroke-width="4"/>
+<line x1="1148" y1="325.0" x2="1159.620749493293" y2="332.80757204347987" stroke="#64748b" stroke-width="4"/>
+<rect x="1155" y="220" width="315" height="210" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+<circle cx="1197" cy="272" r="26" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="1197" y="281" text-anchor="middle" style="font-size:24px;font-weight:700;fill:#1d4ed8">4</text>
+<text x="1237" y="278" text-anchor="start" style="font-size:24px;font-weight:700">Mechanism proxy</text>
+<text x="1191" y="330" text-anchor="start" class="note">stop ratio, speed, controller updates,</text>
+<text x="1191" y="361" text-anchor="start" class="note">max stop streak</text>
+<rect x="155" y="535" width="1290" height="210" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+<text x="190" y="585" text-anchor="start" style="font-size:28px;font-weight:700;fill:#1d4ed8">Why this ordering?</text>
+<text x="190" y="635" text-anchor="start" class="note">Not every pair has two successful missions, so mission outcome is not treated as ordinary completion time.</text>
+<text x="190" y="669" text-anchor="start" class="note">Matched-success pairs form the primary completion-time analysis; all-pair/capped results are sensitivity evidence.</text>
+<text x="190" y="703" text-anchor="start" class="note">This avoids getting a cleaner-looking result by silently mixing success, timeout and collision semantics.</text>
+</svg>
